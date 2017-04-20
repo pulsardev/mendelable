@@ -4,6 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+window.$ = window.jQuery = require('jquery')
+window.tether = window.Tether = require('tether')
+require('bootstrap')
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
