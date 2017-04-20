@@ -14,6 +14,8 @@
       <h3 class="mb-5">{{ msg }}</h3>
 
       <element-card></element-card>
+
+      <periodic-table></periodic-table>
     </div>
 
     <!-- Sidebar -->
@@ -26,11 +28,12 @@
 
 <script>
   import ElementCard from './ElementCard'
+  import PeriodicTable from './PeriodicTable'
 
   export default {
     name: 'home',
     components: {
-      ElementCard
+      PeriodicTable, ElementCard
     },
     data () {
       return {
