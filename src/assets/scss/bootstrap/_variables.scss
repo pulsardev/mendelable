@@ -104,11 +104,11 @@ $pink:   #ff5b77 !default;
 $purple: #613d7c !default;
 
 // Create grayscale
-$gray-dark:                 #292b2c !default;
-$gray:                      #464a4c !default;
-$gray-light:                #636c72 !default;
-$gray-lighter:              #eceeef !default;
-$gray-lightest:             #f7f7f9 !default;
+$gray-dark:                 #131b21;
+$gray:                      #192229;
+$gray-light:                #1f2731;
+$gray-lighter:              #35404d;
+$gray-lightest:             #626c79;
 
 // Reassign color vars to semantic color scheme
 $brand-primary:             $blue !default;
@@ -116,7 +116,7 @@ $brand-success:             $green !default;
 $brand-info:                $teal !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
-$brand-inverse:             $gray-dark !default;
+$brand-inverse:             $gray-dark;
 
 
 // Options
@@ -181,8 +181,8 @@ $sizes: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:       $white !default;
-$body-color:    $gray-dark !default;
+$body-bg:       $gray;
+$body-color:    $white;
 $inverse-bg:    $gray-dark !default;
 $inverse-color: $gray-lighter !default;
 
@@ -191,9 +191,9 @@ $inverse-color: $gray-lighter !default;
 //
 // Style anchor elements.
 
-$link-color:            $brand-primary !default;
+$link-color:            $gray-lightest;
 $link-decoration:       none !default;
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline !default;
 
 

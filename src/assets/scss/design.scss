@@ -1,3 +1,11 @@
 @import "./bootstrap/bootstrap";
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.app > .row {
+  min-height: 100vh;
+}
+
+.bg-faded {
+  background-color: $gray-light;
+}

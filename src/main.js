@@ -7,6 +7,7 @@ import router from './router'
 window.$ = window.jQuery = require('jquery')
 window.tether = window.Tether = require('tether')
 require('bootstrap')
+require('font-awesome/css/font-awesome.css')
 
 Vue.config.productionTip = false
 
