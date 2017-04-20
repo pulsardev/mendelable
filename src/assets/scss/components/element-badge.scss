@@ -1,0 +1,23 @@
+$gray: #192229;
+$gray-lighter: #35404d;
+
+.a-element-badge__container {
+  flex: 0 0 6rem;
+  max-width: 6rem;
+  margin-top: -1.25rem;
+}
+
+.a-element-badge {
+  height: 6rem;
+  width: 5rem;
+  display: inline-block;
+  background-color: $gray-lighter;
+  border-bottom: 0.25rem solid white;
+  line-height: 6rem;
+  text-align: center;
+  color: $gray;
+}
+
+.a-element-badge--ti {
+  border-bottom: 0.25rem solid #efbb31;
+}

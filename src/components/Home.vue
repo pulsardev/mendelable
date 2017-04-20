@@ -11,7 +11,9 @@
 
     <!-- Content -->
     <div class="col-sm-9 p-5">
-      <h3>{{ msg }}</h3>
+      <h3 class="mb-5">{{ msg }}</h3>
+
+      <element-card></element-card>
     </div>
 
     <!-- Sidebar -->
@@ -23,8 +25,13 @@
 </template>
 
 <script>
+  import ElementCard from './ElementCard'
+
   export default {
     name: 'home',
+    components: {
+      ElementCard
+    },
     data () {
       return {
         msg: 'Mendelable'
