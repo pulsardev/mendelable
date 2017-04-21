@@ -42,3 +42,9 @@
     }
   }
 </script>
+
+<style scoped>
+  .home.row {
+    overflow: hidden;
+  }
+</style>
