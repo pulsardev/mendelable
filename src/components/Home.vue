@@ -10,13 +10,10 @@
     </div>
 
     <!-- Content -->
-    <div class="col-sm-9 p-5">
-      <h3 class="mb-5">{{ msg }}</h3>
-
-      <element-card></element-card>
-
-      <periodic-table></periodic-table>
-    </div>
+  <div class="col-sm-9 p-5">
+    <h3 class="mb-5">{{ msg }}</h3>
+    <router-view></router-view>
+  </div>
 
     <!-- Sidebar -->
     <div class="col-sm-2 bg-faded px-4 py-5">

@@ -9,8 +9,7 @@
     name: 'element-badge',
     data () {
       return {
-        symbol: 'Ti',
-        name: 'Titanium'
+        symbol: this.$route.params.symbol
       }
     }
   }
