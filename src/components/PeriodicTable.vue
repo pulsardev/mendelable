@@ -74,7 +74,7 @@
           <li data-element-group='lanthanoid' data-group='13' data-period='6' class='element er'><h2> Erbium</h2><i> Er </i></li>
           <li data-element-group='lanthanoid' data-group='14' data-period='6' class='element tm'><h2> Thulium</h2><i> Tm </i></li>
           <li data-element-group='lanthanoid' data-group='15' data-period='6' class='element yb'><h2> Ytterbium</h2><i> Yb </i></li>
-          <li data-element-group='transition-metal' data-group='16' data-period='6' class='element lu'><h2> Lutetium</h2><i> Lu </i></li>
+          <li data-element-group='lanthanoid' data-group='16' data-period='6' class='element lu'><h2> Lutetium</h2><i> Lu </i></li>
           <li data-element-group='transition-metal' data-group='4' data-period='6' class='element hf'><h2> Hafnium</h2><i> Hf </i></li>
           <li data-element-group='transition-metal' data-group='5' data-period='6' class='element ta'><h2> Tantalum</h2><i> Ta </i></li>
           <li data-element-group='transition-metal' data-group='6' data-period='6' class='element w'><h2> Tungsten</h2><i> W </i></li>
@@ -106,7 +106,7 @@
           <li data-element-group='actinoid' data-group='13' data-period='7' class='element fm'><h2> Fermium</h2><i> Fm </i></li>
           <li data-element-group='actinoid' data-group='14' data-period='7' class='element md'><h2> Mendelevium</h2><i> Md </i></li>
           <li data-element-group='actinoid' data-group='15' data-period='7' class='element no'><h2> Nobelium</h2><i> No </i></li>
-          <li data-element-group='transition-metal' data-group='16' data-period='7' class='element lr'><h2> Lawrencium</h2><i> Lr </i></li>
+          <li data-element-group='actinoid' data-group='16' data-period='7' class='element lr'><h2> Lawrencium</h2><i> Lr </i></li>
           <li data-element-group='transition-metal' data-group='4' data-period='7' class='element rf'><h2> Rutherfordium</h2><i> Rf </i></li>
           <li data-element-group='transition-metal' data-group='5' data-period='7' class='element db'><h2> Dubnium</h2><i> Db </i></li>
           <li data-element-group='transition-metal' data-group='6' data-period='7' class='element sg'><h2> Seaborgium</h2><i> Sg </i></li>
@@ -118,10 +118,10 @@
           <li data-element-group='transition-metal' data-group='12' data-period='7' class='element cn'><h2> Copernicium</h2><i> Cn </i></li>
           <li data-element-group='metal' data-group='13' data-period='7' class='element uut'><h2> Ununtrium</h2><i> Uut </i></li>
           <li data-element-group='metal' data-group='14' data-period='7' class='element fl'><h2> Flerovium</h2><i> Fl </i></li>
-          <li data-element-group='halogen' data-group='15' data-period='7' class='element uup'><h2> Ununpentium</h2><i> Uup </i></li>
-          <li data-element-group='noble-gas' data-group='16' data-period='7' class='element lv'><h2> Livermorium</h2><i> Lv </i></li>
-          <li data-element-group='alkali-metal' data-group='17' data-period='7' class='element uus'><h2> Ununseptium</h2><i> Uus </i></li>
-          <li data-element-group='alkaline-earth-metal' data-group='18' data-period='7' class='element uuo'><h2> Ununoctium </h2><i> Uuo </i></li>
+          <li data-element-group='metal' data-group='15' data-period='7' class='element uup'><h2> Ununpentium</h2><i> Uup </i></li>
+          <li data-element-group='metal' data-group='16' data-period='7' class='element lv'><h2> Livermorium</h2><i> Lv </i></li>
+          <li data-element-group='halogen' data-group='17' data-period='7' class='element uus'><h2> Ununseptium</h2><i> Uus </i></li>
+          <li data-element-group='noble-gas' data-group='18' data-period='7' class='element uuo'><h2> Ununoctium </h2><i> Uuo </i></li>
           <div class="element lanthanoid" data-element-group="lanthanoid"></div>
           <div class="element actinoid" data-element-group="actinoid"></div>
         </ol>
@@ -163,7 +163,7 @@
   i {
     line-height: 5rem;
     text-align: center;
-    color: $gray;
+    color: rgba(white, 0.75);
     font-size: 1.25rem;
     font-style: normal;
   }
@@ -208,46 +208,53 @@
   }
 
   [data-element-group="non-metal"], [data-element-group="nonmetal"] {
-    border-bottom: 0.25rem solid yellow;
-  }
-
-  [data-element-group="metal"] {
+    background-color: rgba(#03a9f4, 0.25);
+    border-bottom: 0.25rem solid #03a9f4;
   }
 
   [data-element-group="halogen"] {
-    border-bottom: 0.25rem solid coral;
+    background-color: rgba(#f06292, 0.25);
+    border-bottom: 0.25rem solid #f06292;
   }
 
   [data-element-group="metalloid"] {
-    border-bottom: 0.25rem solid #FF9999;
+    background-color: rgba(#673ab7, 0.25);
+    border-bottom: 0.25rem solid #673ab7;
   }
 
   [data-element-group="metal"] {
-    border-bottom: 0.25rem solid #FFCCCC;
+    background-color: rgba(#19caa7, 0.25);
+    border-bottom: 0.25rem solid #19caa7;
   }
 
   [data-element-group="alkali-metal"] {
-    border-bottom: 0.25rem solid #33CCFF;
+    background-color: rgba(#f44336, 0.25);
+    border-bottom: 0.25rem solid #f44336;
   }
 
   [data-element-group="alkaline-earth-metal"] {
-    border-bottom: 0.25rem solid #FFCC99;
+    background-color: rgba(#ff9800, 0.25);
+    border-bottom: 0.25rem solid #ff9800;
   }
 
   [data-element-group="transition-metal"] {
-    border-bottom: 0.25rem solid #66FF66;
+    background-color: rgba(#efbb31, 0.25);
+    border-bottom: 0.25rem solid #efbb31;
   }
 
   [data-element-group="noble-gas"] {
-    border-bottom: 0.25rem solid #FF99FF;
+    background-color: rgba(#00bcd4, 0.25);
+    border-bottom: 0.25rem solid #00bcd4;
   }
 
   [data-element-group="lanthanoid"] {
-    border-bottom: 0.25rem solid #99FFCC;
+    background-color: rgba(#8bc34a, 0.25);
+    border-bottom: 0.25rem solid #8bc34a;
   }
 
   [data-element-group="actinoid"] {
-    border-bottom: 0.25rem solid #33CCCC;
+    background-color: rgba(#cddc39, 0.25);
+    border-bottom: 0.25rem solid #cddc39;
   }
 
   @supports (display: grid) {
@@ -416,7 +423,7 @@
 
     .yb { grid-column: 15; grid-row: 6; }
 
-    .lu { grid-column: 16; grid-row: 6; }
+    .lu { grid-column: 16; grid-row: 8; }
 
     .hf { grid-column: 4; grid-row: 6; }
 
@@ -480,7 +487,7 @@
 
     .no { grid-column: 15; grid-row: 7; }
 
-    .lr { grid-column: 16; grid-row: 7; }
+    .lr { grid-column: 16; grid-row: 9; }
 
     .rf { grid-column: 4; grid-row: 7; }
 
