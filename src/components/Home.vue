@@ -21,7 +21,8 @@
     <!-- Sidebar -->
     <div class="col-sm-2 bg-faded px-4 py-5">
       <h3>Information</h3>
-      <p class="text-muted">About the selected element</p>
+      <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
+      <button type="button" class="btn btn-primary" @click="changeLanguage">Change language</button>
     </div>
   </div>
 </template>
@@ -38,6 +39,11 @@
     data () {
       return {
         msg: 'Mendelable'
+      }
+    },
+    methods: {
+      changeLanguage () {
+        this.$i18n.locale = 'en_US'
       }
     }
   }
