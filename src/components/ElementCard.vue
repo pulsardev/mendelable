@@ -27,28 +27,23 @@
 
 <script>
   import ElementBadge from './ElementBadge'
+  import { bus } from '@/shared/bus'
 
   export default {
     name: 'element-card',
     components: {
       ElementBadge
     },
-    beforeCreate: function () {
+    created: function () {
+      bus.$on('language:change', this.fetchLocalizedData)
+
       fetch('https://mendelable.firebaseio.com/default/' + this.$route.params.symbol + '.json')
-        .then((response) => {
-          return response.json()
-        })
+        .then(response => response.json())
         .then((response) => {
           this.element = response
 
           if (this.$i18n.locale !== 'en_US') {
-            fetch('https://mendelable.firebaseio.com/' + this.$i18n.locale + '/' + this.$route.params.symbol + '.json')
-              .then((response) => {
-                return response.json()
-              })
-              .then((response) => {
-                this.element = Object.assign({}, this.element, response)
-              })
+            this.fetchLocalizedData()
           }
         })
     },
@@ -56,6 +51,16 @@
       return {
         element: {},
         symbol: this.$route.params.symbol
+      }
+    },
+    methods: {
+      fetchLocalizedData () {
+        let locale = this.$i18n.locale === 'en_US' ? 'default' : this.$i18n.locale
+        fetch('https://mendelable.firebaseio.com/' + locale + '/' + this.$route.params.symbol + '.json')
+          .then(response => response.json())
+          .then((response) => {
+            this.element = Object.assign({}, this.element, response)
+          })
       }
     }
   }

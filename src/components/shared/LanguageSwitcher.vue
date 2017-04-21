@@ -10,6 +10,8 @@
 </template>
 
 <script>
+  import { bus } from '@/shared/bus'
+
   export default {
     name: 'language-switcher',
     data () {
@@ -24,6 +26,7 @@
     methods: {
       changeLanguage (e) {
         this.$i18n.locale = e.target.value
+        bus.$emit('language:change')
       }
     }
   }

@@ -28,7 +28,7 @@
 <script>
   import ElementCard from './ElementCard'
   import PeriodicTable from './PeriodicTable'
-  import LanguageSwitcher from './_shared/LanguageSwitcher'
+  import LanguageSwitcher from './shared/LanguageSwitcher'
 
   export default {
     name: 'home',
