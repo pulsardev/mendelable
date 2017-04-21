@@ -10,16 +10,17 @@
     </div>
 
     <!-- Content -->
-  <div class="col-sm-9 p-5">
-    <h3 class="mb-5">{{ msg }}</h3>
-    <router-view></router-view>
-  </div>
+    <div class="col-sm-9 p-5">
+      <h3 class="mb-5">{{ msg }}</h3>
+      <router-view></router-view>
+    </div>
 
     <!-- Sidebar -->
     <div class="col-sm-2 bg-faded px-4 py-5">
       <h3>Information</h3>
       <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
-      <button type="button" class="btn btn-primary" @click="changeLanguage">{{ $t("language.change") }}</button>
+
+      <language-switcher></language-switcher>
     </div>
   </div>
 </template>
@@ -27,20 +28,16 @@
 <script>
   import ElementCard from './ElementCard'
   import PeriodicTable from './PeriodicTable'
+  import LanguageSwitcher from './_shared/LanguageSwitcher'
 
   export default {
     name: 'home',
     components: {
-      PeriodicTable, ElementCard
+      LanguageSwitcher, PeriodicTable, ElementCard
     },
     data () {
       return {
         msg: 'Mendelable'
-      }
-    },
-    methods: {
-      changeLanguage () {
-        this.$i18n.locale === 'en_US' ? this.$i18n.locale = 'fr_FR' : this.$i18n.locale = 'en_US'
       }
     }
   }
