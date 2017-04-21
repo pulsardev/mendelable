@@ -9,18 +9,21 @@
           <h6 class="card-subtitle mb-2 text-muted">{{ element.atomicNumber }}</h6>
         </div>
       </div>
-      <p class="card-text">{{ element.boilingPoint }}</p>
-      <p class="card-text">{{ element.criticalPoint }}</p>
-      <p class="card-text">{{ element.density }}</p>
-      <p class="card-text">{{ element.electronConfiguration }}</p>
-      <p class="card-text">{{ element.electronegativity }}</p>
-      <p class="card-text">{{ element.electronsPerShell }}</p>
-      <p class="card-text">{{ element.heatOfFusion }}</p>
-      <p class="card-text">{{ element.heatOfVaporization }}</p>
-      <p class="card-text">{{ element.meltingPoint }}</p>
-      <p class="card-text">{{ element.molarHeatCapacity }}</p>
-      <p class="card-text">{{ element.period }}</p>
-      <p class="card-text">{{ element.phase }}</p>
+
+      <p class="card-text">{{ element.boilingPoint }},
+      {{ element.criticalPoint }},
+      {{ element.density }},
+      {{ element.electronConfiguration }},
+      {{ element.electronegativity }},
+      {{ element.electronsPerShell }},
+      {{ element.heatOfFusion }},
+      {{ element.heatOfVaporization }},
+      {{ element.meltingPoint }},
+      {{ element.molarHeatCapacity }},
+      {{ element.period }},
+      {{ element.phase }}</p>
+
+      <chart></chart>
     </div>
   </div>
 </template>
@@ -28,11 +31,12 @@
 <script>
   import ElementBadge from './ElementBadge'
   import { bus } from '@/shared/bus'
+  import Chart from './shared/Chart'
 
   export default {
     name: 'element-card',
     components: {
-      ElementBadge
+      Chart, ElementBadge
     },
     created: function () {
       bus.$on('language:change', this.fetchLocalizedData)
