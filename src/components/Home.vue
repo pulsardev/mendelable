@@ -22,7 +22,7 @@
     <div class="col-sm-2 bg-faded px-4 py-5">
       <h3>Information</h3>
       <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
-      <button type="button" class="btn btn-primary" @click="changeLanguage">Change language</button>
+      <button type="button" class="btn btn-primary" @click="changeLanguage">{{ $t("language.change") }}</button>
     </div>
   </div>
 </template>
@@ -43,7 +43,7 @@
     },
     methods: {
       changeLanguage () {
-        this.$i18n.locale = 'en_US'
+        this.$i18n.locale === 'en_US' ? this.$i18n.locale = 'fr_FR' : this.$i18n.locale = 'en_US'
       }
     }
   }
