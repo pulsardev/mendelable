@@ -2,7 +2,7 @@
   <div class="element-card card">
     <div v-if="Object.keys(element).length > 0" class="card-block">
       <div class="row">
-        <element-badge class="col-1"></element-badge>
+        <element-badge class="col-1" :symbol="symbol"></element-badge>
 
         <div class="col">
           <h4 class="card-title">{{ element.name }}</h4>
@@ -54,7 +54,8 @@
     },
     data () {
       return {
-        element: {}
+        element: {},
+        symbol: this.$route.params.symbol
       }
     }
   }

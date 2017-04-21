@@ -7,11 +7,7 @@
 <script>
   export default {
     name: 'element-badge',
-    data () {
-      return {
-        symbol: this.$route.params.symbol
-      }
-    }
+    props: ['symbol']
   }
 </script>
 
