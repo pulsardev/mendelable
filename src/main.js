@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import i18n from './i18n'
 
 window.$ = window.jQuery = require('jquery')
 window.tether = window.Tether = require('tether')
@@ -15,6 +16,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  i18n,
   template: '<App/>',
   components: { App }
 })
