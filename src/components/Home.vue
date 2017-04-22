@@ -3,9 +3,17 @@
     <!-- Navbar -->
     <div class="col-sm-1 bg-inverse px-4 py-5">
       <ul class="nav flex-column text-center">
-        <li class="nav-item">
-          <a class="nav-link p-0" href="#"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>
+        <li class="nav-item mb-2">
+          <router-link to="/" class="nav-link p-0">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
+            </span>
+          </router-link>
         </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-gamepad fa-2x" aria-hidden="true"></i></a>
+        </li>-->
       </ul>
     </div>
 

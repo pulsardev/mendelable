@@ -194,7 +194,7 @@ $inverse-color: $gray-lighter !default;
 $link-color:            $gray-lightest;
 $link-decoration:       none !default;
 $link-hover-color:      darken($link-color, 15%);
-$link-hover-decoration: underline !default;
+$link-hover-decoration: none;
 
 
 // Grid breakpoints

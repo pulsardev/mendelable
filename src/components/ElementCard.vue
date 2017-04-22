@@ -69,3 +69,9 @@
     }
   }
 </script>
+
+<style scoped>
+  .card-title {
+    text-transform: capitalize;
+  }
+</style>

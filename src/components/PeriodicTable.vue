@@ -4,8 +4,12 @@
       <div class="col">
 
         <ol class="periodic-table wrapper">
-          <li data-element-group='nonmetal' data-group='1' data-period='1' class='element h'><h2>Hydrogen</h2><i>H</i></li>
-          <li data-element-group='noble-gas' data-group='18' data-period='1' class='element he'><h2>Helium</h2><i>He</i></li>
+          <li data-element-group='nonmetal' data-group='1' data-period='1' class='element h'>
+            <router-link to="/element/H"><h2>Hydrogen</h2><i>H</i></router-link>
+          </li>
+          <li data-element-group='noble-gas' data-group='18' data-period='1' class='element he'>
+            <router-link to="/element/He"><h2>Helium</h2><i>He</i></router-link>
+          </li>
           <li data-element-group='alkali-metal' data-group='1' data-period='2' class='element li'><h2>Lithium</h2><i>Li</i></li>
           <li data-element-group='alkaline-earth-metal' data-group='2' data-period='2' class='element be'><h2>Beryllium</h2><i>Be</i></li>
           <li data-element-group='metalloid' data-group='13' data-period='2' class='element b'><h2>Boron</h2><i>B</i></li>
@@ -152,6 +156,10 @@
   $gray: #192229;
   $gray-lighter: #35404d;
 
+  $element-height: 3vw;
+  $elemont-font-size: 1vw;
+  $grid-gutter: 0.25vw;
+
   .periodic-table.wrapper {
     overflow: auto;
   }
@@ -165,10 +173,10 @@
   }
 
   i {
-    line-height: 5rem;
+    line-height: $element-height;
     text-align: center;
     color: rgba(white, 0.75);
-    font-size: 1.25rem;
+    font-size: $elemont-font-size;
     font-style: normal;
   }
 
@@ -188,7 +196,7 @@
     .element {
       float: left;
       min-width: 75px;
-      min-height: 5rem;
+      min-height: $element-height;
       margin: 3px;
     }
   }
@@ -202,7 +210,7 @@
     .element {
       flex-grow: 1;
       flex-basis: 75px;
-      min-height: 5rem;
+      min-height: $element-height;
       margin: 3px;
     }
 
@@ -211,62 +219,72 @@
     }
   }
 
-  [data-element-group="non-metal"], [data-element-group="nonmetal"] {
+  [data-element-group] {
+    a {
+      display: block;
+    }
+  }
+
+  [data-element-group="nonmetal"] {
     background-color: rgba(#03a9f4, 0.25);
-    border-bottom: 0.25rem solid #03a9f4;
+    border-bottom: $grid-gutter solid #03a9f4;
+
+    a:hover {
+      background-color: rgba(#03a9f4, 0.25);
+    }
   }
 
   [data-element-group="halogen"] {
     background-color: rgba(#f06292, 0.25);
-    border-bottom: 0.25rem solid #f06292;
+    border-bottom: $grid-gutter solid #f06292;
   }
 
   [data-element-group="metalloid"] {
     background-color: rgba(#673ab7, 0.25);
-    border-bottom: 0.25rem solid #673ab7;
+    border-bottom: $grid-gutter solid #673ab7;
   }
 
   [data-element-group="metal"] {
     background-color: rgba(#19caa7, 0.25);
-    border-bottom: 0.25rem solid #19caa7;
+    border-bottom: $grid-gutter solid #19caa7;
   }
 
   [data-element-group="alkali-metal"] {
     background-color: rgba(#f44336, 0.25);
-    border-bottom: 0.25rem solid #f44336;
+    border-bottom: $grid-gutter solid #f44336;
   }
 
   [data-element-group="alkaline-earth-metal"] {
     background-color: rgba(#ff9800, 0.25);
-    border-bottom: 0.25rem solid #ff9800;
+    border-bottom: $grid-gutter solid #ff9800;
   }
 
   [data-element-group="transition-metal"] {
     background-color: rgba(#efbb31, 0.25);
-    border-bottom: 0.25rem solid #efbb31;
+    border-bottom: $grid-gutter solid #efbb31;
   }
 
   [data-element-group="noble-gas"] {
     background-color: rgba(#00bcd4, 0.25);
-    border-bottom: 0.25rem solid #00bcd4;
+    border-bottom: $grid-gutter solid #00bcd4;
   }
 
   [data-element-group="lanthanoid"] {
     background-color: rgba(#8bc34a, 0.25);
-    border-bottom: 0.25rem solid #8bc34a;
+    border-bottom: $grid-gutter solid #8bc34a;
   }
 
   [data-element-group="actinoid"] {
     background-color: rgba(#cddc39, 0.25);
-    border-bottom: 0.25rem solid #cddc39;
+    border-bottom: $grid-gutter solid #cddc39;
   }
 
   @supports (display: grid) {
     .wrapper {
       display: grid;
-      grid-gap: 5px;
+      grid-gap: $grid-gutter;
       grid-template-columns: repeat(18, 1fr);
-      grid-template-rows: repeat(10, 5rem);
+      grid-template-rows: repeat(9, 1fr);
       max-width: 100%;
       margin: 1em auto;
     }
