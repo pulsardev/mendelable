@@ -4,26 +4,26 @@
       <div class="col">
 
         <ol class="periodic-table wrapper">
-          <li data-element-group='nonmetal' data-group='1' data-period='1' class='element h'>
-            <router-link to="/element/H"><h2>Hydrogen</h2><i>H</i></router-link>
+          <li data-element-group='non-metal' data-group='1' data-period='1' class='element h'>
+            <router-link to="/element/H" @mouseover.native="showElement('H')" @mouseout.native="hideElement()"><h2>Hydrogen</h2><i>H</i></router-link>
           </li>
           <li data-element-group='noble-gas' data-group='18' data-period='1' class='element he'>
-            <router-link to="/element/He"><h2>Helium</h2><i>He</i></router-link>
+            <router-link to="/element/He" @mouseover.native="showElement('He')" @mouseout.native="hideElement()"><h2>Helium</h2><i>He</i></router-link>
           </li>
           <li data-element-group='alkali-metal' data-group='1' data-period='2' class='element li'><h2>Lithium</h2><i>Li</i></li>
           <li data-element-group='alkaline-earth-metal' data-group='2' data-period='2' class='element be'><h2>Beryllium</h2><i>Be</i></li>
           <li data-element-group='metalloid' data-group='13' data-period='2' class='element b'><h2>Boron</h2><i>B</i></li>
-          <li data-element-group='nonmetal' data-group='14' data-period='2' class='element c'><h2>Carbon</h2><i>C</i></li>
-          <li data-element-group='nonmetal' data-group='15' data-period='2' class='element n'><h2>Nitrogen</h2><i>N</i></li>
-          <li data-element-group='nonmetal' data-group='16' data-period='2' class='element o'><h2>Oxygen</h2><i>O</i></li>
+          <li data-element-group='non-metal' data-group='14' data-period='2' class='element c'><h2>Carbon</h2><i>C</i></li>
+          <li data-element-group='non-metal' data-group='15' data-period='2' class='element n'><h2>Nitrogen</h2><i>N</i></li>
+          <li data-element-group='non-metal' data-group='16' data-period='2' class='element o'><h2>Oxygen</h2><i>O</i></li>
           <li data-element-group='halogen' data-group='17' data-period='2' class='element f'><h2>Fluorine</h2><i>F</i></li>
           <li data-element-group='noble-gas' data-group='18' data-period='2' class='element ne'><h2>Neon</h2><i>Ne</i></li>
           <li data-element-group='alkali-metal' data-group='1' data-period='3' class='element na'><h2>Sodium</h2><i>Na</i></li>
           <li data-element-group='alkaline-earth-metal' data-group='2' data-period='3' class='element mg'><h2>Magnesium</h2><i>Mg</i></li>
           <li data-element-group='metal' data-group='13' data-period='3' class='element al'><h2>Aluminum</h2><i>Al</i></li>
           <li data-element-group='metalloid' data-group='14' data-period='3' class='element si'><h2>Silicon</h2><i>Si</i></li>
-          <li data-element-group='nonmetal' data-group='15' data-period='3' class='element p'><h2>Phosphorus</h2><i>P</i></li>
-          <li data-element-group='nonmetal' data-group='16' data-period='3' class='element s'><h2>Sulfur</h2><i>S</i></li>
+          <li data-element-group='non-metal' data-group='15' data-period='3' class='element p'><h2>Phosphorus</h2><i>P</i></li>
+          <li data-element-group='non-metal' data-group='16' data-period='3' class='element s'><h2>Sulfur</h2><i>S</i></li>
           <li data-element-group='halogen' data-group='17' data-period='3' class='element cl'><h2>Chlorine</h2><i>Cl</i></li>
           <li data-element-group='noble-gas' data-group='18' data-period='3' class='element ar'><h2>Argon</h2><i>Ar</i></li>
           <li data-element-group='alkali-metal' data-group='1' data-period='4' class='element k'><h2>Potassium</h2><i>K</i></li>
@@ -41,7 +41,7 @@
           <li data-element-group='metal' data-group='13' data-period='4' class='element ga'><h2>Gallium</h2><i>Ga</i></li>
           <li data-element-group='metalloid' data-group='14' data-period='4' class='element ge'><h2>Germanium</h2><i>Ge</i></li>
           <li data-element-group='metalloid' data-group='15' data-period='4' class='element as'><h2>Arsenic</h2><i>As</i></li>
-          <li data-element-group='nonmetal' data-group='16' data-period='4' class='element se'><h2>Selenium</h2><i>Se</i></li>
+          <li data-element-group='non-metal' data-group='16' data-period='4' class='element se'><h2>Selenium</h2><i>Se</i></li>
           <li data-element-group='halogen' data-group='17' data-period='4' class='element br'><h2>Bromine</h2><i>Br</i></li>
           <li data-element-group='noble-gas' data-group='18' data-period='4' class='element kr'><h2>Krypton</h2><i>Kr</i></li>
           <li data-element-group='alkali-metal' data-group='1' data-period='5' class='element rb'><h2>Rubidium</h2><i>Rb</i></li>
@@ -128,6 +128,19 @@
           <li data-element-group='noble-gas' data-group='18' data-period='7' class='element uuo'><h2>Ununoctium </h2><i>Uuo</i></li>
           <li class="element lanthanoid" data-element-group="lanthanoid"></li>
           <li class="element actinoid" data-element-group="actinoid"></li>
+
+          <div v-if="showInfo" class="information card">
+            <div class="card-block">
+              <div class="row">
+                <element-badge class="col-1" :symbol="element.symbol"></element-badge>
+
+                <div class="col">
+                  <h4 class="card-title">Hydrogène</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">1</h6>
+                </div>
+              </div>
+            </div>
+          </div>
         </ol>
 
       </div>
@@ -146,7 +159,24 @@
     data () {
       return {
         symbol: 'Ti',
-        name: 'Titanium'
+        name: 'Titanium',
+        element: {},
+        showInfo: false
+      }
+    },
+    methods: {
+      showElement (element) {
+        console.log(element)
+        this.showInfo = true
+        this.element = {
+          symbol: element,
+          name: 'Hydrogne',
+          atomicNumber: 1
+        }
+      },
+      hideElement () {
+        console.log('hideElement')
+        this.showInfo = false
       }
     }
   }
@@ -164,8 +194,11 @@
     overflow: auto;
   }
 
-  .a-element-badge__container {
-    margin-top: 0;
+  .information {
+    grid-column-start: 3;
+    grid-column-end: span 10;
+    grid-row-start: 1;
+    grid-row-end: span 3;
   }
 
   h2 {
@@ -229,7 +262,7 @@
     }
   }
 
-  [data-element-group="nonmetal"] {
+  [data-element-group="non-metal"] {
     background-color: rgba(#03a9f4, 0.25);
     border-color: #03a9f4;
 
