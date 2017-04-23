@@ -16,7 +16,14 @@
 
     <!-- Content -->
     <div class="col-sm-9 p-5">
-      <h3 class="mb-5">{{ msg }}</h3>
+      <div class="d-flex justify-content-between">
+        <h3 class="mb-5">{{ msg }}</h3>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search">
+          </div>
+        </form>
+      </div>
       <router-view></router-view>
     </div>
 

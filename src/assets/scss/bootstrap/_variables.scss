@@ -416,11 +416,11 @@ $input-padding-x:                .75rem !default;
 $input-padding-y:                .5rem !default;
 $input-line-height:              1.25 !default;
 
-$input-bg:                       $white !default;
+$input-bg:                       $gray-light;
 $input-bg-disabled:              $gray-lighter !default;
 
-$input-color:                    $gray !default;
-$input-border-color:             rgba($black,.15) !default;
+$input-color:                    $white;
+$input-border-color:             $gray;
 $input-btn-border-width:         $border-width !default; // For form controls and buttons
 $input-box-shadow:               inset 0 1px 1px rgba($black,.075) !default;
 
@@ -428,10 +428,10 @@ $input-border-radius:            $border-radius !default;
 $input-border-radius-lg:         $border-radius-lg !default;
 $input-border-radius-sm:         $border-radius-sm !default;
 
-$input-bg-focus:                 $input-bg !default;
-$input-border-focus:             lighten($brand-primary, 25%) !default;
+$input-bg-focus:                 $input-bg;
+$input-border-focus:             $input-border-color;
 $input-box-shadow-focus:         $input-box-shadow, rgba($input-border-focus, .6) !default;
-$input-color-focus:              $input-color !default;
+$input-color-focus:              $input-color;
 
 $input-color-placeholder:        $gray-light !default;
 
