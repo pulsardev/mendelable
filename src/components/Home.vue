@@ -1,19 +1,16 @@
 <template>
   <div class="home row">
     <!-- Navbar -->
-    <div class="col-sm-1 bg-inverse px-4 py-5">
-      <ul class="nav flex-column text-center">
-        <li class="nav-item mb-2">
-          <router-link to="/" class="nav-link p-0">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
-            </span>
+    <div class="col-sm-1 bg-inverse px-0 py-5">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <router-link to="/" exact class="nav-link d-flex justify-content-center">
+            <i class="material-icons">home</i>
           </router-link>
         </li>
-        <!--<li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-gamepad fa-2x" aria-hidden="true"></i></a>
-        </li>-->
+        <li class="nav-item mt-5">
+          <a class="nav-link d-flex justify-content-center" href="#"><i class="material-icons md-36">games</i></a>
+        </li>
       </ul>
     </div>
 
@@ -51,8 +48,24 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import "../assets/scss/bootstrap/_variables";
+
   .home.row {
     overflow: hidden;
+  }
+
+  .nav-link {
+    border-left: 0.25em solid transparent;
+    border-right: 0.25em solid transparent;
+  }
+
+  .nav-link:hover {
+    border-left: 0.25em solid #40464f;
+  }
+
+  .nav-link.active {
+    border-left: 0.25em solid $brand-primary;
+    color: $brand-primary;
   }
 </style>

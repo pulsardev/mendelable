@@ -220,6 +220,10 @@
   }
 
   [data-element-group] {
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-width: 0.25em;
+
     a {
       display: block;
     }
@@ -227,7 +231,7 @@
 
   [data-element-group="nonmetal"] {
     background-color: rgba(#03a9f4, 0.25);
-    border-bottom: $grid-gutter solid #03a9f4;
+    border-color: #03a9f4;
 
     a:hover {
       background-color: rgba(#03a9f4, 0.25);
@@ -236,47 +240,47 @@
 
   [data-element-group="halogen"] {
     background-color: rgba(#f06292, 0.25);
-    border-bottom: $grid-gutter solid #f06292;
+    border-color: #f06292;
   }
 
   [data-element-group="metalloid"] {
     background-color: rgba(#673ab7, 0.25);
-    border-bottom: $grid-gutter solid #673ab7;
+    border-color: #673ab7;
   }
 
   [data-element-group="metal"] {
     background-color: rgba(#19caa7, 0.25);
-    border-bottom: $grid-gutter solid #19caa7;
+    border-color: #19caa7;
   }
 
   [data-element-group="alkali-metal"] {
     background-color: rgba(#f44336, 0.25);
-    border-bottom: $grid-gutter solid #f44336;
+    border-color: #f44336;
   }
 
   [data-element-group="alkaline-earth-metal"] {
     background-color: rgba(#ff9800, 0.25);
-    border-bottom: $grid-gutter solid #ff9800;
+    border-color: #ff9800;
   }
 
   [data-element-group="transition-metal"] {
     background-color: rgba(#efbb31, 0.25);
-    border-bottom: $grid-gutter solid #efbb31;
+    border-color: #efbb31;
   }
 
   [data-element-group="noble-gas"] {
     background-color: rgba(#00bcd4, 0.25);
-    border-bottom: $grid-gutter solid #00bcd4;
+    border-color: #00bcd4;
   }
 
   [data-element-group="lanthanoid"] {
     background-color: rgba(#8bc34a, 0.25);
-    border-bottom: $grid-gutter solid #8bc34a;
+    border-color: #8bc34a;
   }
 
   [data-element-group="actinoid"] {
     background-color: rgba(#cddc39, 0.25);
-    border-bottom: $grid-gutter solid #cddc39;
+    border-color: #cddc39;
   }
 
   @supports (display: grid) {
