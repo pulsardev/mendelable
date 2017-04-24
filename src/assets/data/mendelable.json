@@ -1,0 +1,1098 @@
+{
+  "default": {
+    "Ac": {
+      "atomicNumber": 89,
+      "elementGroup": "actinoid",
+      "group": 2,
+      "name": "Actinium",
+      "period": 7,
+      "symbol": "Ac"
+    },
+    "Ag": {
+      "atomicNumber": 47,
+      "elementGroup": "transition-metal",
+      "group": 11,
+      "name": "Silver",
+      "period": 5,
+      "symbol": "Ag"
+    },
+    "Al": {
+      "atomicNumber": 13,
+      "elementGroup": "metal",
+      "group": 13,
+      "name": "Aluminum",
+      "period": 3,
+      "symbol": "Al"
+    },
+    "Am": {
+      "atomicNumber": 95,
+      "elementGroup": "actinoid",
+      "group": 8,
+      "name": "Americium",
+      "period": 7,
+      "symbol": "Am"
+    },
+    "Ar": {
+      "atomicNumber": 18,
+      "elementGroup": "noble-gas",
+      "group": 18,
+      "name": "Argon",
+      "period": 3,
+      "symbol": "Ar"
+    },
+    "As": {
+      "atomicNumber": 33,
+      "elementGroup": "metalloid",
+      "group": 15,
+      "name": "Arsenic",
+      "period": 4,
+      "symbol": "As"
+    },
+    "At": {
+      "atomicNumber": 85,
+      "elementGroup": "halogen",
+      "group": 17,
+      "name": "Astatine",
+      "period": 6,
+      "symbol": "At"
+    },
+    "Au": {
+      "atomicNumber": 79,
+      "elementGroup": "transition-metal",
+      "group": 11,
+      "name": "Gold",
+      "period": 6,
+      "symbol": "Au"
+    },
+    "B": {
+      "atomicNumber": 5,
+      "boilingPoint": {
+        "C": "3927",
+        "F": "7101",
+        "K": "4200"
+      },
+      "criticalPoint": "",
+      "group": "13",
+      "density": "2,08",
+      "electronConfiguration": "2s 2p",
+      "electronegativity": "2,04",
+      "electronsPerShell": "2, 3",
+      "elementGroup": "metalloid",
+      "heatOfFusion": "50,2",
+      "heatOfVaporization": "508",
+      "meltingPoint": {
+        "C": "2076",
+        "F": "3769",
+        "K": "2349"
+      },
+      "molarHeatCapacity": "11,087",
+      "name": "Boron",
+      "period": 2,
+      "phase": "solid",
+      "symbol": "B",
+      "triplePoint": ""
+    },
+    "Ba": {
+      "atomicNumber": 56,
+      "elementGroup": "alkaline-earth-metal",
+      "group": 2,
+      "name": "Barium",
+      "period": 6,
+      "symbol": "Ba"
+    },
+    "Be": {
+      "atomicNumber": 4,
+      "boilingPoint": {
+        "C": "2469",
+        "F": "4476",
+        "K": "2742"
+      },
+      "criticalPoint": "5205",
+      "group": "2",
+      "density": "1,85",
+      "electronConfiguration": "2s",
+      "electronegativity": "1,57",
+      "electronsPerShell": "2, 2",
+      "elementGroup": "alkaline-earth-metal",
+      "heatOfFusion": "12,2",
+      "heatOfVaporization": "292",
+      "meltingPoint": {
+        "C": "1287",
+        "F": "2349",
+        "K": "1560"
+      },
+      "molarHeatCapacity": "16,443",
+      "name": "Beryllium",
+      "period": 2,
+      "phase": "solid",
+      "symbol": "Be",
+      "triplePoint": ""
+    },
+    "Bh": {
+      "atomicNumber": 107,
+      "elementGroup": "transition-metal",
+      "group": 7,
+      "name": "Bohrium",
+      "period": 7,
+      "symbol": "Bh"
+    },
+    "Bi": {
+      "atomicNumber": 83,
+      "elementGroup": "metal",
+      "group": 15,
+      "name": "Bismuth",
+      "period": 6,
+      "symbol": "Bi"
+    },
+    "Bk": {
+      "atomicNumber": 97,
+      "elementGroup": "actinoid",
+      "group": 10,
+      "name": "Berkelium",
+      "period": 7,
+      "symbol": "Bk"
+    },
+    "Br": {
+      "atomicNumber": 35,
+      "elementGroup": "halogen",
+      "group": 17,
+      "name": "Bromine",
+      "period": 4,
+      "symbol": "Br"
+    },
+    "C": {
+      "atomicNumber": 6,
+      "criticalPoint": "",
+      "group": "13",
+      "density": "2,08",
+      "electronConfiguration": "2s 2p",
+      "electronegativity": "2,04",
+      "electronsPerShell": "2, 3",
+      "elementGroup": "metalloid",
+      "heatOfFusion": "50,2",
+      "heatOfVaporization": "508",
+      "meltingPoint": {
+        "C": "2349",
+        "F": "2076",
+        "K": "3769"
+      },
+      "molarHeatCapacity": "11,087",
+      "name": "Carbon",
+      "period": 2,
+      "phase": "solid",
+      "sublimationPoint": {
+        "C": "3642"
+      },
+      "symbol": "C",
+      "triplePoint": ""
+    },
+    "Ca": {
+      "atomicNumber": 20,
+      "elementGroup": "alkaline-earth-metal",
+      "group": 2,
+      "name": "Calcium",
+      "period": 4,
+      "symbol": "Ca"
+    },
+    "Cd": {
+      "atomicNumber": 48,
+      "elementGroup": "transition-metal",
+      "group": 12,
+      "name": "Cadmium",
+      "period": 5,
+      "symbol": "Cd"
+    },
+    "Ce": {
+      "atomicNumber": 58,
+      "elementGroup": "lanthanoid",
+      "group": 3,
+      "name": "Cerium",
+      "period": 6,
+      "symbol": "Ce"
+    },
+    "Cf": {
+      "atomicNumber": 98,
+      "elementGroup": "actinoid",
+      "group": 11,
+      "name": "Californium",
+      "period": 7,
+      "symbol": "Cf"
+    },
+    "Cl": {
+      "atomicNumber": 17,
+      "elementGroup": "halogen",
+      "group": 17,
+      "name": "Chlorine",
+      "period": 3,
+      "symbol": "Cl"
+    },
+    "Cm": {
+      "atomicNumber": 96,
+      "elementGroup": "actinoid",
+      "group": 9,
+      "name": "Curium",
+      "period": 7,
+      "symbol": "Cm"
+    },
+    "Cn": {
+      "atomicNumber": 112,
+      "elementGroup": "transition-metal",
+      "group": 12,
+      "name": "Copernicium",
+      "period": 7,
+      "symbol": "Cn"
+    },
+    "Co": {
+      "atomicNumber": 27,
+      "elementGroup": "transition-metal",
+      "group": 9,
+      "name": "Cobalt",
+      "period": 4,
+      "symbol": "Co"
+    },
+    "Cr": {
+      "atomicNumber": 24,
+      "elementGroup": "transition-metal",
+      "group": 6,
+      "name": "Chromium",
+      "period": 4,
+      "symbol": "Cr"
+    },
+    "Cs": {
+      "atomicNumber": 55,
+      "elementGroup": "alkali-metal",
+      "group": 1,
+      "name": "Cesium",
+      "period": 6,
+      "symbol": "Cs"
+    },
+    "Cu": {
+      "atomicNumber": 29,
+      "elementGroup": "transition-metal",
+      "group": 11,
+      "name": "Copper",
+      "period": 4,
+      "symbol": "Cu"
+    },
+    "Db": {
+      "atomicNumber": 105,
+      "elementGroup": "transition-metal",
+      "group": 5,
+      "name": "Dubnium",
+      "period": 7,
+      "symbol": "Db"
+    },
+    "Ds": {
+      "atomicNumber": 110,
+      "elementGroup": "transition-metal",
+      "group": 10,
+      "name": "Darmstadtium",
+      "period": 7,
+      "symbol": "Ds"
+    },
+    "Dy": {
+      "atomicNumber": 66,
+      "elementGroup": "lanthanoid",
+      "group": 11,
+      "name": "Dysprosium",
+      "period": 6,
+      "symbol": "Dy"
+    },
+    "Er": {
+      "atomicNumber": 68,
+      "elementGroup": "lanthanoid",
+      "group": 13,
+      "name": "Erbium",
+      "period": 6,
+      "symbol": "Er"
+    },
+    "Es": {
+      "atomicNumber": 99,
+      "elementGroup": "actinoid",
+      "group": 12,
+      "name": "Einsteinium",
+      "period": 7,
+      "symbol": "Es"
+    },
+    "Eu": {
+      "atomicNumber": 63,
+      "elementGroup": "lanthanoid",
+      "group": 8,
+      "name": "Europium",
+      "period": 6,
+      "symbol": "Eu"
+    },
+    "F": {
+      "atomicNumber": 9,
+      "elementGroup": "halogen",
+      "group": 17,
+      "name": "Fluorine",
+      "period": 2,
+      "symbol": "F"
+    },
+    "Fe": {
+      "atomicNumber": 26,
+      "elementGroup": "transition-metal",
+      "group": 8,
+      "name": "Iron",
+      "period": 4,
+      "symbol": "Fe"
+    },
+    "Fl": {
+      "atomicNumber": 114,
+      "elementGroup": "metal",
+      "group": 14,
+      "name": "Flerovium",
+      "period": 7,
+      "symbol": "Fl"
+    },
+    "Fm": {
+      "atomicNumber": 100,
+      "elementGroup": "actinoid",
+      "group": 13,
+      "name": "Fermium",
+      "period": 7,
+      "symbol": "Fm"
+    },
+    "Fr": {
+      "atomicNumber": 87,
+      "elementGroup": "alkali-metal",
+      "group": 1,
+      "name": "Francium",
+      "period": 7,
+      "symbol": "Fr"
+    },
+    "Ga": {
+      "atomicNumber": 31,
+      "elementGroup": "metal",
+      "group": 13,
+      "name": "Gallium",
+      "period": 4,
+      "symbol": "Ga"
+    },
+    "Gd": {
+      "atomicNumber": 64,
+      "elementGroup": "lanthanoid",
+      "group": 9,
+      "name": "Gadolinium",
+      "period": 6,
+      "symbol": "Gd"
+    },
+    "Ge": {
+      "atomicNumber": 32,
+      "elementGroup": "metalloid",
+      "group": 14,
+      "name": "Germanium",
+      "period": 4,
+      "symbol": "Ge"
+    },
+    "H": {
+      "atomicNumber": 1,
+      "atomicRay": "25",
+      "boilingPoint": {
+        "C": "-252,879",
+        "F": "-423,182",
+        "K": "20,271"
+      },
+      "covalanceRay": "31",
+      "criticalPoint": "32,938",
+      "group": "1",
+      "density": "0.08988",
+      "discovryAuthor": "Henry Cavendish",
+      "discovryDate": "1766",
+      "electronConfiguration": "1s",
+      "electronegativity": "2,20",
+      "electronsPerShell": "1",
+      "elementGroup": "non-metal",
+      "heatOfFusion": "0.117",
+      "heatOfVaporization": "0,3904",
+      "ionisationEnergy": "13,598443",
+      "meltingPoint": {
+        "C": "-259,16",
+        "F": "-434,49",
+        "K": "13,99"
+      },
+      "molarHeatCapacity": "28,836",
+      "name": "Hydrogen",
+      "period": 1,
+      "phase": "gas",
+      "symbol": "H",
+      "triplePoint": "13,8033",
+      "weight": "1,00794"
+    },
+    "He": {
+      "atomicNumber": 2,
+      "boilingPoint": {
+        "C": "-268,928",
+        "F": "-452,070",
+        "K": "4,222"
+      },
+      "criticalPoint": "5.1953",
+      "group": "18",
+      "density": "0.1786",
+      "electronConfiguration": "1s",
+      "electronegativity": "",
+      "electronsPerShell": "2",
+      "elementGroup": "noble-gas",
+      "heatOfFusion": "0.0138",
+      "heatOfVaporization": "0.0829",
+      "meltingPoint": {
+        "C": "-272,20",
+        "F": "-457,96",
+        "K": "0,95"
+      },
+      "molarHeatCapacity": "20.78",
+      "name": "Helium",
+      "period": 1,
+      "phase": "gas",
+      "symbol": "He",
+      "triplePoint": "2.177"
+    },
+    "Hf": {
+      "atomicNumber": 72,
+      "elementGroup": "transition-metal",
+      "group": 4,
+      "name": "Hafnium",
+      "period": 6,
+      "symbol": "Hf"
+    },
+    "Hg": {
+      "atomicNumber": 80,
+      "elementGroup": "transition-metal",
+      "group": 12,
+      "name": "Mercuy",
+      "period": 6,
+      "symbol": "Hg"
+    },
+    "Ho": {
+      "atomicNumber": 67,
+      "elementGroup": "lanthanoid",
+      "group": 12,
+      "name": "Holmium",
+      "period": 6,
+      "symbol": "Ho"
+    },
+    "Hs": {
+      "atomicNumber": 108,
+      "elementGroup": "transition-metal",
+      "group": 8,
+      "name": "Hassium",
+      "period": 7,
+      "symbol": "Hs"
+    },
+    "I": {
+      "atomicNumber": 53,
+      "elementGroup": "halogen",
+      "group": 17,
+      "name": "Iodine",
+      "period": 5,
+      "symbol": "I"
+    },
+    "In": {
+      "atomicNumber": 49,
+      "elementGroup": "metal",
+      "group": 13,
+      "name": "Indium",
+      "period": 5,
+      "symbol": "In"
+    },
+    "Ir": {
+      "atomicNumber": 77,
+      "elementGroup": "transition-metal",
+      "group": 9,
+      "name": "Iridium",
+      "period": 6,
+      "symbol": "Ir"
+    },
+    "K": {
+      "atomicNumber": 19,
+      "elementGroup": "alkali-metal",
+      "group": 1,
+      "name": "Potassium",
+      "period": 4,
+      "symbol": "K"
+    },
+    "Kr": {
+      "atomicNumber": 36,
+      "elementGroup": "noble-gas",
+      "group": 18,
+      "name": "Krypton",
+      "period": 4,
+      "symbol": "Kr"
+    },
+    "La": {
+      "atomicNumber": 57,
+      "elementGroup": "lanthanoid",
+      "group": 2,
+      "name": "Lanthanum",
+      "period": 6,
+      "symbol": "La"
+    },
+    "Li": {
+      "atomicNumber": 3,
+      "boilingPoint": {
+        "C": "1330",
+        "F": "2426",
+        "K": "1603"
+      },
+      "criticalPoint": "3220",
+      "group": "1",
+      "density": "0.534",
+      "electronConfiguration": "2s",
+      "electronegativity": "0.98",
+      "electronsPerShell": "2, 1",
+      "elementGroup": "alkali-metal",
+      "heatOfFusion": "3.00",
+      "heatOfVaporization": "136",
+      "meltingPoint": {
+        "C": "180.50",
+        "F": "356.90",
+        "K": "453.65"
+      },
+      "molarHeatCapacity": "24.860",
+      "name": "Lithium",
+      "period": 2,
+      "phase": "solid",
+      "symbol": "Li",
+      "triplePoint": ""
+    },
+    "Lr": {
+      "atomicNumber": 103,
+      "elementGroup": "actinoid",
+      "group": 16,
+      "name": "Lawrencium",
+      "period": 7,
+      "symbol": "Lr"
+    },
+    "Lu": {
+      "atomicNumber": 71,
+      "elementGroup": "lanthanoid",
+      "group": 16,
+      "name": "Lutetium",
+      "period": 6,
+      "symbol": "Lu"
+    },
+    "Lv": {
+      "atomicNumber": 116,
+      "elementGroup": "metal",
+      "group": 16,
+      "name": "Livermorium",
+      "period": 7,
+      "symbol": "Lv"
+    },
+    "Md": {
+      "atomicNumber": 101,
+      "elementGroup": "actinoid",
+      "group": 14,
+      "name": "Mendelevium",
+      "period": 7,
+      "symbol": "Md"
+    },
+    "Mg": {
+      "atomicNumber": 12,
+      "elementGroup": "alkaline-earth-metal",
+      "group": 2,
+      "name": "Magnesium",
+      "period": 3,
+      "symbol": "Mg"
+    },
+    "Mn": {
+      "atomicNumber": 25,
+      "elementGroup": "transition-metal",
+      "group": 7,
+      "name": "Manganese",
+      "period": 4,
+      "symbol": "Mn"
+    },
+    "Mo": {
+      "atomicNumber": 42,
+      "elementGroup": "transition-metal",
+      "group": 6,
+      "name": "Molybdenum",
+      "period": 5,
+      "symbol": "Mo"
+    },
+    "Mt": {
+      "atomicNumber": 109,
+      "elementGroup": "transition-metal",
+      "group": 9,
+      "name": "Meitnerium",
+      "period": 7,
+      "symbol": "Mt"
+    },
+    "N": {
+      "atomicNumber": 7,
+      "elementGroup": "non-metal",
+      "group": 15,
+      "name": "Nitrogen",
+      "period": 2,
+      "symbol": "N"
+    },
+    "Na": {
+      "atomicNumber": 11,
+      "elementGroup": "alkali-metal",
+      "group": 1,
+      "name": "Sodium",
+      "period": 3,
+      "symbol": "Na"
+    },
+    "Nb": {
+      "atomicNumber": 41,
+      "elementGroup": "transition-metal",
+      "group": 5,
+      "name": "Niobium",
+      "period": 5,
+      "symbol": "Nb"
+    },
+    "Nd": {
+      "atomicNumber": 60,
+      "elementGroup": "lanthanoid",
+      "group": 5,
+      "name": "Neodymium",
+      "period": 6,
+      "symbol": "Nd"
+    },
+    "Ne": {
+      "atomicNumber": 10,
+      "elementGroup": "noble-gas",
+      "group": 18,
+      "name": "Neon",
+      "period": 2,
+      "symbol": "Ne"
+    },
+    "Ni": {
+      "atomicNumber": 28,
+      "elementGroup": "transition-metal",
+      "group": 10,
+      "name": "Nickel",
+      "period": 4,
+      "symbol": "Ni"
+    },
+    "No": {
+      "atomicNumber": 102,
+      "elementGroup": "actinoid",
+      "group": 15,
+      "name": "Nobelium",
+      "period": 7,
+      "symbol": "No"
+    },
+    "Np": {
+      "atomicNumber": 93,
+      "elementGroup": "actinoid",
+      "group": 6,
+      "name": "Neptunium",
+      "period": 7,
+      "symbol": "Np"
+    },
+    "O": {
+      "atomicNumber": 8,
+      "elementGroup": "non-metal",
+      "group": 16,
+      "name": "Oxygen",
+      "period": 2,
+      "symbol": "O"
+    },
+    "Os": {
+      "atomicNumber": 76,
+      "elementGroup": "transition-metal",
+      "group": 8,
+      "name": "Osmium",
+      "period": 6,
+      "symbol": "Os"
+    },
+    "P": {
+      "atomicNumber": 15,
+      "elementGroup": "non-metal",
+      "group": 15,
+      "name": "Phosphorus",
+      "period": 3,
+      "symbol": "P"
+    },
+    "Pa": {
+      "atomicNumber": 91,
+      "elementGroup": "actinoid",
+      "group": 4,
+      "name": "Protactinium",
+      "period": 7,
+      "symbol": "Pa"
+    },
+    "Pb": {
+      "atomicNumber": 82,
+      "elementGroup": "metal",
+      "group": 14,
+      "name": "Lead",
+      "period": 6,
+      "symbol": "Pb"
+    },
+    "Pd": {
+      "atomicNumber": 46,
+      "elementGroup": "transition-metal",
+      "group": 10,
+      "name": "Palladium",
+      "period": 5,
+      "symbol": "Pd"
+    },
+    "Pm": {
+      "atomicNumber": 61,
+      "elementGroup": "lanthanoid",
+      "group": 6,
+      "name": "Promethium",
+      "period": 6,
+      "symbol": "Pm"
+    },
+    "Po": {
+      "atomicNumber": 84,
+      "elementGroup": "metalloid",
+      "group": 16,
+      "name": "Polonium",
+      "period": 6,
+      "symbol": "Po"
+    },
+    "Pr": {
+      "atomicNumber": 59,
+      "elementGroup": "lanthanoid",
+      "group": 4,
+      "name": "Praseodymium",
+      "period": 6,
+      "symbol": "Pr"
+    },
+    "Pt": {
+      "atomicNumber": 78,
+      "elementGroup": "transition-metal",
+      "group": 10,
+      "name": "Platinum",
+      "period": 6,
+      "symbol": "Pt"
+    },
+    "Pu": {
+      "atomicNumber": 94,
+      "elementGroup": "actinoid",
+      "group": 7,
+      "name": "Plutonium",
+      "period": 7,
+      "symbol": "Pu"
+    },
+    "Ra": {
+      "atomicNumber": 88,
+      "elementGroup": "alkaline-earth-metal",
+      "group": 2,
+      "name": "Radium",
+      "period": 7,
+      "symbol": "Ra"
+    },
+    "Rb": {
+      "atomicNumber": 37,
+      "elementGroup": "alkali-metal",
+      "group": 1,
+      "name": "Rubidium",
+      "period": 5,
+      "symbol": "Rb"
+    },
+    "Re": {
+      "atomicNumber": 75,
+      "elementGroup": "transition-metal",
+      "group": 7,
+      "name": "Rhenium",
+      "period": 6,
+      "symbol": "Re"
+    },
+    "Rf": {
+      "atomicNumber": 104,
+      "elementGroup": "transition-metal",
+      "group": 4,
+      "name": "Rutherfordium",
+      "period": 7,
+      "symbol": "Rf"
+    },
+    "Rg": {
+      "atomicNumber": 111,
+      "elementGroup": "transition-metal",
+      "group": 11,
+      "name": "Roentgenium",
+      "period": 7,
+      "symbol": "Rg"
+    },
+    "Rh": {
+      "atomicNumber": 45,
+      "elementGroup": "transition-metal",
+      "group": 9,
+      "name": "Rhodium",
+      "period": 5,
+      "symbol": "Rh"
+    },
+    "Rn": {
+      "atomicNumber": 86,
+      "elementGroup": "noble-gas",
+      "group": 18,
+      "name": "Radon",
+      "period": 6,
+      "symbol": "Rn"
+    },
+    "Ru": {
+      "atomicNumber": 44,
+      "elementGroup": "transition-metal",
+      "group": 8,
+      "name": "Ruthenium",
+      "period": 5,
+      "symbol": "Ru"
+    },
+    "S": {
+      "atomicNumber": 16,
+      "elementGroup": "non-metal",
+      "group": 16,
+      "name": "Sulfur",
+      "period": 3,
+      "symbol": "S"
+    },
+    "Sb": {
+      "atomicNumber": 51,
+      "elementGroup": "metalloid",
+      "group": 15,
+      "name": "Antimony",
+      "period": 5,
+      "symbol": "Sb"
+    },
+    "Sc": {
+      "atomicNumber": 21,
+      "elementGroup": "transition-metal",
+      "group": 3,
+      "name": "Scandium",
+      "period": 4,
+      "symbol": "Sc"
+    },
+    "Se": {
+      "atomicNumber": 34,
+      "elementGroup": "non-metal",
+      "group": 16,
+      "name": "Selenium",
+      "period": 4,
+      "symbol": "Se"
+    },
+    "Sg": {
+      "atomicNumber": 106,
+      "elementGroup": "transition-metal",
+      "group": 6,
+      "name": "Seaborgium",
+      "period": 7,
+      "symbol": "Sg"
+    },
+    "Si": {
+      "atomicNumber": 14,
+      "elementGroup": "metalloid",
+      "group": 14,
+      "name": "Silicon",
+      "period": 3,
+      "symbol": "Si"
+    },
+    "Sm": {
+      "atomicNumber": 62,
+      "elementGroup": "lanthanoid",
+      "group": 7,
+      "name": "Samarium",
+      "period": 6,
+      "symbol": "Sm"
+    },
+    "Sn": {
+      "atomicNumber": 50,
+      "elementGroup": "metal",
+      "group": 14,
+      "name": "Tin",
+      "period": 5,
+      "symbol": "Sn"
+    },
+    "Sr": {
+      "atomicNumber": 38,
+      "elementGroup": "alkaline-earth-metal",
+      "group": 2,
+      "name": "Strontium",
+      "period": 5,
+      "symbol": "Sr"
+    },
+    "Ta": {
+      "atomicNumber": 73,
+      "elementGroup": "transition-metal",
+      "group": 5,
+      "name": "Tantalum",
+      "period": 6,
+      "symbol": "Ta"
+    },
+    "Tb": {
+      "atomicNumber": 65,
+      "elementGroup": "lanthanoid",
+      "group": 10,
+      "name": "Terbium",
+      "period": 6,
+      "symbol": "Tb"
+    },
+    "Tc": {
+      "atomicNumber": 43,
+      "elementGroup": "transition-metal",
+      "group": 7,
+      "name": "Technetium",
+      "period": 5,
+      "symbol": "Tc"
+    },
+    "Te": {
+      "atomicNumber": 52,
+      "elementGroup": "metalloid",
+      "group": 16,
+      "name": "Tellurium",
+      "period": 5,
+      "symbol": "Te"
+    },
+    "Th": {
+      "atomicNumber": 90,
+      "elementGroup": "actinoid",
+      "group": 3,
+      "name": "Thorium",
+      "period": 7,
+      "symbol": "Th"
+    },
+    "Ti": {
+      "atomicNumber": 22,
+      "elementGroup": "transition-metal",
+      "group": 4,
+      "name": "Titanium",
+      "period": 4,
+      "symbol": "Ti"
+    },
+    "Tl": {
+      "atomicNumber": 81,
+      "elementGroup": "metal",
+      "group": 13,
+      "name": "Thallium",
+      "period": 6,
+      "symbol": "Tl"
+    },
+    "Tm": {
+      "atomicNumber": 69,
+      "elementGroup": "lanthanoid",
+      "group": 14,
+      "name": "Thulium",
+      "period": 6,
+      "symbol": "Tm"
+    },
+    "U": {
+      "atomicNumber": 92,
+      "elementGroup": "actinoid",
+      "group": 5,
+      "name": "Uranium",
+      "period": 7,
+      "symbol": "U"
+    },
+    "Uuo": {
+      "atomicNumber": 118,
+      "elementGroup": "noble-gas",
+      "group": 18,
+      "name": "Ununoctium",
+      "period": 7,
+      "symbol": "Uuo"
+    },
+    "Uup": {
+      "atomicNumber": 115,
+      "elementGroup": "metal",
+      "group": 15,
+      "name": "Ununpentium",
+      "period": 7,
+      "symbol": "Uup"
+    },
+    "Uus": {
+      "atomicNumber": 117,
+      "elementGroup": "halogen",
+      "group": 17,
+      "name": "Ununseptium",
+      "period": 7,
+      "symbol": "Uus"
+    },
+    "Uut": {
+      "atomicNumber": 113,
+      "elementGroup": "metal",
+      "group": 13,
+      "name": "Ununtrium",
+      "period": 7,
+      "symbol": "Uut"
+    },
+    "V": {
+      "atomicNumber": 23,
+      "elementGroup": "transition-metal",
+      "group": 5,
+      "name": "Vanadium",
+      "period": 4,
+      "symbol": "V"
+    },
+    "W": {
+      "atomicNumber": 74,
+      "elementGroup": "transition-metal",
+      "group": 6,
+      "name": "Tungsten",
+      "period": 6,
+      "symbol": "W"
+    },
+    "Xe": {
+      "atomicNumber": 54,
+      "elementGroup": "noble-gas",
+      "group": 18,
+      "name": "Xenon",
+      "period": 5,
+      "symbol": "Xe"
+    },
+    "Y": {
+      "atomicNumber": 39,
+      "elementGroup": "transition-metal",
+      "group": 3,
+      "name": "Yttrium",
+      "period": 5,
+      "symbol": "Y"
+    },
+    "Yb": {
+      "atomicNumber": 70,
+      "elementGroup": "lanthanoid",
+      "group": 15,
+      "name": "Ytterbium",
+      "period": 6,
+      "symbol": "Yb"
+    },
+    "Zn": {
+      "atomicNumber": 30,
+      "elementGroup": "transition-metal",
+      "group": 12,
+      "name": "Zinc",
+      "period": 4,
+      "symbol": "Zn"
+    },
+    "Zr": {
+      "atomicNumber": 40,
+      "elementGroup": "transition-metal",
+      "group": 4,
+      "name": "Zirconium",
+      "period": 5,
+      "symbol": "Zr"
+    }
+  },
+  "fr_FR": {
+    "B": {
+      "name": "bore",
+      "phase": "solide"
+    },
+    "Be": {
+      "name": "béryllium",
+      "phase": "solide"
+    },
+    "C": {
+      "name": "carbone",
+      "phase": "solide"
+    },
+    "H": {
+      "name": "hydrogène",
+      "phase": "gas"
+    },
+    "He": {
+      "name": "hélium",
+      "phase": "gas"
+    },
+    "Li": {
+      "name": "lithium",
+      "phase": "solide"
+    }
+  }
+}
