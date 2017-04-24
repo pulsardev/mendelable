@@ -13,7 +13,7 @@
           <li class="element lanthanoid" data-element-group="lanthanoid"></li>
           <li class="element actinoid" data-element-group="actinoid"></li>
 
-          <div class="information card">
+          <div v-if="showInfo" class="information card">
             <div class="card-block">
               <div class="row">
                 <element-badge class="col-1" :element="selectedElement"></element-badge>
@@ -51,7 +51,6 @@
     },
     methods: {
       showElement (element) {
-        console.log(element)
         this.showInfo = true
         this.selectedElement = {
           symbol: element.symbol,
@@ -61,7 +60,6 @@
         }
       },
       hideElement () {
-        console.log('hideElement')
         this.showInfo = false
       }
     }
