@@ -1,13 +1,13 @@
 <template>
   <div class="element-badge a-element-badge__container">
-    <h1 class="a-element-badge a-element-badge--ti">{{ symbol }}</h1>
+    <h1 class="a-element-badge" :class="element.elementGroup && element.elementGroup.toLowerCase()">{{ element.symbol }}</h1>
   </div>
 </template>
 
 <script>
   export default {
     name: 'element-badge',
-    props: ['symbol']
+    props: ['element']
   }
 </script>
 

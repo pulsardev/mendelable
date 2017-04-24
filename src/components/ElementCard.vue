@@ -2,7 +2,7 @@
   <div class="element-card card">
     <div v-if="Object.keys(element).length > 0" class="card-block">
       <div class="row">
-        <element-badge class="col-1" :symbol="symbol"></element-badge>
+        <element-badge class="col-1" :element="element"></element-badge>
 
         <div class="col">
           <h4 class="card-title">{{ element.name }}</h4>
@@ -10,18 +10,7 @@
         </div>
       </div>
 
-      <p class="card-text">{{ element.boilingPoint }},
-      {{ element.criticalPoint }},
-      {{ element.density }},
-      {{ element.electronConfiguration }},
-      {{ element.electronegativity }},
-      {{ element.electronsPerShell }},
-      {{ element.heatOfFusion }},
-      {{ element.heatOfVaporization }},
-      {{ element.meltingPoint }},
-      {{ element.molarHeatCapacity }},
-      {{ element.period }},
-      {{ element.phase }}</p>
+      <p class="card-text">{{ element }}</p>
 
       <chart></chart>
     </div>

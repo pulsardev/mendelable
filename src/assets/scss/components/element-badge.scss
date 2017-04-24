@@ -1,5 +1,5 @@
-$gray: #192229;
-$gray-lighter: #35404d;
+@import "../bootstrap/_variables";
+@import "./_variables";
 
 .a-element-badge__container {
   flex: 0 0 6rem;
@@ -18,6 +18,42 @@ $gray-lighter: #35404d;
   color: $gray;
 }
 
-.a-element-badge--ti {
-  border-bottom: 0.25rem solid #efbb31;
+.a-element-badge.non-metal {
+  border-bottom: 0.25rem solid $non-metal;
+}
+
+.a-element-badge.halogen {
+  border-bottom: 0.25rem solid $halogen;
+}
+
+.a-element-badge.metalloid {
+  border-bottom: 0.25rem solid $metalloid;
+}
+
+.a-element-badge.metal {
+  border-bottom: 0.25rem solid $metal;
+}
+
+.a-element-badge.alkali-metal {
+  border-bottom: 0.25rem solid $alkali-metal;
+}
+
+.a-element-badge.alkaline-earth-metal {
+  border-bottom: 0.25rem solid $alkaline-earth-metal;
+}
+
+.a-element-badge.transition-metal {
+  border-bottom: 0.25rem solid $transition-metal;
+}
+
+.a-element-badge.noble-gas {
+  border-bottom: 0.25rem solid $noble-gas;
+}
+
+.a-element-badge.lanthanoid {
+  border-bottom: 0.25rem solid $lanthanoid;
+}
+
+.a-element-badge.actinoid {
+  border-bottom: 0.25rem solid $actinoid;
 }

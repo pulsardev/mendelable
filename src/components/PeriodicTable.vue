@@ -13,10 +13,10 @@
           <li class="element lanthanoid" data-element-group="lanthanoid"></li>
           <li class="element actinoid" data-element-group="actinoid"></li>
 
-          <div v-if="showInfo" class="information card">
+          <div class="information card">
             <div class="card-block">
               <div class="row">
-                <element-badge class="col-1" :symbol="selectedElement.symbol"></element-badge>
+                <element-badge class="col-1" :element="selectedElement"></element-badge>
 
                 <div class="col">
                   <h4 class="card-title">{{ selectedElement.name }}</h4>
@@ -57,7 +57,7 @@
           symbol: element.symbol,
           name: element.name,
           atomicNumber: element.atomicNumber,
-          elementGroup: element.atomicGroup
+          elementGroup: element.elementGroup
         }
       },
       hideElement () {
@@ -69,8 +69,8 @@
 </script>
 
 <style lang="scss" scoped>
-  $gray: #192229;
-  $gray-lighter: #35404d;
+  @import "../assets/scss/bootstrap/_variables";
+  @import "../assets/scss/components/_variables";
 
   $element-height: 3vw;
   $elemont-font-size: 1vw;
@@ -149,57 +149,93 @@
   }
 
   [data-element-group="non-metal"] {
-    background-color: rgba(#03a9f4, 0.25);
-    border-color: #03a9f4;
+    background-color: rgba($non-metal, 0.25);
+    border-color: $non-metal;
 
     a:hover {
-      background-color: rgba(#03a9f4, 0.25);
+      background-color: rgba($non-metal, 0.25);
     }
   }
 
   [data-element-group="halogen"] {
-    background-color: rgba(#f06292, 0.25);
-    border-color: #f06292;
+    background-color: rgba($halogen, 0.25);
+    border-color: $halogen;
+
+    a:hover {
+      background-color: rgba($halogen, 0.25);
+    }
   }
 
   [data-element-group="metalloid"] {
-    background-color: rgba(#673ab7, 0.25);
-    border-color: #673ab7;
+    background-color: rgba($metalloid, 0.25);
+    border-color: $metalloid;
+
+    a:hover {
+      background-color: rgba($metalloid, 0.25);
+    }
   }
 
   [data-element-group="metal"] {
-    background-color: rgba(#19caa7, 0.25);
-    border-color: #19caa7;
+    background-color: rgba($metal, 0.25);
+    border-color: $metal;
+
+    a:hover {
+      background-color: rgba($metal, 0.25);
+    }
   }
 
   [data-element-group="alkali-metal"] {
-    background-color: rgba(#f44336, 0.25);
-    border-color: #f44336;
+    background-color: rgba($alkali-metal, 0.25);
+    border-color: $alkali-metal;
+
+    a:hover {
+      background-color: rgba($alkali-metal, 0.25);
+    }
   }
 
   [data-element-group="alkaline-earth-metal"] {
-    background-color: rgba(#ff9800, 0.25);
-    border-color: #ff9800;
+    background-color: rgba($alkaline-earth-metal, 0.25);
+    border-color: $alkaline-earth-metal;
+
+    a:hover {
+      background-color: rgba($alkaline-earth-metal, 0.25);
+    }
   }
 
   [data-element-group="transition-metal"] {
-    background-color: rgba(#efbb31, 0.25);
-    border-color: #efbb31;
+    background-color: rgba($transition-metal, 0.25);
+    border-color: $transition-metal;
+
+    a:hover {
+      background-color: rgba($transition-metal, 0.25);
+    }
   }
 
   [data-element-group="noble-gas"] {
-    background-color: rgba(#00bcd4, 0.25);
-    border-color: #00bcd4;
+    background-color: rgba($noble-gas, 0.25);
+    border-color: $noble-gas;
+
+    a:hover {
+      background-color: rgba($noble-gas, 0.25);
+    }
   }
 
   [data-element-group="lanthanoid"] {
-    background-color: rgba(#8bc34a, 0.25);
-    border-color: #8bc34a;
+    background-color: rgba($lanthanoid, 0.25);
+    border-color: $lanthanoid;
+
+    a:hover {
+      background-color: rgba($lanthanoid, 0.25);
+    }
   }
 
   [data-element-group="actinoid"] {
-    background-color: rgba(#cddc39, 0.25);
-    border-color: #cddc39;
+    background-color: rgba($actinoid, 0.25);
+    border-color: $actinoid;
+
+    a:hover {
+      background-color: rgba($actinoid, 0.25);
+    }
   }
 
   @supports (display: grid) {
