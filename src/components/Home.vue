@@ -38,14 +38,14 @@
 </template>
 
 <script>
-  import ElementCard from './ElementCard'
+  import ElementProfile from './ElementProfile'
   import PeriodicTable from './PeriodicTable'
   import LanguageSwitcher from './shared/LanguageSwitcher'
 
   export default {
     name: 'home',
     components: {
-      LanguageSwitcher, PeriodicTable, ElementCard
+      LanguageSwitcher, PeriodicTable, ElementProfile
     },
     data () {
       return {
