@@ -33,6 +33,7 @@
 </template>
 
 <script>
+  import { mapState } from 'vuex'
   import ElementBadge from './ElementBadge'
 
   export default {
@@ -40,13 +41,15 @@
     components: {
       ElementBadge
     },
+    computed: mapState({
+      elements: state => state.elements.default
+    }),
     data () {
       return {
         symbol: 'Ti',
         name: 'Titanium',
         selectedElement: {},
-        showInfo: false,
-        elements: require('../assets/data/mendelable.json').default
+        showInfo: false
       }
     },
     methods: {
