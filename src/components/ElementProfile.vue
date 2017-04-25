@@ -1,7 +1,9 @@
 <template>
   <div>
-    <element-general-properties></element-general-properties>
-    <element-atomic-properties></element-atomic-properties>
+    <div class="row">
+      <element-general-properties></element-general-properties>
+      <element-atomic-properties></element-atomic-properties>
+    </div>
     <element-physical-properties></element-physical-properties>
   </div>
 </template>
