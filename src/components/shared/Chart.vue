@@ -43,20 +43,6 @@
           responsive: false
         }
       })
-    },
-    data () {
-      return {
-        selected: this.$i18n.locale,
-        options: [
-          {text: 'English', value: 'en_US'},
-          {text: 'Français', value: 'fr_FR'}
-        ]
-      }
-    },
-    methods: {
-      changeLanguage (e) {
-        this.$i18n.locale = e.target.value
-      }
     }
   }
 </script>
