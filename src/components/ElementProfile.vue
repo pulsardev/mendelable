@@ -15,6 +15,7 @@
 </template>
 
 <script>
+  import i18n from '@/i18n'
   import { bus } from '@/shared/bus'
   import { mapState } from 'vuex'
   import ElementGeneralProperties from './ElementProfile/ElementGeneralProperties'
@@ -42,7 +43,7 @@
     },
     methods: {
       fetchLocalizedData () {
-        let locale = this.$i18n.locale === 'en_US' ? 'default' : this.$i18n.locale
+        let locale = i18n.locale === 'en_US' ? 'default' : i18n.locale
         this.element = Object.assign({}, this.element, this.elements[locale][this.$route.params.symbol])
       }
     }

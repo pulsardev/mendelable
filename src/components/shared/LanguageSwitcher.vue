@@ -10,13 +10,14 @@
 </template>
 
 <script>
+  import i18n from '@/i18n'
   import { bus } from '@/shared/bus'
 
   export default {
     name: 'language-switcher',
     data () {
       return {
-        selected: this.$i18n.locale,
+        selected: i18n.locale,
         options: [
           {text: 'English', value: 'en_US'},
           {text: 'Français', value: 'fr_FR'}
@@ -25,7 +26,7 @@
     },
     methods: {
       changeLanguage (e) {
-        this.$i18n.locale = e.target.value
+        i18n.locale = e.target.value
         bus.$emit('language:change')
       }
     }
