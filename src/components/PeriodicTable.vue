@@ -73,7 +73,7 @@
   @import "../assets/scss/bootstrap/_variables";
   @import "../assets/scss/components/_variables";
 
-  $element-height: 4vw;
+  $element-height: 3.6vw;
   $elemont-font-size: 1vw;
   $grid-gutter: 0.25vw;
 
