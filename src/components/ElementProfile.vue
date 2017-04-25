@@ -31,6 +31,7 @@
       bus.$on('language:change', this.fetchLocalizedData)
 
       this.element = this.elements.default[this.$route.params.symbol]
+      this.fetchLocalizedData()
     },
     computed: mapState({
       elements: state => state.elements
