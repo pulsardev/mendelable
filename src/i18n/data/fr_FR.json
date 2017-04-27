@@ -4,5 +4,9 @@
   },
   "language": {
     "label": "Langue"
+  },
+  "element": {
+    "atomicNumber": "Numéro atomique",
+    "weight": "Masse"
   }
 }

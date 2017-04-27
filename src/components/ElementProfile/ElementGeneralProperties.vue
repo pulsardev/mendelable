@@ -10,6 +10,11 @@
         </div>
       </div>
 
+      <div class="row">
+        <featured-value :value="element.atomicNumber" title="atomicNumber" class="col-md-6 mt-4"></featured-value>
+        <featured-value :value="element.weight" title="weight" class="col-md-6 mt-4"></featured-value>
+      </div>
+
       <p class="card-text">{{ element }}</p>
 
       <chart></chart>
@@ -20,12 +25,13 @@
 <script>
   import ElementBadge from '../ElementBadge'
   import Chart from '../shared/Chart'
+  import FeaturedValue from './FeaturedValue'
 
   export default {
     name: 'element-general-properties',
     props: ['element'],
     components: {
-      Chart, ElementBadge
+      FeaturedValue, Chart, ElementBadge
     }
   }
 </script>
