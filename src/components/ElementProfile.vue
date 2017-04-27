@@ -15,9 +15,7 @@
 </template>
 
 <script>
-  import i18n from '@/i18n'
-  import { bus } from '@/shared/bus'
-  import { mapState } from 'vuex'
+  import { mapGetters } from 'vuex'
   import ElementGeneralProperties from './ElementProfile/ElementGeneralProperties'
   import ElementAtomicProperties from './ElementProfile/ElementAtomicProperties'
   import ElementPhysicalProperties from './ElementProfile/ElementPhysicalProperties'
@@ -27,25 +25,17 @@
     components: {
       ElementGeneralProperties, ElementAtomicProperties, ElementPhysicalProperties
     },
-    created: function () {
-      bus.$on('language:change', this.fetchLocalizedData)
-
-      this.element = this.elements.default[this.$route.params.symbol]
-      this.fetchLocalizedData()
-    },
-    computed: mapState({
-      elements: state => state.elements
-    }),
-    data () {
-      return {
-        element: {},
-        symbol: this.$route.params.symbol
+    computed: {
+      ...mapGetters({
+        elements: 'localizedElements'
+      }),
+      element () {
+        return this.elements[this.$route.params.symbol]
       }
     },
-    methods: {
-      fetchLocalizedData () {
-        let locale = i18n.locale === 'en_US' ? 'default' : i18n.locale
-        this.element = Object.assign({}, this.element, this.elements[locale][this.$route.params.symbol])
+    data () {
+      return {
+        symbol: this.$route.params.symbol
       }
     }
   }

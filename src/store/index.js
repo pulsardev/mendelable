@@ -4,6 +4,7 @@ import * as actions from './actions'
 import * as getters from './getters'
 import counters from './modules/counters'
 import elements from './modules/elements'
+import language from './modules/language'
 
 Vue.use(Vuex)
 
@@ -14,7 +15,8 @@ export default new Vuex.Store({
   getters,
   modules: {
     counters,
-    elements
+    elements,
+    language
   },
   strict: debug
 })

@@ -33,7 +33,7 @@
 </template>
 
 <script>
-  import { mapState } from 'vuex'
+  import { mapGetters } from 'vuex'
   import ElementBadge from './ElementBadge'
 
   export default {
@@ -41,8 +41,8 @@
     components: {
       ElementBadge
     },
-    computed: mapState({
-      elements: state => state.elements.default
+    computed: mapGetters({
+      elements: 'localizedElements'
     }),
     data () {
       return {

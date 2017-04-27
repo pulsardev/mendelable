@@ -2,7 +2,7 @@
   <form class="language-switcher">
     <div class="form-group">
       <label for="languageSelect">{{ $t("language.label") }}</label>
-      <select v-model="selected" @change="changeLanguage" class="form-control" id="languageSelect">
+      <select v-model="selected" @change="e => changeLanguage(e.target.value)" class="form-control" id="languageSelect">
         <option v-for="option in options" :value="option.value">{{ option.text }}</option>
       </select>
     </div>
@@ -11,7 +11,7 @@
 
 <script>
   import i18n from '@/i18n'
-  import { bus } from '@/shared/bus'
+  import {mapActions} from 'vuex'
 
   export default {
     name: 'language-switcher',
@@ -24,11 +24,8 @@
         ]
       }
     },
-    methods: {
-      changeLanguage (e) {
-        i18n.locale = e.target.value
-        bus.$emit('language:change')
-      }
-    }
+    methods: mapActions([
+      'changeLanguage'
+    ])
   }
 </script>
