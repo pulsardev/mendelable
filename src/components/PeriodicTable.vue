@@ -1,34 +1,26 @@
 <template>
-  <div class="periodic-table mt-5">
-    <div class="row">
-      <div class="col">
+  <div class="c-periodic-table">
+    <div v-show="Object.keys(selectedElement).length > 0" class="c-information card">
+      <div class="card-block">
+        <div class="row">
+          <element-badge class="col-1" :element="selectedElement"></element-badge>
 
-        <ol class="periodic-table wrapper">
-          <li v-for="element in elements" :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period' class='element' :class="element.symbol && element.symbol.toLowerCase()">
-            <router-link :to="'/element/' + element.symbol" @mouseover.native="showElement(element)" @mouseout.native="hideElement()">
-              <h2>{{ element.name }}</h2><i>{{ element.symbol }}</i>
-            </router-link>
-          </li>
-
-          <li class="element lanthanoid" data-element-group="lanthanoid"></li>
-          <li class="element actinoid" data-element-group="actinoid"></li>
-
-          <div v-if="showInfo" class="information card">
-            <div class="card-block">
-              <div class="row">
-                <element-badge class="col-1" :element="selectedElement"></element-badge>
-
-                <div class="col">
-                  <h4 class="card-title">{{ selectedElement.name }}</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ selectedElement.atomicNumber }}</h6>
-                </div>
-              </div>
-            </div>
+          <div class="col">
+            <h4 class="card-title">{{ selectedElement.name }}</h4>
+            <h6 class="card-subtitle mb-2 text-muted">{{ selectedElement.atomicNumber }}</h6>
           </div>
-        </ol>
-
+        </div>
       </div>
     </div>
+
+    <div v-for="element in elements" :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period' class='element' :class="element.symbol && element.symbol.toLowerCase()">
+      <router-link :to="'/element/' + element.symbol" @mouseover.native="showElement(element)" @mouseout.native="hideElement()">
+        <h2>{{ element.name }}</h2><i>{{ element.symbol }}</i>
+      </router-link>
+    </div>
+
+    <div class="element lanthanoid" data-element-group="lanthanoid"></div>
+    <div class="element actinoid" data-element-group="actinoid"></div>
   </div>
 </template>
 
@@ -41,26 +33,26 @@
     components: {
       ElementBadge
     },
-    computed: mapGetters({
-      elements: 'localizedElements'
-    }),
+    computed: {
+      ...mapGetters({
+        elements: 'localizedElements'
+      }),
+      selectedElement () {
+        return this.elements[this.selectedElementSymbol] || {}
+      }
+    },
     data () {
       return {
         symbol: 'Ti',
         name: 'Titanium',
-        selectedElement: {},
+        selectedElementSymbol: '',
         showInfo: false
       }
     },
     methods: {
       showElement (element) {
         this.showInfo = true
-        this.selectedElement = {
-          symbol: element.symbol,
-          name: element.name,
-          atomicNumber: element.atomicNumber,
-          elementGroup: element.elementGroup
-        }
+        this.selectedElementSymbol = element.symbol
       },
       hideElement () {
         this.showInfo = false
@@ -77,15 +69,13 @@
   $elemont-font-size: 1vw;
   $grid-gutter: 0.25vw;
 
-  .periodic-table.wrapper {
+  .c-periodic-table {
     overflow: auto;
+    margin: -$grid-gutter;
   }
 
-  .information {
-    grid-column-start: 3;
-    grid-column-end: span 10;
-    grid-row-start: 1;
-    grid-row-end: span 3;
+  .c-information {
+    margin: $grid-gutter;
   }
 
   h2 {
@@ -110,32 +100,19 @@
   .element {
     background: $gray-lighter;
     text-align: center;
+    margin: $grid-gutter;
   }
 
-  @supports (not(display: grid)) and (not(display:flex)) {
+  @supports not(display: grid) {
     .element {
       float: left;
-      min-width: 75px;
+      min-width: 3.6vw;
       min-height: $element-height;
-      margin: 3px;
-    }
-  }
-
-  @supports (not(display: grid)) and (display:flex) {
-    .wrapper {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .element {
-      flex-grow: 1;
-      flex-basis: 75px;
-      min-height: $element-height;
-      margin: 3px;
+      margin: $grid-gutter;
     }
 
     .lanthanoid, .actinoid {
-      visibility: hidden;
+      display: none;
     }
   }
 
@@ -240,13 +217,18 @@
   }
 
   @supports (display: grid) {
-    .wrapper {
+    .c-periodic-table {
       display: grid;
-      grid-gap: $grid-gutter;
+      /* grid-gap: $grid-gutter; */
       grid-template-columns: repeat(18, 1fr);
       grid-template-rows: repeat(9, 1fr);
-      max-width: 100%;
-      margin: 1em auto;
+    }
+
+    .c-information {
+      grid-column-start: 3;
+      grid-column-end: span 10;
+      grid-row-start: 1;
+      grid-row-end: span 3;
     }
 
     .actinoid {
