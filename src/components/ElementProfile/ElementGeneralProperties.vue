@@ -17,7 +17,7 @@
       </div>
 
       <div v-if="!preview">
-        <p class="card-text">{{ element }}</p>
+        <highlight :data="element"></highlight>
 
         <bar-chart></bar-chart>
       </div>
@@ -29,12 +29,13 @@
   import ElementBadge from '../ElementBadge'
   import BarChart from '../shared/BarChart'
   import FeaturedValue from './FeaturedValue'
+  import Highlight from '../shared/Highlight'
 
   export default {
     name: 'element-general-properties',
     props: ['element', 'preview'],
     components: {
-      FeaturedValue, BarChart, ElementBadge
+      Highlight, FeaturedValue, BarChart, ElementBadge
     }
   }
 </script>

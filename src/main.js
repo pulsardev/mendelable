@@ -10,6 +10,7 @@ window.$ = window.jQuery = require('jquery')
 window.tether = window.Tether = require('tether')
 require('bootstrap')
 require('font-awesome/css/font-awesome.css')
+require('highlight.js/styles/monokai-sublime.css')
 
 Vue.config.productionTip = false
 
