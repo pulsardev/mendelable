@@ -12,7 +12,13 @@
       </div>
 
       <div class="c-masonry-grid__item">
-        <element-atomic-properties :element="element"></element-atomic-properties>
+        <div class="card">
+          <div v-if="Object.keys(element).length > 0" class="card-block">
+            <h6 class="card-title text-uppercase font-weight-bold"><small>{{ element.name }}</small></h6>
+
+            <radar-chart :element="element"></radar-chart>
+          </div>
+        </div>
       </div>
 
       <div class="c-masonry-grid__item c-masonry-grid__item--width-100">
@@ -28,11 +34,12 @@
   import ElementGeneralProperties from './ElementProfile/ElementGeneralProperties'
   import ElementAtomicProperties from './ElementProfile/ElementAtomicProperties'
   import ElementPhysicalProperties from './ElementProfile/ElementPhysicalProperties'
+  import RadarChart from './shared/RadarChart'
 
   export default {
     name: 'element-profile',
     components: {
-      ElementGeneralProperties, ElementAtomicProperties, ElementPhysicalProperties
+      RadarChart, ElementGeneralProperties, ElementAtomicProperties, ElementPhysicalProperties
     },
     mounted: function () {
       let ctx = this.$refs['c-masonry-grid']
