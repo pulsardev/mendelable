@@ -1,59 +1,51 @@
 @import "../bootstrap/_variables";
 @import "./_variables";
 
-.a-element-badge__container {
-  flex: 0 0 6rem;
-  max-width: 6rem;
+.c-element-badge {
+  height: 6rem;
+  width: 5rem;
+  background-color: $gray-lighter;
+  border-bottom: 0.25rem solid white;
+  color: $gray;
   margin-top: -1.25rem;
 }
 
-.a-element-badge {
-  height: 6rem;
-  width: 5rem;
-  display: inline-block;
-  background-color: $gray-lighter;
-  border-bottom: 0.25rem solid white;
-  line-height: 6rem;
-  text-align: center;
-  color: $gray;
-}
-
-.a-element-badge.non-metal {
+.c-element-badge.non-metal {
   border-bottom: 0.25rem solid $non-metal;
 }
 
-.a-element-badge.halogen {
+.c-element-badge.halogen {
   border-bottom: 0.25rem solid $halogen;
 }
 
-.a-element-badge.metalloid {
+.c-element-badge.metalloid {
   border-bottom: 0.25rem solid $metalloid;
 }
 
-.a-element-badge.metal {
+.c-element-badge.metal {
   border-bottom: 0.25rem solid $metal;
 }
 
-.a-element-badge.alkali-metal {
+.c-element-badge.alkali-metal {
   border-bottom: 0.25rem solid $alkali-metal;
 }
 
-.a-element-badge.alkaline-earth-metal {
+.c-element-badge.alkaline-earth-metal {
   border-bottom: 0.25rem solid $alkaline-earth-metal;
 }
 
-.a-element-badge.transition-metal {
+.c-element-badge.transition-metal {
   border-bottom: 0.25rem solid $transition-metal;
 }
 
-.a-element-badge.noble-gas {
+.c-element-badge.noble-gas {
   border-bottom: 0.25rem solid $noble-gas;
 }
 
-.a-element-badge.lanthanoid {
+.c-element-badge.lanthanoid {
   border-bottom: 0.25rem solid $lanthanoid;
 }
 
-.a-element-badge.actinoid {
+.c-element-badge.actinoid {
   border-bottom: 0.25rem solid $actinoid;
 }

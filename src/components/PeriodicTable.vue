@@ -3,11 +3,12 @@
     <div v-show="Object.keys(selectedElement).length > 0" class="c-information card">
       <div class="card-block">
         <div class="row">
-          <element-badge class="col-1" :element="selectedElement"></element-badge>
-
-          <div class="col">
-            <h4 class="card-title">{{ selectedElement.name }}</h4>
-            <h6 class="card-subtitle mb-2 text-muted">{{ selectedElement.atomicNumber }}</h6>
+          <div class="col d-flex">
+            <element-badge :element="selectedElement"></element-badge>
+            <div class="ml-4">
+              <h4 class="card-title">{{ selectedElement.name }}</h4>
+              <h6 class="card-subtitle mb-2 text-muted">{{ selectedElement.atomicNumber }}</h6>
+            </div>
           </div>
         </div>
       </div>
@@ -15,7 +16,7 @@
 
     <div v-for="element in elements" :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period' class='element' :class="element.symbol && element.symbol.toLowerCase()">
       <router-link :to="'/element/' + element.symbol" @mouseover.native="showElement(element)" @mouseout.native="hideElement()">
-        <h2>{{ element.name }}</h2><i>{{ element.symbol }}</i>
+        <element-definition class="u-aspect-ratio" :element="element" :detailed="true"></element-definition>
       </router-link>
     </div>
 
@@ -27,11 +28,12 @@
 <script>
   import { mapGetters } from 'vuex'
   import ElementBadge from './ElementBadge'
+  import ElementDefinition from './ElementDefinition'
 
   export default {
     name: 'periodic-table',
     components: {
-      ElementBadge
+      ElementDefinition, ElementBadge
     },
     computed: {
       ...mapGetters({
@@ -78,18 +80,6 @@
     margin: $grid-gutter;
   }
 
-  h2 {
-    display: none;
-  }
-
-  i {
-    line-height: $element-height;
-    text-align: center;
-    color: rgba(white, 0.75);
-    font-size: $elemont-font-size;
-    font-style: normal;
-  }
-
   ol, li {
     margin: 0;
     padding: 0;
@@ -97,9 +87,25 @@
     list-style-type: none;
   }
 
+  @mixin aspect-ratio($width, $height) {
+    position: relative;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: ($height / $width) * 100%;
+    }
+    > .u-aspect-ratio {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
   .element {
     background: $gray-lighter;
-    text-align: center;
     margin: $grid-gutter;
   }
 
@@ -123,7 +129,16 @@
 
     a {
       display: block;
+      height: 100%;
+      width: 100%;
+      min-height: 4vw;
+      @include aspect-ratio(5, 6);
     }
+  }
+
+  .c-element-definition {
+    color: white;
+    font-size: $elemont-font-size;
   }
 
   [data-element-group="non-metal"] {
