@@ -1,6 +1,6 @@
 <template>
   <div class="chart">
-    <canvas id="chart" ref="chart" width="400" height="400"></canvas>
+    <canvas id="chart" ref="chart"></canvas>
   </div>
 </template>
 
@@ -40,7 +40,7 @@
           }]
         },
         options: {
-          responsive: false
+          responsive: true
         }
       })
     }

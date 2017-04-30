@@ -1,6 +1,6 @@
 <template>
   <div class="doughnut-chart">
-    <canvas ref="doughnut-chart" width="200" height="200"></canvas>
+    <canvas ref="doughnut-chart"></canvas>
   </div>
 </template>
 
@@ -38,7 +38,7 @@
             }]
         },
         options: {
-          responsive: false
+          responsive: true
         }
       })
     }
