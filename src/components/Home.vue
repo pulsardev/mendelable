@@ -20,7 +20,7 @@
         <h3 class="mb-5">{{ msg }}</h3>
         <form>
           <div class="form-group">
-            <input type="text" class="form-control" id="searchInput" placeholder="Search">
+            <input type="text" class="form-control" id="searchInput" :placeholder="$t('general.search')">
           </div>
         </form>
       </div>
@@ -30,7 +30,7 @@
 
     <!-- Sidebar -->
     <div class="col-sm-2 bg-faded px-4 py-5">
-      <h3>Information</h3>
+      <h3>{{ $t("sidebar.title") }}</h3>
       <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
 
       <language-switcher></language-switcher>

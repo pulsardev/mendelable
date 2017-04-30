@@ -1,5 +1,9 @@
 {
+  "general": {
+    "search": "Rechercher"
+  },
   "sidebar": {
+    "title": "Informations",
     "subtitle": "À propos de l'élément sélectionné"
   },
   "language": {

@@ -1,5 +1,9 @@
 {
+  "general": {
+    "search": "Search"
+  },
   "sidebar": {
+    "title": "Information",
     "subtitle": "About the selected element"
   },
   "language": {

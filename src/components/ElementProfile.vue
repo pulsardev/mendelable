@@ -1,15 +1,21 @@
 <template>
-  <div class="element-profile row no-gutters d-flex align-content-stretch flex-wrap">
-    <div class="col-md-8 pr-3">
-      <element-general-properties :element="element"></element-general-properties>
+  <div class="c-element-profile">
+    <div class="row no-gutters">
+      <div class="col-md-8">
+        <element-general-properties :element="element"></element-general-properties>
+      </div>
+
+      <div class="col-md-4">
+        <element-atomic-properties :element="element"></element-atomic-properties>
+        <element-atomic-properties :element="element"></element-atomic-properties>
+        <element-atomic-properties :element="element"></element-atomic-properties>
+      </div>
     </div>
 
-    <div class="col-md-4">
-      <element-atomic-properties :element="element"></element-atomic-properties>
-    </div>
-
-    <div class="col-md-12 pt-3">
-      <element-physical-properties :element="element"></element-physical-properties>
+    <div class="row no-gutters">
+      <div class="col">
+        <element-physical-properties :element="element"></element-physical-properties>
+      </div>
     </div>
   </div>
 </template>
@@ -42,7 +48,11 @@
 </script>
 
 <style scoped>
-  .card-title {
-    text-transform: capitalize;
+  .c-element-profile {
+    margin: -0.25vw;
+  }
+
+  .c-element-profile .card {
+    margin: 0.25vw;
   }
 </style>
