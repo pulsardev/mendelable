@@ -15,13 +15,12 @@
 
 <script>
   import ElementBadge from '../ElementBadge'
-  import Chart from '../shared/Chart'
 
   export default {
     name: 'element-physical-properties',
     props: ['element'],
     components: {
-      Chart, ElementBadge
+      ElementBadge
     }
   }
 </script>

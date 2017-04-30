@@ -8,7 +8,7 @@
   import Chart from 'chart.js'
 
   export default {
-    name: 'chart',
+    name: 'bar-chart',
     mounted: function () {
       let ctx = this.$refs.chart
 

@@ -17,14 +17,13 @@
 
 <script>
   import ElementBadge from '../ElementBadge'
-  import Chart from '../shared/Chart'
   import DoughnutChart from '../shared/DoughnutChart'
 
   export default {
     name: 'element-atomic-properties',
     props: ['element'],
     components: {
-      DoughnutChart, Chart, ElementBadge
+      DoughnutChart, ElementBadge
     }
   }
 </script>
