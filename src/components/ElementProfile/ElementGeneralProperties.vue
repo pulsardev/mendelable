@@ -6,7 +6,7 @@
           <element-badge :element="element"></element-badge>
           <div class="ml-4">
             <h4 class="card-title">{{ element.name }}</h4>
-            <h6 class="card-subtitle mb-2 text-muted">{{ element.atomicNumber }}</h6>
+            <h6 class="card-subtitle mb-2 text-muted">{{ $t("element.group." + element.elementGroup) }}</h6>
           </div>
         </div>
       </div>

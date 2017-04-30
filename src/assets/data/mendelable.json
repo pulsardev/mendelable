@@ -402,7 +402,7 @@
       "discoveryDate": "1766",
       "electronConfiguration": "1s",
       "electronegativity": "2,20",
-      "electronsPerShell": "1",
+      "electronsPerShell": [1],
       "elementGroup": "non-metal",
       "heatOfFusion": "0.117",
       "heatOfVaporization": "0,3904",
@@ -432,7 +432,7 @@
       "density": "0.1786",
       "electronConfiguration": "1s",
       "electronegativity": "",
-      "electronsPerShell": "2",
+      "electronsPerShell": [2],
       "elementGroup": "noble-gas",
       "heatOfFusion": "0.0138",
       "heatOfVaporization": "0.0829",
@@ -540,7 +540,7 @@
       "density": "0.534",
       "electronConfiguration": "2s",
       "electronegativity": "0.98",
-      "electronsPerShell": "2, 1",
+      "electronsPerShell": [2, 1],
       "elementGroup": "alkali-metal",
       "heatOfFusion": "3.00",
       "heatOfVaporization": "136",
@@ -858,7 +858,8 @@
       "group": 3,
       "name": "Scandium",
       "period": 4,
-      "symbol": "Sc"
+      "symbol": "Sc",
+      "electronsPerShell": [2, 8, 9, 2]
     },
     "Se": {
       "atomicNumber": 34,

@@ -11,6 +11,18 @@
   },
   "element": {
     "atomicNumber": "Atomic number",
-    "weight": "Weight"
+    "weight": "Weight",
+    "group": {
+      "non-metal": "Nonmetals",
+      "halogen": "Halogens",
+      "metalloid": "Metalloids",
+      "metal": "Metals",
+      "alkali-metal": "Alkali metals",
+      "alkaline-earth-metal": "Alkaline earth metals",
+      "transition-metal": "Transition metals",
+      "noble-gas": "Noble gases",
+      "lanthanoid": "Lanthanoids",
+      "actinoid": "Actinoids"
+    }
   }
 }
