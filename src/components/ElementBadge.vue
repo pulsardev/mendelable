@@ -21,6 +21,7 @@
 
   .c-element-definition {
     color: black;
+    line-height: 1;
     font-size: $font-size-h2;
   }
 </style>

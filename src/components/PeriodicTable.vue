@@ -1,18 +1,6 @@
 <template>
   <div class="c-periodic-table">
-    <div v-show="Object.keys(selectedElement).length > 0" class="c-information card">
-      <div class="card-block">
-        <div class="row">
-          <div class="col d-flex">
-            <element-badge :element="selectedElement"></element-badge>
-            <div class="ml-4">
-              <h4 class="card-title">{{ selectedElement.name }}</h4>
-              <h6 class="card-subtitle mb-2 text-muted">{{ selectedElement.atomicNumber }}</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <element-general-properties v-show="Object.keys(selectedElement).length > 0" class="c-information" :element="selectedElement" :preview="true"></element-general-properties>
 
     <div v-for="element in elements" :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period' class='element' :class="element.symbol && element.symbol.toLowerCase()">
       <router-link :to="'/element/' + element.symbol" @mouseover.native="showElement(element)" @mouseout.native="hideElement()">
@@ -29,11 +17,12 @@
   import { mapGetters } from 'vuex'
   import ElementBadge from './ElementBadge'
   import ElementDefinition from './ElementDefinition'
+  import ElementGeneralProperties from './ElementProfile/ElementGeneralProperties'
 
   export default {
     name: 'periodic-table',
     components: {
-      ElementDefinition, ElementBadge
+      ElementGeneralProperties, ElementDefinition, ElementBadge
     },
     computed: {
       ...mapGetters({
@@ -78,6 +67,8 @@
 
   .c-information {
     margin: $grid-gutter;
+    overflow: hidden;
+    max-height: 13.75vw;
   }
 
   ol, li {
@@ -85,23 +76,6 @@
     padding: 0;
     float: none;
     list-style-type: none;
-  }
-
-  @mixin aspect-ratio($width, $height) {
-    position: relative;
-    &:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: ($height / $width) * 100%;
-    }
-    > .u-aspect-ratio {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
   }
 
   .element {
@@ -132,7 +106,6 @@
       height: 100%;
       width: 100%;
       min-height: 4vw;
-      @include aspect-ratio(5, 6);
     }
   }
 
@@ -235,7 +208,7 @@
     .c-periodic-table {
       display: grid;
       /* grid-gap: $grid-gutter; */
-      grid-template-columns: repeat(18, 1fr);
+      grid-template-columns: repeat(18, calc(100% / 18));
       grid-template-rows: repeat(9, 1fr);
     }
 

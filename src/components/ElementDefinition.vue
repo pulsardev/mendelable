@@ -28,7 +28,6 @@
     min-height: 100%;
     margin: 0;
     padding: $grid-gutter;
-    line-height: 1.15;
     /* color: rgba($color, 0.25); */
     /* font-size: $elemont-font-size; */
 

@@ -12,13 +12,15 @@
       </div>
 
       <div class="row">
-        <featured-value :value="element.atomicNumber" title="atomicNumber" class="col-md-6 mt-4"></featured-value>
-        <featured-value :value="element.weight" title="weight" class="col-md-6 mt-4"></featured-value>
+        <featured-value :value="element.weight" title="weight" :element="element" :colored="true" class="col-md-6 mt-4"></featured-value>
+        <featured-value :value="element.atomicNumber" title="atomicNumber" :element="element" :colored="true" class="col-md-6 mt-4"></featured-value>
       </div>
 
-      <p class="card-text">{{ element }}</p>
+      <div v-if="!preview">
+        <p class="card-text">{{ element }}</p>
 
-      <chart></chart>
+        <chart></chart>
+      </div>
     </div>
   </div>
 </template>
@@ -30,7 +32,7 @@
 
   export default {
     name: 'element-general-properties',
-    props: ['element'],
+    props: ['element', 'preview'],
     components: {
       FeaturedValue, Chart, ElementBadge
     }
