@@ -11,6 +11,7 @@
   },
   "element": {
     "atomicNumber": "Numéro atomique",
+    "electronsPerShell": "Électrons par couche",
     "weight": "Masse",
     "group": {
       "non-metal": "Non-métaux",

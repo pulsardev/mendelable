@@ -1,16 +1,11 @@
 <template>
-  <div class="element-atomic-properties card">
+  <div v-if="element.electronsPerShell && Array.isArray(element.electronsPerShell)" class="element-atomic-properties card">
     <div v-if="Object.keys(element).length > 0" class="card-block">
-      <div class="row">
-        <div class="col">
-          <h4 class="card-title">{{ element.name }}</h4>
-          <h6 class="card-subtitle mb-2 text-muted">{{ element.atomicNumber }}</h6>
-        </div>
-      </div>
+      <h6 class="card-title text-uppercase font-weight-bold">
+        <small>{{ $t("element.electronsPerShell") }}</small>
+      </h6>
 
-      <p class="card-text">Atomic properties.</p>
-
-      <doughnut-chart></doughnut-chart>
+      <doughnut-chart :element="element"></doughnut-chart>
     </div>
   </div>
 </template>
@@ -27,9 +22,3 @@
     }
   }
 </script>
-
-<style scoped>
-  .card-title {
-    text-transform: capitalize;
-  }
-</style>
