@@ -1,6 +1,6 @@
 <template>
-  <div class="chart">
-    <canvas id="chart" ref="chart"></canvas>
+  <div class="c-chart">
+    <canvas ref="c-chart"></canvas>
   </div>
 </template>
 
@@ -9,38 +9,65 @@
 
   export default {
     name: 'bar-chart',
+    props: ['element'],
     mounted: function () {
-      let ctx = this.$refs.chart
+      let data = []
+      // TODO: the way we convert from Celsius to Kelvin is temporary, we should use a Vue.filter instead
+      data.push(Math.round(this.element.boilingPoint['°C'] + 273.15))
+      data.push(Math.round(this.element.meltingPoint['°C'] + 273.15))
+
+      let ctx = this.$refs['c-chart']
 
       // eslint-disable-next-line no-new
       new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          labels: [this.$t('element.boilingPoint'), this.$t('element.meltingPoint')],
           datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: this.$t('general.temperature') + ' (°K)',
+            data: data,
             backgroundColor: [
-              'rgba(255, 99, 132, 0.2)',
-              'rgba(54, 162, 235, 0.2)',
-              'rgba(255, 206, 86, 0.2)',
-              'rgba(75, 192, 192, 0.2)',
-              'rgba(153, 102, 255, 0.2)',
-              'rgba(255, 159, 64, 0.2)'
+              'rgba(244, 67, 54, 1)',
+              'rgba(239, 187, 49, 1)'
             ],
-            borderColor: [
-              'rgba(255,99,132,1)',
-              'rgba(54, 162, 235, 1)',
-              'rgba(255, 206, 86, 1)',
-              'rgba(75, 192, 192, 1)',
-              'rgba(153, 102, 255, 1)',
-              'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
+            borderWidth: 0
           }]
         },
         options: {
-          responsive: true
+          responsive: true,
+          scales: {
+            xAxes: [{
+              barThickness: 5,
+              gridLines: {
+                display: false,
+                drawBorder: false
+              },
+              ticks: {
+                fontColor: 'white'
+              }
+            }],
+            yAxes: [{
+              scaleLabel: {
+                fontColor: 'white'
+              },
+              gridLines: {
+                color: 'rgba(255,255,255,0.05)',
+                drawBorder: false
+              },
+              ticks: {
+                beginAtZero: true,
+                padding: 16
+              }
+            }]
+          },
+          legend: {
+            display: false,
+            labels: {
+              fontColor: 'white',
+              boxWidth: 0
+            },
+            position: 'bottom'
+          }
         }
       })
     }

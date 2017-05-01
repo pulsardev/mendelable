@@ -390,9 +390,7 @@
       "atomicNumber": 1,
       "atomicRay": "25",
       "boilingPoint": {
-        "C": "-252,879",
-        "F": "-423,182",
-        "K": "20,271"
+        "°C": -252.879
       },
       "covalanceRay": "31",
       "criticalPoint": "32,938",
@@ -408,9 +406,7 @@
       "heatOfVaporization": "0,3904",
       "ionisationEnergy": "13,598443",
       "meltingPoint": {
-        "C": "-259,16",
-        "F": "-434,49",
-        "K": "13,99"
+        "°C": -259.16
       },
       "molarHeatCapacity": "28,836",
       "name": "Hydrogen",
