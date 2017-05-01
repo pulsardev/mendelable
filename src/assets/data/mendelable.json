@@ -1,6 +1,7 @@
 {
   "default": {
     "Ac": {
+      "atomicMass": 227,
       "atomicNumber": 89,
       "ionizationEnergy": 5.17,
       "elementGroup": "actinoid",
@@ -10,6 +11,7 @@
       "symbol": "Ac"
     },
     "Ag": {
+      "atomicMass": 107.8682,
       "atomicNumber": 47,
       "ionizationEnergy": 7.5762,
       "elementGroup": "transition-metal",
@@ -19,6 +21,7 @@
       "symbol": "Ag"
     },
     "Al": {
+      "atomicMass": 26.9815,
       "atomicNumber": 13,
       "ionizationEnergy": 5.9858,
       "elementGroup": "metal",
@@ -28,6 +31,7 @@
       "symbol": "Al"
     },
     "Am": {
+      "atomicMass": 243,
       "atomicNumber": 95,
       "ionizationEnergy": 5.9738,
       "elementGroup": "actinoid",
@@ -37,6 +41,7 @@
       "symbol": "Am"
     },
     "Ar": {
+      "atomicMass": 39.948,
       "atomicNumber": 18,
       "ionizationEnergy": 15.7596,
       "elementGroup": "noble-gas",
@@ -46,6 +51,7 @@
       "symbol": "Ar"
     },
     "As": {
+      "atomicMass": 74.9216,
       "atomicNumber": 33,
       "ionizationEnergy": 9.7886,
       "elementGroup": "metalloid",
@@ -55,6 +61,7 @@
       "symbol": "As"
     },
     "At": {
+      "atomicMass": 210,
       "atomicNumber": 85,
       "ionizationEnergy": 9.3,
       "elementGroup": "halogen",
@@ -64,6 +71,7 @@
       "symbol": "At"
     },
     "Au": {
+      "atomicMass": 196.9665,
       "atomicNumber": 79,
       "ionizationEnergy": 9.2255,
       "elementGroup": "transition-metal",
@@ -73,6 +81,7 @@
       "symbol": "Au"
     },
     "B": {
+      "atomicMass": 10.811,
       "atomicNumber": 5,
       "ionizationEnergy": 8.298,
       "boilingPoint": {
@@ -102,6 +111,7 @@
       "triplePoint": ""
     },
     "Ba": {
+      "atomicMass": 0,
       "atomicNumber": 56,
       "ionizationEnergy": 5.2117,
       "elementGroup": "alkaline-earth-metal",
@@ -111,6 +121,7 @@
       "symbol": "Ba"
     },
     "Be": {
+      "atomicMass": 0,
       "atomicNumber": 4,
       "ionizationEnergy": 9.3227,
       "boilingPoint": {
@@ -140,6 +151,7 @@
       "triplePoint": ""
     },
     "Bh": {
+      "atomicMass": 264,
       "atomicNumber": 107,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -149,6 +161,7 @@
       "symbol": "Bh"
     },
     "Bi": {
+      "atomicMass": 208.9804,
       "atomicNumber": 83,
       "ionizationEnergy": 7.2856,
       "elementGroup": "metal",
@@ -158,6 +171,7 @@
       "symbol": "Bi"
     },
     "Bk": {
+      "atomicMass": 247,
       "atomicNumber": 97,
       "ionizationEnergy": 6.1979,
       "elementGroup": "actinoid",
@@ -167,6 +181,7 @@
       "symbol": "Bk"
     },
     "Br": {
+      "atomicMass": 79.904,
       "atomicNumber": 35,
       "ionizationEnergy": 11.8138,
       "elementGroup": "halogen",
@@ -176,6 +191,7 @@
       "symbol": "Br"
     },
     "C": {
+      "atomicMass": 12.0107,
       "atomicNumber": 6,
       "ionizationEnergy": 11.2603,
       "criticalPoint": "",
@@ -203,6 +219,7 @@
       "triplePoint": ""
     },
     "Ca": {
+      "atomicMass": 40.078,
       "atomicNumber": 20,
       "ionizationEnergy": 6.1132,
       "elementGroup": "alkaline-earth-metal",
@@ -212,6 +229,7 @@
       "symbol": "Ca"
     },
     "Cd": {
+      "atomicMass": 112.411,
       "atomicNumber": 48,
       "ionizationEnergy": 8.9938,
       "elementGroup": "transition-metal",
@@ -221,6 +239,7 @@
       "symbol": "Cd"
     },
     "Ce": {
+      "atomicMass": 140.116,
       "atomicNumber": 58,
       "ionizationEnergy": 5.5387,
       "elementGroup": "lanthanoid",
@@ -230,6 +249,7 @@
       "symbol": "Ce"
     },
     "Cf": {
+      "atomicMass": 251,
       "atomicNumber": 98,
       "ionizationEnergy": 6.2817,
       "elementGroup": "actinoid",
@@ -239,6 +259,7 @@
       "symbol": "Cf"
     },
     "Cl": {
+      "atomicMass": 35.453,
       "atomicNumber": 17,
       "ionizationEnergy": 12.9676,
       "elementGroup": "halogen",
@@ -248,6 +269,7 @@
       "symbol": "Cl"
     },
     "Cm": {
+      "atomicMass": 247,
       "atomicNumber": 96,
       "ionizationEnergy": 5.9915,
       "elementGroup": "actinoid",
@@ -257,6 +279,7 @@
       "symbol": "Cm"
     },
     "Cn": {
+      "atomicMass": 285,
       "atomicNumber": 112,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -266,6 +289,7 @@
       "symbol": "Cn"
     },
     "Co": {
+      "atomicMass": 58.9332,
       "atomicNumber": 27,
       "ionizationEnergy": 7.881,
       "elementGroup": "transition-metal",
@@ -275,6 +299,7 @@
       "symbol": "Co"
     },
     "Cr": {
+      "atomicMass": 51.9961,
       "atomicNumber": 24,
       "ionizationEnergy": 6.7665,
       "elementGroup": "transition-metal",
@@ -284,6 +309,7 @@
       "symbol": "Cr"
     },
     "Cs": {
+      "atomicMass": 132.9055,
       "atomicNumber": 55,
       "ionizationEnergy": 3.8939,
       "elementGroup": "alkali-metal",
@@ -293,6 +319,7 @@
       "symbol": "Cs"
     },
     "Cu": {
+      "atomicMass": 63.546,
       "atomicNumber": 29,
       "ionizationEnergy": 7.7264,
       "elementGroup": "transition-metal",
@@ -302,6 +329,7 @@
       "symbol": "Cu"
     },
     "Db": {
+      "atomicMass": 262,
       "atomicNumber": 105,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -311,6 +339,7 @@
       "symbol": "Db"
     },
     "Ds": {
+      "atomicMass": 108,
       "atomicNumber": 110,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -320,6 +349,7 @@
       "symbol": "Ds"
     },
     "Dy": {
+      "atomicMass": 162.5,
       "atomicNumber": 66,
       "ionizationEnergy": 5.9389,
       "elementGroup": "lanthanoid",
@@ -329,6 +359,7 @@
       "symbol": "Dy"
     },
     "Er": {
+      "atomicMass": 167.259,
       "atomicNumber": 68,
       "ionizationEnergy": 6.1077,
       "elementGroup": "lanthanoid",
@@ -338,6 +369,7 @@
       "symbol": "Er"
     },
     "Es": {
+      "atomicMass": 252,
       "atomicNumber": 99,
       "ionizationEnergy": 6.42,
       "elementGroup": "actinoid",
@@ -347,6 +379,7 @@
       "symbol": "Es"
     },
     "Eu": {
+      "atomicMass": 151.964,
       "atomicNumber": 63,
       "ionizationEnergy": 5.6704,
       "elementGroup": "lanthanoid",
@@ -356,6 +389,7 @@
       "symbol": "Eu"
     },
     "F": {
+      "atomicMass": 18.9984,
       "atomicNumber": 9,
       "ionizationEnergy": 17.4228,
       "elementGroup": "halogen",
@@ -365,6 +399,7 @@
       "symbol": "F"
     },
     "Fe": {
+      "atomicMass": 55.845,
       "atomicNumber": 26,
       "ionizationEnergy": 7.9024,
       "elementGroup": "transition-metal",
@@ -374,6 +409,7 @@
       "symbol": "Fe"
     },
     "Fl": {
+      "atomicMass": 289,
       "atomicNumber": 114,
       "ionizationEnergy": 0,
       "elementGroup": "metal",
@@ -383,6 +419,7 @@
       "symbol": "Fl"
     },
     "Fm": {
+      "atomicMass": 257,
       "atomicNumber": 100,
       "ionizationEnergy": 6.5,
       "elementGroup": "actinoid",
@@ -392,6 +429,7 @@
       "symbol": "Fm"
     },
     "Fr": {
+      "atomicMass": 223,
       "atomicNumber": 87,
       "ionizationEnergy": 4.0727,
       "elementGroup": "alkali-metal",
@@ -401,6 +439,7 @@
       "symbol": "Fr"
     },
     "Ga": {
+      "atomicMass": 69.723,
       "atomicNumber": 31,
       "ionizationEnergy": 5.9993,
       "elementGroup": "metal",
@@ -410,6 +449,7 @@
       "symbol": "Ga"
     },
     "Gd": {
+      "atomicMass": 157.25,
       "atomicNumber": 64,
       "ionizationEnergy": 6.1501,
       "elementGroup": "lanthanoid",
@@ -419,6 +459,7 @@
       "symbol": "Gd"
     },
     "Ge": {
+      "atomicMass": 72.64,
       "atomicNumber": 32,
       "ionizationEnergy": 7.8994,
       "elementGroup": "metalloid",
@@ -428,6 +469,7 @@
       "symbol": "Ge"
     },
     "H": {
+      "atomicMass": 1.0079,
       "atomicNumber": 1,
       "ionizationEnergy": 13.5984,
       "atomicRay": "25",
@@ -463,6 +505,7 @@
       "weight": "1,00794"
     },
     "He": {
+      "atomicMass": 4.0026,
       "atomicNumber": 2,
       "ionizationEnergy": 24.5874,
       "boilingPoint": {
@@ -492,6 +535,7 @@
       "triplePoint": "2.177"
     },
     "Hf": {
+      "atomicMass": 178.49,
       "atomicNumber": 72,
       "ionizationEnergy": 6.8251,
       "elementGroup": "transition-metal",
@@ -501,6 +545,7 @@
       "symbol": "Hf"
     },
     "Hg": {
+      "atomicMass": 200.59,
       "atomicNumber": 80,
       "ionizationEnergy": 10.4375,
       "elementGroup": "transition-metal",
@@ -510,6 +555,7 @@
       "symbol": "Hg"
     },
     "Ho": {
+      "atomicMass": 164.9303,
       "atomicNumber": 67,
       "ionizationEnergy": 6.0215,
       "elementGroup": "lanthanoid",
@@ -519,6 +565,7 @@
       "symbol": "Ho"
     },
     "Hs": {
+      "atomicMass": 277,
       "atomicNumber": 108,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -528,6 +575,7 @@
       "symbol": "Hs"
     },
     "I": {
+      "atomicMass": 126.9045,
       "atomicNumber": 53,
       "ionizationEnergy": 10.4513,
       "elementGroup": "halogen",
@@ -537,6 +585,7 @@
       "symbol": "I"
     },
     "In": {
+      "atomicMass": 114.818,
       "atomicNumber": 49,
       "ionizationEnergy": 5.7864,
       "elementGroup": "metal",
@@ -546,6 +595,7 @@
       "symbol": "In"
     },
     "Ir": {
+      "atomicMass": 192.217,
       "atomicNumber": 77,
       "ionizationEnergy": 8.967,
       "elementGroup": "transition-metal",
@@ -555,6 +605,7 @@
       "symbol": "Ir"
     },
     "K": {
+      "atomicMass": 39.0983,
       "atomicNumber": 19,
       "ionizationEnergy": 4.3407,
       "elementGroup": "alkali-metal",
@@ -564,6 +615,7 @@
       "symbol": "K"
     },
     "Kr": {
+      "atomicMass": 83.8,
       "atomicNumber": 36,
       "ionizationEnergy": 13.9996,
       "elementGroup": "noble-gas",
@@ -573,6 +625,7 @@
       "symbol": "Kr"
     },
     "La": {
+      "atomicMass":  138.9055,
       "atomicNumber": 57,
       "ionizationEnergy": 	5.5769,
       "elementGroup": "lanthanoid",
@@ -582,6 +635,7 @@
       "symbol": "La"
     },
     "Li": {
+      "atomicMass": 6.941,
       "atomicNumber": 3,
       "ionizationEnergy": 5.3917,
       "boilingPoint": {
@@ -611,6 +665,7 @@
       "triplePoint": ""
     },
     "Lr": {
+      "atomicMass": 262,
       "atomicNumber": 103,
       "ionizationEnergy": 4.9,
       "elementGroup": "actinoid",
@@ -620,6 +675,7 @@
       "symbol": "Lr"
     },
     "Lu": {
+      "atomicMass": 174.967,
       "atomicNumber": 71,
       "ionizationEnergy": 5.4259,
       "elementGroup": "lanthanoid",
@@ -629,6 +685,7 @@
       "symbol": "Lu"
     },
     "Lv": {
+      "atomicMass": 293,
       "atomicNumber": 116,
       "ionizationEnergy": 0,
       "elementGroup": "metal",
@@ -638,6 +695,7 @@
       "symbol": "Lv"
     },
     "Md": {
+      "atomicMass": 258,
       "atomicNumber": 101,
       "ionizationEnergy": 6.58,
       "elementGroup": "actinoid",
@@ -647,6 +705,7 @@
       "symbol": "Md"
     },
     "Mg": {
+      "atomicMass": 24.305,
       "atomicNumber": 12,
       "ionizationEnergy": 7.6462,
       "elementGroup": "alkaline-earth-metal",
@@ -656,6 +715,7 @@
       "symbol": "Mg"
     },
     "Mn": {
+      "atomicMass": 54.938,
       "atomicNumber": 25,
       "ionizationEnergy": 7.434,
       "elementGroup": "transition-metal",
@@ -665,6 +725,7 @@
       "symbol": "Mn"
     },
     "Mo": {
+      "atomicMass": 95.94,
       "atomicNumber": 42,
       "ionizationEnergy": 7.0924,
       "elementGroup": "transition-metal",
@@ -674,6 +735,7 @@
       "symbol": "Mo"
     },
     "Mt": {
+      "atomicMass": 268,
       "atomicNumber": 109,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -683,6 +745,7 @@
       "symbol": "Mt"
     },
     "N": {
+      "atomicMass": 14.0067,
       "atomicNumber": 7,
       "ionizationEnergy": 14.5341,
       "elementGroup": "non-metal",
@@ -692,6 +755,7 @@
       "symbol": "N"
     },
     "Na": {
+      "atomicMass": 22.9897,
       "atomicNumber": 11,
       "ionizationEnergy": 5.1391,
       "elementGroup": "alkali-metal",
@@ -701,6 +765,7 @@
       "symbol": "Na"
     },
     "Nb": {
+      "atomicMass": 92.9064,
       "atomicNumber": 41,
       "ionizationEnergy": 6.7589,
       "elementGroup": "transition-metal",
@@ -710,6 +775,7 @@
       "symbol": "Nb"
     },
     "Nd": {
+      "atomicMass": 144.24,
       "atomicNumber": 60,
       "ionizationEnergy": 5.525,
       "elementGroup": "lanthanoid",
@@ -719,6 +785,7 @@
       "symbol": "Nd"
     },
     "Ne": {
+      "atomicMass": 20.1797,
       "atomicNumber": 10,
       "ionizationEnergy": 6.2657,
       "elementGroup": "noble-gas",
@@ -728,6 +795,7 @@
       "symbol": "Ne"
     },
     "Ni": {
+      "atomicMass": 58.6934,
       "atomicNumber": 28,
       "ionizationEnergy": 7.6398,
       "elementGroup": "transition-metal",
@@ -737,6 +805,7 @@
       "symbol": "Ni"
     },
     "No": {
+      "atomicMass": 259,
       "atomicNumber": 102,
       "ionizationEnergy": 6.65,
       "elementGroup": "actinoid",
@@ -746,6 +815,7 @@
       "symbol": "No"
     },
     "Np": {
+      "atomicMass": 237,
       "atomicNumber": 93,
       "ionizationEnergy": 6.2657,
       "elementGroup": "actinoid",
@@ -755,6 +825,7 @@
       "symbol": "Np"
     },
     "O": {
+      "atomicMass": 15.9994,
       "atomicNumber": 8,
       "ionizationEnergy": 13.6181,
       "elementGroup": "non-metal",
@@ -764,6 +835,7 @@
       "symbol": "O"
     },
     "Os": {
+      "atomicMass": 190.23,
       "atomicNumber": 76,
       "ionizationEnergy": 8.4382,
       "elementGroup": "transition-metal",
@@ -773,6 +845,7 @@
       "symbol": "Os"
     },
     "P": {
+      "atomicMass": 30.9738,
       "atomicNumber": 15,
       "ionizationEnergy": 10.4867,
       "elementGroup": "non-metal",
@@ -782,6 +855,7 @@
       "symbol": "P"
     },
     "Pa": {
+      "atomicMass": 106.42,
       "atomicNumber": 91,
       "ionizationEnergy": 5.89,
       "elementGroup": "actinoid",
@@ -791,6 +865,7 @@
       "symbol": "Pa"
     },
     "Pb": {
+      "atomicMass": 207.2,
       "atomicNumber": 82,
       "ionizationEnergy": 7.4167,
       "elementGroup": "metal",
@@ -800,6 +875,7 @@
       "symbol": "Pb"
     },
     "Pd": {
+      "atomicMass": 106.42,
       "atomicNumber": 46,
       "ionizationEnergy": 8.3369,
       "elementGroup": "transition-metal",
@@ -809,6 +885,7 @@
       "symbol": "Pd"
     },
     "Pm": {
+      "atomicMass": 145,
       "atomicNumber": 61,
       "ionizationEnergy": 5.582,
       "elementGroup": "lanthanoid",
@@ -818,6 +895,7 @@
       "symbol": "Pm"
     },
     "Po": {
+      "atomicMass": 209,
       "atomicNumber": 84,
       "ionizationEnergy": 8.417,
       "elementGroup": "metalloid",
@@ -827,6 +905,7 @@
       "symbol": "Po"
     },
     "Pr": {
+      "atomicMass": 140.9077,
       "atomicNumber": 59,
       "ionizationEnergy": 5.473,
       "elementGroup": "lanthanoid",
@@ -836,6 +915,7 @@
       "symbol": "Pr"
     },
     "Pt": {
+      "atomicMass": 195.078,
       "atomicNumber": 78,
       "ionizationEnergy": 8.9587,
       "elementGroup": "transition-metal",
@@ -845,6 +925,7 @@
       "symbol": "Pt"
     },
     "Pu": {
+      "atomicMass": 244,
       "atomicNumber": 94,
       "ionizationEnergy": 6.0262,
       "elementGroup": "actinoid",
@@ -854,6 +935,7 @@
       "symbol": "Pu"
     },
     "Ra": {
+      "atomicMass": 226,
       "atomicNumber": 88,
       "ionizationEnergy": 5.2784,
       "elementGroup": "alkaline-earth-metal",
@@ -863,6 +945,7 @@
       "symbol": "Ra"
     },
     "Rb": {
+      "atomicMass": 85.4678,
       "atomicNumber": 37,
       "ionizationEnergy": 4.1771,
       "elementGroup": "alkali-metal",
@@ -872,6 +955,7 @@
       "symbol": "Rb"
     },
     "Re": {
+      "atomicMass": 186.207,
       "atomicNumber": 75,
       "ionizationEnergy": 7.8335,
       "elementGroup": "transition-metal",
@@ -881,6 +965,7 @@
       "symbol": "Re"
     },
     "Rf": {
+      "atomicMass": 261,
       "atomicNumber": 104,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -890,6 +975,7 @@
       "symbol": "Rf"
     },
     "Rg": {
+      "atomicMass": 282,
       "atomicNumber": 111,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -899,6 +985,7 @@
       "symbol": "Rg"
     },
     "Rh": {
+      "atomicMass": 102.9055,
       "atomicNumber": 45,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -908,6 +995,7 @@
       "symbol": "Rh"
     },
     "Rn": {
+      "atomicMass": 222,
       "atomicNumber": 86,
       "ionizationEnergy": 10.7485,
       "elementGroup": "noble-gas",
@@ -917,6 +1005,7 @@
       "symbol": "Rn"
     },
     "Ru": {
+      "atomicMass": 101.07,
       "atomicNumber": 44,
       "ionizationEnergy": 7.3605,
       "elementGroup": "transition-metal",
@@ -926,6 +1015,7 @@
       "symbol": "Ru"
     },
     "S": {
+      "atomicMass": 32.065,
       "atomicNumber": 16,
       "ionizationEnergy": 10.36,
       "elementGroup": "non-metal",
@@ -935,6 +1025,7 @@
       "symbol": "S"
     },
     "Sb": {
+      "atomicMass": 121.76,
       "atomicNumber": 51,
       "ionizationEnergy": 8.6084,
       "elementGroup": "metalloid",
@@ -944,6 +1035,7 @@
       "symbol": "Sb"
     },
     "Sc": {
+      "atomicMass": 0,
       "atomicNumber": 21,
       "ionizationEnergy": 6.5615,
       "elementGroup": "transition-metal",
@@ -954,6 +1046,7 @@
       "electronsPerShell": [2, 8, 9, 2]
     },
     "Se": {
+      "atomicMass": 44.9559,
       "atomicNumber": 34,
       "ionizationEnergy": 9.7524,
       "elementGroup": "non-metal",
@@ -963,6 +1056,7 @@
       "symbol": "Se"
     },
     "Sg": {
+      "atomicMass": 266,
       "atomicNumber": 106,
       "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
@@ -972,6 +1066,7 @@
       "symbol": "Sg"
     },
     "Si": {
+      "atomicMass": 28.0855,
       "atomicNumber": 14,
       "ionizationEnergy": 8.1517,
       "elementGroup": "metalloid",
@@ -981,6 +1076,7 @@
       "symbol": "Si"
     },
     "Sm": {
+      "atomicMass": 150.36,
       "atomicNumber": 62,
       "ionizationEnergy": 5.6437,
       "elementGroup": "lanthanoid",
@@ -990,6 +1086,7 @@
       "symbol": "Sm"
     },
     "Sn": {
+      "atomicMass": 118.71,
       "atomicNumber": 50,
       "ionizationEnergy": 7.3439,
       "elementGroup": "metal",
@@ -999,6 +1096,7 @@
       "symbol": "Sn"
     },
     "Sr": {
+      "atomicMass": 87.62,
       "atomicNumber": 38,
       "ionizationEnergy": 5.694,
       "elementGroup": "alkaline-earth-metal",
@@ -1008,6 +1106,7 @@
       "symbol": "Sr"
     },
     "Ta": {
+      "atomicMass": 180.9479,
       "atomicNumber": 73,
       "ionizationEnergy": 7.5496,
       "elementGroup": "transition-metal",
@@ -1017,6 +1116,7 @@
       "symbol": "Ta"
     },
     "Tb": {
+      "atomicMass": 158.9253,
       "atomicNumber": 65,
       "ionizationEnergy": 5.8638,
       "elementGroup": "lanthanoid",
@@ -1026,6 +1126,7 @@
       "symbol": "Tb"
     },
     "Tc": {
+      "atomicMass": 98,
       "atomicNumber": 43,
       "ionizationEnergy": 7.28,
       "elementGroup": "transition-metal",
@@ -1035,6 +1136,7 @@
       "symbol": "Tc"
     },
     "Te": {
+      "atomicMass": 127.6,
       "atomicNumber": 52,
       "ionizationEnergy": 9.0096,
       "elementGroup": "metalloid",
@@ -1044,6 +1146,7 @@
       "symbol": "Te"
     },
     "Th": {
+      "atomicMass": 232.0381,
       "atomicNumber": 90,
       "ionizationEnergy": 6.3067,
       "elementGroup": "actinoid",
@@ -1053,6 +1156,7 @@
       "symbol": "Th"
     },
     "Ti": {
+      "atomicMass": 47.867,
       "atomicNumber": 22,
       "ionizationEnergy": 6.8281,
       "elementGroup": "transition-metal",
@@ -1062,6 +1166,7 @@
       "symbol": "Ti"
     },
     "Tl": {
+      "atomicMass": 204.3833,
       "atomicNumber": 81,
       "ionizationEnergy": 6.108,
       "elementGroup": "metal",
@@ -1071,6 +1176,7 @@
       "symbol": "Tl"
     },
     "Tm": {
+      "atomicMass": 168.9342,
       "atomicNumber": 69,
       "ionizationEnergy": 6.1843,
       "elementGroup": "lanthanoid",
@@ -1080,6 +1186,7 @@
       "symbol": "Tm"
     },
     "U": {
+      "atomicMass": 238.0289,
       "atomicNumber": 92,
       "ionizationEnergy": 6.1941,
       "elementGroup": "actinoid",
@@ -1089,6 +1196,7 @@
       "symbol": "U"
     },
     "Uuo": {
+      "atomicMass": 117,
       "atomicNumber": 118,
       "ionizationEnergy": 0,
       "elementGroup": "noble-gas",
@@ -1098,6 +1206,7 @@
       "symbol": "Uuo"
     },
     "Uup": {
+      "atomicMass": 114,
       "atomicNumber": 115,
       "ionizationEnergy": 0,
       "elementGroup": "metal",
@@ -1107,6 +1216,7 @@
       "symbol": "Uup"
     },
     "Uus": {
+      "atomicMass": 116,
       "atomicNumber": 117,
       "ionizationEnergy": 0,
       "elementGroup": "halogen",
@@ -1116,6 +1226,7 @@
       "symbol": "Uus"
     },
     "Uut": {
+      "atomicMass": 112,
       "atomicNumber": 113,
       "ionizationEnergy": 0,
       "elementGroup": "metal",
@@ -1125,6 +1236,7 @@
       "symbol": "Uut"
     },
     "V": {
+      "atomicMass": 50.9415,
       "atomicNumber": 23,
       "ionizationEnergy": 6.7462,
       "elementGroup": "transition-metal",
@@ -1134,6 +1246,7 @@
       "symbol": "V"
     },
     "W": {
+      "atomicMass": 183.84,
       "atomicNumber": 74,
       "ionizationEnergy": 7.864,
       "elementGroup": "transition-metal",
@@ -1143,6 +1256,7 @@
       "symbol": "W"
     },
     "Xe": {
+      "atomicMass": 131.293,
       "atomicNumber": 54,
       "ionizationEnergy": 12.1298,
       "elementGroup": "noble-gas",
@@ -1152,6 +1266,7 @@
       "symbol": "Xe"
     },
     "Y": {
+      "atomicMass": 88.9059,
       "atomicNumber": 39,
       "ionizationEnergy": 6.2173,
       "elementGroup": "transition-metal",
@@ -1161,6 +1276,7 @@
       "symbol": "Y"
     },
     "Yb": {
+      "atomicMass": 173.04,
       "atomicNumber": 70,
       "ionizationEnergy": 6.2542,
       "elementGroup": "lanthanoid",
@@ -1170,6 +1286,7 @@
       "symbol": "Yb"
     },
     "Zn": {
+      "atomicMass": 65.39,
       "atomicNumber": 30,
       "ionizationEnergy": 9.3942,
       "elementGroup": "transition-metal",
@@ -1179,6 +1296,7 @@
       "symbol": "Zn"
     },
     "Zr": {
+      "atomicMass": 91.224,
       "atomicNumber": 40,
       "ionizationEnergy": 6.6339,
       "elementGroup": "transition-metal",
