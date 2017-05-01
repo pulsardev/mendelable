@@ -1,6 +1,6 @@
 <template>
-  <div class="linechart">
-    <canvas id="linechart" ref="linechart"></canvas>
+  <div class="c-line-chart">
+    <canvas ref="c-line-chart"></canvas>
   </div>
 </template>
 
@@ -10,37 +10,31 @@
 
   export default {
     name: 'line-chart',
-    computed: {
-      ...mapGetters({
-        elements: 'localizedElements'
-      }),
-      selectedElement () {
-        return this.elements[this.selectedElementSymbol] || {}
-      }
-    },
+    computed: mapGetters({
+      elements: 'localizedElements'
+    }),
     mounted: function () {
-      let ctx = this.$refs.linechart
-      var elements = this.elements
-      console.log(elements)
+      let elements = this.elements
 
-      var data = []
+      let data = []
 
-      for (var key in elements) {
-        var element = elements[key]
+      for (let key of Object.keys(elements)) {
+        let element = elements[key]
         data.push({
           x: element.period,
           y: element.ionizationEnergy
         })
       }
 
-      console.log(data)
+      let ctx = this.$refs['c-line-chart']
+
       // eslint-disable-next-line no-new
       new Chart(ctx, {
         type: 'line',
         data: {
-          labels: 'ionization energy',
+          labels: 'Ionization energy',
           datasets: [{
-            label: 'ionization energy',
+            label: 'Ionization energy',
             data: data,
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)'

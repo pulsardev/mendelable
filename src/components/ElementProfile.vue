@@ -12,7 +12,7 @@
       </div>
 
       <div class="c-masonry-grid__item">
-        <div class="card">
+        <div v-if="element.boilingPoint && element.boilingPoint['C'] && element.meltingPoint && element.meltingPoint['C']" class="card">
           <div v-if="Object.keys(element).length > 0" class="card-block">
             <h6 class="card-title text-uppercase font-weight-bold"><small>{{ $t("element.physicalProperties") }}</small></h6>
 

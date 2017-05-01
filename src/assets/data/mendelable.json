@@ -93,7 +93,7 @@
       "atomicNumber": 5,
       "ionizationEnergy": 8.298,
       "boilingPoint": {
-        "C": "3927",
+        "C": 3927,
         "F": "7101",
         "K": "4200"
       },
@@ -106,7 +106,7 @@
       "heatOfFusion": "50,2",
       "heatOfVaporization": "508",
       "meltingPoint": {
-        "C": "2076",
+        "C": 2076,
         "F": "3769",
         "K": "2349"
       },
@@ -134,7 +134,7 @@
       "atomicNumber": 4,
       "ionizationEnergy": 9.3227,
       "boilingPoint": {
-        "C": "2469",
+        "C": 2469,
         "F": "4476",
         "K": "2742"
       },
@@ -148,7 +148,7 @@
       "heatOfFusion": "12,2",
       "heatOfVaporization": "292",
       "meltingPoint": {
-        "C": "1287",
+        "C": 1287,
         "F": "2349",
         "K": "1560"
       },
@@ -191,7 +191,6 @@
       "period": 7,
       "symbol": "Bk",
       "electronsPerShell": [2, 8, 18, 32, 27, 8, 2]
-
     },
     "Br": {
       "atomicMass": 79.904,
@@ -218,7 +217,7 @@
       "heatOfFusion": "50,2",
       "heatOfVaporization": "508",
       "meltingPoint": {
-        "C": "2349",
+        "C": 2349,
         "F": "2076",
         "K": "3769"
       },
@@ -227,7 +226,7 @@
       "period": 2,
       "phase": "solid",
       "sublimationPoint": {
-        "C": "3642"
+        "C": 3642
       },
       "symbol": "C",
       "triplePoint": ""
@@ -513,7 +512,7 @@
       "ionizationEnergy": 13.5984,
       "atomicRay": "25",
       "boilingPoint": {
-        "°C": -252.879
+        "C": -252.879
       },
       "covalanceRay": "31",
       "criticalPoint": "32,938",
@@ -529,7 +528,7 @@
       "heatOfVaporization": "0,3904",
       "ionisationEnergy": "13,598443",
       "meltingPoint": {
-        "°C": -259.16
+        "C": -259.16
       },
       "molarHeatCapacity": "28,836",
       "name": "Hydrogen",
@@ -544,7 +543,7 @@
       "atomicNumber": 2,
       "ionizationEnergy": 24.5874,
       "boilingPoint": {
-        "C": "-268,928",
+        "C": -268.928,
         "F": "-452,070",
         "K": "4,222"
       },
@@ -558,7 +557,7 @@
       "heatOfFusion": "0.0138",
       "heatOfVaporization": "0.0829",
       "meltingPoint": {
-        "C": "-272,20",
+        "C": -272.20,
         "F": "-457,96",
         "K": "0,95"
       },
@@ -669,9 +668,9 @@
       "electronsPerShell": [2, 8, 18, 8]
     },
     "La": {
-      "atomicMass":  138.9055,
+      "atomicMass": 138.9055,
       "atomicNumber": 57,
-      "ionizationEnergy": 	5.5769,
+      "ionizationEnergy": 5.5769,
       "elementGroup": "lanthanoid",
       "group": 2,
       "name": "Lanthanum",
@@ -684,7 +683,7 @@
       "atomicNumber": 3,
       "ionizationEnergy": 5.3917,
       "boilingPoint": {
-        "C": "1330",
+        "C": 1330,
         "F": "2426",
         "K": "1603"
       },
@@ -698,7 +697,7 @@
       "heatOfFusion": "3.00",
       "heatOfVaporization": "136",
       "meltingPoint": {
-        "C": "180.50",
+        "C": 180.50,
         "F": "356.90",
         "K": "453.65"
       },
@@ -839,7 +838,7 @@
       "name": "Neodymium",
       "period": 6,
       "symbol": "Nd",
-      "electronsPerShell": [	2, 8, 18, 22, 8, 2]
+      "electronsPerShell": [2, 8, 18, 22, 8, 2]
     },
     "Ne": {
       "atomicMass": 20.1797,
@@ -1246,7 +1245,7 @@
       "name": "Thorium",
       "period": 7,
       "symbol": "Th",
-      "electronsPerShell": [2, 8,18,32,18,10, 2]
+      "electronsPerShell": [2, 8, 18, 32, 18, 10, 2]
     },
     "Ti": {
       "atomicMass": 47.867,

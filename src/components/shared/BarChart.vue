@@ -13,8 +13,8 @@
     mounted: function () {
       let data = []
       // TODO: the way we convert from Celsius to Kelvin is temporary, we should use a Vue.filter instead
-      data.push(Math.round(this.element.boilingPoint['°C'] + 273.15))
-      data.push(Math.round(this.element.meltingPoint['°C'] + 273.15))
+      data.push(Math.round(this.element.boilingPoint['C'] + 273.15))
+      data.push(Math.round(this.element.meltingPoint['C'] + 273.15))
 
       let ctx = this.$refs['c-chart']
 
