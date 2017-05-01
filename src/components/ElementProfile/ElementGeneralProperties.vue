@@ -19,6 +19,7 @@
       <div v-if="!preview">
         <highlight :data="element"></highlight>
 
+        <line-chart></line-chart>
         <!--<bar-chart></bar-chart>-->
       </div>
     </div>
@@ -30,12 +31,13 @@
   import BarChart from '../shared/BarChart'
   import FeaturedValue from './FeaturedValue'
   import Highlight from '../shared/Highlight'
+  import LineChart from '../shared/LineChart'
 
   export default {
     name: 'element-general-properties',
     props: ['element', 'preview'],
     components: {
-      Highlight, FeaturedValue, BarChart, ElementBadge
+      Highlight, FeaturedValue, BarChart, ElementBadge, LineChart
     }
   }
 </script>

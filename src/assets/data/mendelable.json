@@ -2,6 +2,7 @@
   "default": {
     "Ac": {
       "atomicNumber": 89,
+      "ionizationEnergy": 5.17,
       "elementGroup": "actinoid",
       "group": 2,
       "name": "Actinium",
@@ -10,6 +11,7 @@
     },
     "Ag": {
       "atomicNumber": 47,
+      "ionizationEnergy": 7.5762,
       "elementGroup": "transition-metal",
       "group": 11,
       "name": "Silver",
@@ -18,6 +20,7 @@
     },
     "Al": {
       "atomicNumber": 13,
+      "ionizationEnergy": 5.9858,
       "elementGroup": "metal",
       "group": 13,
       "name": "Aluminum",
@@ -26,6 +29,7 @@
     },
     "Am": {
       "atomicNumber": 95,
+      "ionizationEnergy": 5.9738,
       "elementGroup": "actinoid",
       "group": 8,
       "name": "Americium",
@@ -34,6 +38,7 @@
     },
     "Ar": {
       "atomicNumber": 18,
+      "ionizationEnergy": 15.7596,
       "elementGroup": "noble-gas",
       "group": 18,
       "name": "Argon",
@@ -42,6 +47,7 @@
     },
     "As": {
       "atomicNumber": 33,
+      "ionizationEnergy": 9.7886,
       "elementGroup": "metalloid",
       "group": 15,
       "name": "Arsenic",
@@ -50,6 +56,7 @@
     },
     "At": {
       "atomicNumber": 85,
+      "ionizationEnergy": 9.3,
       "elementGroup": "halogen",
       "group": 17,
       "name": "Astatine",
@@ -58,6 +65,7 @@
     },
     "Au": {
       "atomicNumber": 79,
+      "ionizationEnergy": 9.2255,
       "elementGroup": "transition-metal",
       "group": 11,
       "name": "Gold",
@@ -66,6 +74,7 @@
     },
     "B": {
       "atomicNumber": 5,
+      "ionizationEnergy": 8.298,
       "boilingPoint": {
         "C": "3927",
         "F": "7101",
@@ -94,6 +103,7 @@
     },
     "Ba": {
       "atomicNumber": 56,
+      "ionizationEnergy": 5.2117,
       "elementGroup": "alkaline-earth-metal",
       "group": 2,
       "name": "Barium",
@@ -102,6 +112,7 @@
     },
     "Be": {
       "atomicNumber": 4,
+      "ionizationEnergy": 9.3227,
       "boilingPoint": {
         "C": "2469",
         "F": "4476",
@@ -130,6 +141,7 @@
     },
     "Bh": {
       "atomicNumber": 107,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 7,
       "name": "Bohrium",
@@ -138,6 +150,7 @@
     },
     "Bi": {
       "atomicNumber": 83,
+      "ionizationEnergy": 7.2856,
       "elementGroup": "metal",
       "group": 15,
       "name": "Bismuth",
@@ -146,6 +159,7 @@
     },
     "Bk": {
       "atomicNumber": 97,
+      "ionizationEnergy": 6.1979,
       "elementGroup": "actinoid",
       "group": 10,
       "name": "Berkelium",
@@ -154,6 +168,7 @@
     },
     "Br": {
       "atomicNumber": 35,
+      "ionizationEnergy": 11.8138,
       "elementGroup": "halogen",
       "group": 17,
       "name": "Bromine",
@@ -162,6 +177,7 @@
     },
     "C": {
       "atomicNumber": 6,
+      "ionizationEnergy": 11.2603,
       "criticalPoint": "",
       "group": "13",
       "density": "2,08",
@@ -188,6 +204,7 @@
     },
     "Ca": {
       "atomicNumber": 20,
+      "ionizationEnergy": 6.1132,
       "elementGroup": "alkaline-earth-metal",
       "group": 2,
       "name": "Calcium",
@@ -196,6 +213,7 @@
     },
     "Cd": {
       "atomicNumber": 48,
+      "ionizationEnergy": 8.9938,
       "elementGroup": "transition-metal",
       "group": 12,
       "name": "Cadmium",
@@ -204,6 +222,7 @@
     },
     "Ce": {
       "atomicNumber": 58,
+      "ionizationEnergy": 5.5387,
       "elementGroup": "lanthanoid",
       "group": 3,
       "name": "Cerium",
@@ -212,6 +231,7 @@
     },
     "Cf": {
       "atomicNumber": 98,
+      "ionizationEnergy": 6.2817,
       "elementGroup": "actinoid",
       "group": 11,
       "name": "Californium",
@@ -220,6 +240,7 @@
     },
     "Cl": {
       "atomicNumber": 17,
+      "ionizationEnergy": 12.9676,
       "elementGroup": "halogen",
       "group": 17,
       "name": "Chlorine",
@@ -228,6 +249,7 @@
     },
     "Cm": {
       "atomicNumber": 96,
+      "ionizationEnergy": 5.9915,
       "elementGroup": "actinoid",
       "group": 9,
       "name": "Curium",
@@ -236,6 +258,7 @@
     },
     "Cn": {
       "atomicNumber": 112,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 12,
       "name": "Copernicium",
@@ -244,6 +267,7 @@
     },
     "Co": {
       "atomicNumber": 27,
+      "ionizationEnergy": 7.881,
       "elementGroup": "transition-metal",
       "group": 9,
       "name": "Cobalt",
@@ -252,6 +276,7 @@
     },
     "Cr": {
       "atomicNumber": 24,
+      "ionizationEnergy": 6.7665,
       "elementGroup": "transition-metal",
       "group": 6,
       "name": "Chromium",
@@ -260,6 +285,7 @@
     },
     "Cs": {
       "atomicNumber": 55,
+      "ionizationEnergy": 3.8939,
       "elementGroup": "alkali-metal",
       "group": 1,
       "name": "Cesium",
@@ -268,6 +294,7 @@
     },
     "Cu": {
       "atomicNumber": 29,
+      "ionizationEnergy": 7.7264,
       "elementGroup": "transition-metal",
       "group": 11,
       "name": "Copper",
@@ -276,6 +303,7 @@
     },
     "Db": {
       "atomicNumber": 105,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 5,
       "name": "Dubnium",
@@ -284,6 +312,7 @@
     },
     "Ds": {
       "atomicNumber": 110,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 10,
       "name": "Darmstadtium",
@@ -292,6 +321,7 @@
     },
     "Dy": {
       "atomicNumber": 66,
+      "ionizationEnergy": 5.9389,
       "elementGroup": "lanthanoid",
       "group": 11,
       "name": "Dysprosium",
@@ -300,6 +330,7 @@
     },
     "Er": {
       "atomicNumber": 68,
+      "ionizationEnergy": 6.1077,
       "elementGroup": "lanthanoid",
       "group": 13,
       "name": "Erbium",
@@ -308,6 +339,7 @@
     },
     "Es": {
       "atomicNumber": 99,
+      "ionizationEnergy": 6.42,
       "elementGroup": "actinoid",
       "group": 12,
       "name": "Einsteinium",
@@ -316,6 +348,7 @@
     },
     "Eu": {
       "atomicNumber": 63,
+      "ionizationEnergy": 5.6704,
       "elementGroup": "lanthanoid",
       "group": 8,
       "name": "Europium",
@@ -324,6 +357,7 @@
     },
     "F": {
       "atomicNumber": 9,
+      "ionizationEnergy": 17.4228,
       "elementGroup": "halogen",
       "group": 17,
       "name": "Fluorine",
@@ -332,6 +366,7 @@
     },
     "Fe": {
       "atomicNumber": 26,
+      "ionizationEnergy": 7.9024,
       "elementGroup": "transition-metal",
       "group": 8,
       "name": "Iron",
@@ -340,6 +375,7 @@
     },
     "Fl": {
       "atomicNumber": 114,
+      "ionizationEnergy": 0,
       "elementGroup": "metal",
       "group": 14,
       "name": "Flerovium",
@@ -348,6 +384,7 @@
     },
     "Fm": {
       "atomicNumber": 100,
+      "ionizationEnergy": 6.5,
       "elementGroup": "actinoid",
       "group": 13,
       "name": "Fermium",
@@ -356,6 +393,7 @@
     },
     "Fr": {
       "atomicNumber": 87,
+      "ionizationEnergy": 4.0727,
       "elementGroup": "alkali-metal",
       "group": 1,
       "name": "Francium",
@@ -364,6 +402,7 @@
     },
     "Ga": {
       "atomicNumber": 31,
+      "ionizationEnergy": 5.9993,
       "elementGroup": "metal",
       "group": 13,
       "name": "Gallium",
@@ -372,6 +411,7 @@
     },
     "Gd": {
       "atomicNumber": 64,
+      "ionizationEnergy": 6.1501,
       "elementGroup": "lanthanoid",
       "group": 9,
       "name": "Gadolinium",
@@ -380,6 +420,7 @@
     },
     "Ge": {
       "atomicNumber": 32,
+      "ionizationEnergy": 7.8994,
       "elementGroup": "metalloid",
       "group": 14,
       "name": "Germanium",
@@ -388,6 +429,7 @@
     },
     "H": {
       "atomicNumber": 1,
+      "ionizationEnergy": 13.5984,
       "atomicRay": "25",
       "boilingPoint": {
         "°C": -252.879
@@ -418,6 +460,7 @@
     },
     "He": {
       "atomicNumber": 2,
+      "ionizationEnergy": 24.5874,
       "boilingPoint": {
         "C": "-268,928",
         "F": "-452,070",
@@ -446,6 +489,7 @@
     },
     "Hf": {
       "atomicNumber": 72,
+      "ionizationEnergy": 6.8251,
       "elementGroup": "transition-metal",
       "group": 4,
       "name": "Hafnium",
@@ -454,6 +498,7 @@
     },
     "Hg": {
       "atomicNumber": 80,
+      "ionizationEnergy": 10.4375,
       "elementGroup": "transition-metal",
       "group": 12,
       "name": "Mercuy",
@@ -462,6 +507,7 @@
     },
     "Ho": {
       "atomicNumber": 67,
+      "ionizationEnergy": 6.0215,
       "elementGroup": "lanthanoid",
       "group": 12,
       "name": "Holmium",
@@ -470,6 +516,7 @@
     },
     "Hs": {
       "atomicNumber": 108,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 8,
       "name": "Hassium",
@@ -478,6 +525,7 @@
     },
     "I": {
       "atomicNumber": 53,
+      "ionizationEnergy": 10.4513,
       "elementGroup": "halogen",
       "group": 17,
       "name": "Iodine",
@@ -486,6 +534,7 @@
     },
     "In": {
       "atomicNumber": 49,
+      "ionizationEnergy": 5.7864,
       "elementGroup": "metal",
       "group": 13,
       "name": "Indium",
@@ -494,6 +543,7 @@
     },
     "Ir": {
       "atomicNumber": 77,
+      "ionizationEnergy": 8.967,
       "elementGroup": "transition-metal",
       "group": 9,
       "name": "Iridium",
@@ -502,6 +552,7 @@
     },
     "K": {
       "atomicNumber": 19,
+      "ionizationEnergy": 4.3407,
       "elementGroup": "alkali-metal",
       "group": 1,
       "name": "Potassium",
@@ -510,6 +561,7 @@
     },
     "Kr": {
       "atomicNumber": 36,
+      "ionizationEnergy": 13.9996,
       "elementGroup": "noble-gas",
       "group": 18,
       "name": "Krypton",
@@ -518,6 +570,7 @@
     },
     "La": {
       "atomicNumber": 57,
+      "ionizationEnergy": 	5.5769,
       "elementGroup": "lanthanoid",
       "group": 2,
       "name": "Lanthanum",
@@ -526,6 +579,7 @@
     },
     "Li": {
       "atomicNumber": 3,
+      "ionizationEnergy": 5.3917,
       "boilingPoint": {
         "C": "1330",
         "F": "2426",
@@ -554,6 +608,7 @@
     },
     "Lr": {
       "atomicNumber": 103,
+      "ionizationEnergy": 4.9,
       "elementGroup": "actinoid",
       "group": 16,
       "name": "Lawrencium",
@@ -562,6 +617,7 @@
     },
     "Lu": {
       "atomicNumber": 71,
+      "ionizationEnergy": 5.4259,
       "elementGroup": "lanthanoid",
       "group": 16,
       "name": "Lutetium",
@@ -570,6 +626,7 @@
     },
     "Lv": {
       "atomicNumber": 116,
+      "ionizationEnergy": 0,
       "elementGroup": "metal",
       "group": 16,
       "name": "Livermorium",
@@ -578,6 +635,7 @@
     },
     "Md": {
       "atomicNumber": 101,
+      "ionizationEnergy": 6.58,
       "elementGroup": "actinoid",
       "group": 14,
       "name": "Mendelevium",
@@ -586,6 +644,7 @@
     },
     "Mg": {
       "atomicNumber": 12,
+      "ionizationEnergy": 7.6462,
       "elementGroup": "alkaline-earth-metal",
       "group": 2,
       "name": "Magnesium",
@@ -594,6 +653,7 @@
     },
     "Mn": {
       "atomicNumber": 25,
+      "ionizationEnergy": 7.434,
       "elementGroup": "transition-metal",
       "group": 7,
       "name": "Manganese",
@@ -602,6 +662,7 @@
     },
     "Mo": {
       "atomicNumber": 42,
+      "ionizationEnergy": 7.0924,
       "elementGroup": "transition-metal",
       "group": 6,
       "name": "Molybdenum",
@@ -610,6 +671,7 @@
     },
     "Mt": {
       "atomicNumber": 109,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 9,
       "name": "Meitnerium",
@@ -618,6 +680,7 @@
     },
     "N": {
       "atomicNumber": 7,
+      "ionizationEnergy": 14.5341,
       "elementGroup": "non-metal",
       "group": 15,
       "name": "Nitrogen",
@@ -626,6 +689,7 @@
     },
     "Na": {
       "atomicNumber": 11,
+      "ionizationEnergy": 5.1391,
       "elementGroup": "alkali-metal",
       "group": 1,
       "name": "Sodium",
@@ -634,6 +698,7 @@
     },
     "Nb": {
       "atomicNumber": 41,
+      "ionizationEnergy": 6.7589,
       "elementGroup": "transition-metal",
       "group": 5,
       "name": "Niobium",
@@ -642,6 +707,7 @@
     },
     "Nd": {
       "atomicNumber": 60,
+      "ionizationEnergy": 5.525,
       "elementGroup": "lanthanoid",
       "group": 5,
       "name": "Neodymium",
@@ -650,6 +716,7 @@
     },
     "Ne": {
       "atomicNumber": 10,
+      "ionizationEnergy": 6.2657,
       "elementGroup": "noble-gas",
       "group": 18,
       "name": "Neon",
@@ -658,6 +725,7 @@
     },
     "Ni": {
       "atomicNumber": 28,
+      "ionizationEnergy": 7.6398,
       "elementGroup": "transition-metal",
       "group": 10,
       "name": "Nickel",
@@ -666,6 +734,7 @@
     },
     "No": {
       "atomicNumber": 102,
+      "ionizationEnergy": 6.65,
       "elementGroup": "actinoid",
       "group": 15,
       "name": "Nobelium",
@@ -674,6 +743,7 @@
     },
     "Np": {
       "atomicNumber": 93,
+      "ionizationEnergy": 6.2657,
       "elementGroup": "actinoid",
       "group": 6,
       "name": "Neptunium",
@@ -682,6 +752,7 @@
     },
     "O": {
       "atomicNumber": 8,
+      "ionizationEnergy": 13.6181,
       "elementGroup": "non-metal",
       "group": 16,
       "name": "Oxygen",
@@ -690,6 +761,7 @@
     },
     "Os": {
       "atomicNumber": 76,
+      "ionizationEnergy": 8.4382,
       "elementGroup": "transition-metal",
       "group": 8,
       "name": "Osmium",
@@ -698,6 +770,7 @@
     },
     "P": {
       "atomicNumber": 15,
+      "ionizationEnergy": 10.4867,
       "elementGroup": "non-metal",
       "group": 15,
       "name": "Phosphorus",
@@ -706,6 +779,7 @@
     },
     "Pa": {
       "atomicNumber": 91,
+      "ionizationEnergy": 5.89,
       "elementGroup": "actinoid",
       "group": 4,
       "name": "Protactinium",
@@ -714,6 +788,7 @@
     },
     "Pb": {
       "atomicNumber": 82,
+      "ionizationEnergy": 7.4167,
       "elementGroup": "metal",
       "group": 14,
       "name": "Lead",
@@ -722,6 +797,7 @@
     },
     "Pd": {
       "atomicNumber": 46,
+      "ionizationEnergy": 8.3369,
       "elementGroup": "transition-metal",
       "group": 10,
       "name": "Palladium",
@@ -730,6 +806,7 @@
     },
     "Pm": {
       "atomicNumber": 61,
+      "ionizationEnergy": 5.582,
       "elementGroup": "lanthanoid",
       "group": 6,
       "name": "Promethium",
@@ -738,6 +815,7 @@
     },
     "Po": {
       "atomicNumber": 84,
+      "ionizationEnergy": 8.417,
       "elementGroup": "metalloid",
       "group": 16,
       "name": "Polonium",
@@ -746,6 +824,7 @@
     },
     "Pr": {
       "atomicNumber": 59,
+      "ionizationEnergy": 5.473,
       "elementGroup": "lanthanoid",
       "group": 4,
       "name": "Praseodymium",
@@ -754,6 +833,7 @@
     },
     "Pt": {
       "atomicNumber": 78,
+      "ionizationEnergy": 8.9587,
       "elementGroup": "transition-metal",
       "group": 10,
       "name": "Platinum",
@@ -762,6 +842,7 @@
     },
     "Pu": {
       "atomicNumber": 94,
+      "ionizationEnergy": 6.0262,
       "elementGroup": "actinoid",
       "group": 7,
       "name": "Plutonium",
@@ -770,6 +851,7 @@
     },
     "Ra": {
       "atomicNumber": 88,
+      "ionizationEnergy": 5.2784,
       "elementGroup": "alkaline-earth-metal",
       "group": 2,
       "name": "Radium",
@@ -778,6 +860,7 @@
     },
     "Rb": {
       "atomicNumber": 37,
+      "ionizationEnergy": 4.1771,
       "elementGroup": "alkali-metal",
       "group": 1,
       "name": "Rubidium",
@@ -786,6 +869,7 @@
     },
     "Re": {
       "atomicNumber": 75,
+      "ionizationEnergy": 7.8335,
       "elementGroup": "transition-metal",
       "group": 7,
       "name": "Rhenium",
@@ -794,6 +878,7 @@
     },
     "Rf": {
       "atomicNumber": 104,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 4,
       "name": "Rutherfordium",
@@ -802,6 +887,7 @@
     },
     "Rg": {
       "atomicNumber": 111,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 11,
       "name": "Roentgenium",
@@ -810,6 +896,7 @@
     },
     "Rh": {
       "atomicNumber": 45,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 9,
       "name": "Rhodium",
@@ -818,6 +905,7 @@
     },
     "Rn": {
       "atomicNumber": 86,
+      "ionizationEnergy": 10.7485,
       "elementGroup": "noble-gas",
       "group": 18,
       "name": "Radon",
@@ -826,6 +914,7 @@
     },
     "Ru": {
       "atomicNumber": 44,
+      "ionizationEnergy": 7.3605,
       "elementGroup": "transition-metal",
       "group": 8,
       "name": "Ruthenium",
@@ -834,6 +923,7 @@
     },
     "S": {
       "atomicNumber": 16,
+      "ionizationEnergy": 10.36,
       "elementGroup": "non-metal",
       "group": 16,
       "name": "Sulfur",
@@ -842,6 +932,7 @@
     },
     "Sb": {
       "atomicNumber": 51,
+      "ionizationEnergy": 8.6084,
       "elementGroup": "metalloid",
       "group": 15,
       "name": "Antimony",
@@ -850,6 +941,7 @@
     },
     "Sc": {
       "atomicNumber": 21,
+      "ionizationEnergy": 6.5615,
       "elementGroup": "transition-metal",
       "group": 3,
       "name": "Scandium",
@@ -859,6 +951,7 @@
     },
     "Se": {
       "atomicNumber": 34,
+      "ionizationEnergy": 9.7524,
       "elementGroup": "non-metal",
       "group": 16,
       "name": "Selenium",
@@ -867,6 +960,7 @@
     },
     "Sg": {
       "atomicNumber": 106,
+      "ionizationEnergy": 0,
       "elementGroup": "transition-metal",
       "group": 6,
       "name": "Seaborgium",
@@ -875,6 +969,7 @@
     },
     "Si": {
       "atomicNumber": 14,
+      "ionizationEnergy": 8.1517,
       "elementGroup": "metalloid",
       "group": 14,
       "name": "Silicon",
@@ -883,6 +978,7 @@
     },
     "Sm": {
       "atomicNumber": 62,
+      "ionizationEnergy": 5.6437,
       "elementGroup": "lanthanoid",
       "group": 7,
       "name": "Samarium",
@@ -891,6 +987,7 @@
     },
     "Sn": {
       "atomicNumber": 50,
+      "ionizationEnergy": 7.3439,
       "elementGroup": "metal",
       "group": 14,
       "name": "Tin",
@@ -899,6 +996,7 @@
     },
     "Sr": {
       "atomicNumber": 38,
+      "ionizationEnergy": 5.694,
       "elementGroup": "alkaline-earth-metal",
       "group": 2,
       "name": "Strontium",
@@ -907,6 +1005,7 @@
     },
     "Ta": {
       "atomicNumber": 73,
+      "ionizationEnergy": 7.5496,
       "elementGroup": "transition-metal",
       "group": 5,
       "name": "Tantalum",
@@ -915,6 +1014,7 @@
     },
     "Tb": {
       "atomicNumber": 65,
+      "ionizationEnergy": 5.8638,
       "elementGroup": "lanthanoid",
       "group": 10,
       "name": "Terbium",
@@ -923,6 +1023,7 @@
     },
     "Tc": {
       "atomicNumber": 43,
+      "ionizationEnergy": 7.28,
       "elementGroup": "transition-metal",
       "group": 7,
       "name": "Technetium",
@@ -931,6 +1032,7 @@
     },
     "Te": {
       "atomicNumber": 52,
+      "ionizationEnergy": 9.0096,
       "elementGroup": "metalloid",
       "group": 16,
       "name": "Tellurium",
@@ -939,6 +1041,7 @@
     },
     "Th": {
       "atomicNumber": 90,
+      "ionizationEnergy": 6.3067,
       "elementGroup": "actinoid",
       "group": 3,
       "name": "Thorium",
@@ -947,6 +1050,7 @@
     },
     "Ti": {
       "atomicNumber": 22,
+      "ionizationEnergy": 6.8281,
       "elementGroup": "transition-metal",
       "group": 4,
       "name": "Titanium",
@@ -955,6 +1059,7 @@
     },
     "Tl": {
       "atomicNumber": 81,
+      "ionizationEnergy": 6.108,
       "elementGroup": "metal",
       "group": 13,
       "name": "Thallium",
@@ -963,6 +1068,7 @@
     },
     "Tm": {
       "atomicNumber": 69,
+      "ionizationEnergy": 6.1843,
       "elementGroup": "lanthanoid",
       "group": 14,
       "name": "Thulium",
@@ -971,6 +1077,7 @@
     },
     "U": {
       "atomicNumber": 92,
+      "ionizationEnergy": 6.1941,
       "elementGroup": "actinoid",
       "group": 5,
       "name": "Uranium",
@@ -979,6 +1086,7 @@
     },
     "Uuo": {
       "atomicNumber": 118,
+      "ionizationEnergy": 0,
       "elementGroup": "noble-gas",
       "group": 18,
       "name": "Ununoctium",
@@ -987,6 +1095,7 @@
     },
     "Uup": {
       "atomicNumber": 115,
+      "ionizationEnergy": 0,
       "elementGroup": "metal",
       "group": 15,
       "name": "Ununpentium",
@@ -995,6 +1104,7 @@
     },
     "Uus": {
       "atomicNumber": 117,
+      "ionizationEnergy": 0,
       "elementGroup": "halogen",
       "group": 17,
       "name": "Ununseptium",
@@ -1003,6 +1113,7 @@
     },
     "Uut": {
       "atomicNumber": 113,
+      "ionizationEnergy": 0,
       "elementGroup": "metal",
       "group": 13,
       "name": "Ununtrium",
@@ -1011,6 +1122,7 @@
     },
     "V": {
       "atomicNumber": 23,
+      "ionizationEnergy": 6.7462,
       "elementGroup": "transition-metal",
       "group": 5,
       "name": "Vanadium",
@@ -1019,6 +1131,7 @@
     },
     "W": {
       "atomicNumber": 74,
+      "ionizationEnergy": 7.864,
       "elementGroup": "transition-metal",
       "group": 6,
       "name": "Tungsten",
@@ -1027,6 +1140,7 @@
     },
     "Xe": {
       "atomicNumber": 54,
+      "ionizationEnergy": 12.1298,
       "elementGroup": "noble-gas",
       "group": 18,
       "name": "Xenon",
@@ -1035,6 +1149,7 @@
     },
     "Y": {
       "atomicNumber": 39,
+      "ionizationEnergy": 6.2173,
       "elementGroup": "transition-metal",
       "group": 3,
       "name": "Yttrium",
@@ -1043,6 +1158,7 @@
     },
     "Yb": {
       "atomicNumber": 70,
+      "ionizationEnergy": 6.2542,
       "elementGroup": "lanthanoid",
       "group": 15,
       "name": "Ytterbium",
@@ -1051,6 +1167,7 @@
     },
     "Zn": {
       "atomicNumber": 30,
+      "ionizationEnergy": 9.3942,
       "elementGroup": "transition-metal",
       "group": 12,
       "name": "Zinc",
@@ -1059,6 +1176,7 @@
     },
     "Zr": {
       "atomicNumber": 40,
+      "ionizationEnergy": 6.6339,
       "elementGroup": "transition-metal",
       "group": 4,
       "name": "Zirconium",
