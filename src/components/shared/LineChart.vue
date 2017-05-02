@@ -20,15 +20,15 @@
     },
     mounted: function () {
       let ctx = this.$refs.linechart
-      var elements = this.elements
+      let elements = this.elements
       console.log(elements)
 
-      var data = []
+      let data = []
 
       for (var key in elements) {
-        var element = elements[key]
+        let element = elements[key]
         data.push({
-          x: element.period,
+          x: element.atomicNumber,
           y: element.ionizationEnergy
         })
       }
