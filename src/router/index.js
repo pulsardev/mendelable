@@ -19,7 +19,7 @@ export default new Router({
           component: PeriodicTable
         },
         {
-          path: 'element/:symbol',
+          path: 'element/:id',
           component: ElementProfile
         }
       ]

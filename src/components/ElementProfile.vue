@@ -56,12 +56,7 @@
         elements: 'localizedElements'
       }),
       element () {
-        return this.elements[this.$route.params.symbol]
-      }
-    },
-    data () {
-      return {
-        symbol: this.$route.params.symbol
+        return this.elements[this.$route.params.id]
       }
     }
   }

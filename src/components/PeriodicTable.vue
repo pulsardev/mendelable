@@ -3,7 +3,7 @@
     <element-general-properties v-show="Object.keys(selectedElement).length > 0" class="c-information" :element="selectedElement" :preview="true"></element-general-properties>
 
     <div v-for="element in elements" :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period' class='element' :class="element.symbol && element.symbol.toLowerCase()">
-      <router-link :to="'/element/' + element.symbol" @mouseover.native="showElement(element)" @mouseout.native="hideElement()">
+      <router-link :to="'/element/' + element.atomicNumber" @mouseover.native="showElement(element)" @mouseout.native="hideElement()">
         <element-definition class="u-aspect-ratio" :element="element" :detailed="true"></element-definition>
       </router-link>
     </div>
@@ -29,21 +29,21 @@
         elements: 'localizedElements'
       }),
       selectedElement () {
-        return this.elements[this.selectedElementSymbol] || {}
+        return this.elements[this.selectedElementId] || {}
       }
     },
     data () {
       return {
         symbol: 'Ti',
         name: 'Titanium',
-        selectedElementSymbol: '',
+        selectedElementId: '',
         showInfo: false
       }
     },
     methods: {
       showElement (element) {
         this.showInfo = true
-        this.selectedElementSymbol = element.symbol
+        this.selectedElementId = element.atomicNumber
       },
       hideElement () {
         this.showInfo = false
