@@ -12,11 +12,11 @@
       </div>
 
       <div class="c-masonry-grid__item">
-        <div class="card">
+        <div v-if="element.boilingPoint && element.boilingPoint['C'] && element.meltingPoint && element.meltingPoint['C']" class="card">
           <div v-if="Object.keys(element).length > 0" class="card-block">
-            <h6 class="card-title text-uppercase font-weight-bold"><small>{{ element.name }}</small></h6>
+            <h6 class="card-title text-uppercase font-weight-bold"><small>{{ $t("element.physicalProperties") }}</small></h6>
 
-            <radar-chart :element="element"></radar-chart>
+            <bar-chart :element="element" class="mt-5"></bar-chart>
           </div>
         </div>
       </div>
@@ -34,12 +34,12 @@
   import ElementGeneralProperties from './ElementProfile/ElementGeneralProperties'
   import ElementAtomicProperties from './ElementProfile/ElementAtomicProperties'
   import ElementPhysicalProperties from './ElementProfile/ElementPhysicalProperties'
-  import RadarChart from './shared/RadarChart'
+  import BarChart from './shared/BarChart'
 
   export default {
     name: 'element-profile',
     components: {
-      RadarChart, ElementGeneralProperties, ElementAtomicProperties, ElementPhysicalProperties
+      BarChart, ElementGeneralProperties, ElementAtomicProperties, ElementPhysicalProperties
     },
     mounted: function () {
       let ctx = this.$refs['c-masonry-grid']

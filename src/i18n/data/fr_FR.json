@@ -1,6 +1,7 @@
 {
   "general": {
-    "search": "Rechercher"
+    "search": "Rechercher",
+    "temperature": "Température"
   },
   "sidebar": {
     "title": "Informations",
@@ -12,6 +13,9 @@
   "element": {
     "atomicNumber": "Numéro atomique",
     "electronsPerShell": "Électrons par couche",
+    "physicalProperties": "Propriétés physiques",
+    "meltingPoint": "Point de fusion",
+    "boilingPoint": "Point d'ébullition",
     "weight": "Masse",
     "group": {
       "non-metal": "Non-métaux",

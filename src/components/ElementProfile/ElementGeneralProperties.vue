@@ -20,7 +20,7 @@
         <highlight :data="element"></highlight>
 
         <line-chart></line-chart>
-        <bar-chart></bar-chart>
+        <!--<bar-chart></bar-chart>-->
       </div>
     </div>
   </div>
