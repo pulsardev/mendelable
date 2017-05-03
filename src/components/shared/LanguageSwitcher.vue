@@ -1,7 +1,6 @@
 <template>
   <form class="language-switcher">
     <div class="form-group">
-      <label for="languageSelect">{{ $t("language.label") }}</label>
       <select v-model="selected" @change="e => changeLanguage(e.target.value)" class="form-control" id="languageSelect">
         <option v-for="option in options" :value="option.value">{{ option.text }}</option>
       </select>

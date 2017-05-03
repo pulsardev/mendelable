@@ -1,39 +1,44 @@
 <template>
   <div class="home row">
-    <!-- Navbar -->
-    <div class="col-sm-1 bg-inverse px-0 py-5">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <router-link to="/" exact class="nav-link d-flex justify-content-center">
-            <i class="material-icons">home</i>
-          </router-link>
-        </li>
-        <li class="nav-item mt-5">
-          <a class="nav-link d-flex justify-content-center" href="#"><i class="material-icons md-36">games</i></a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Content -->
-    <div class="col-sm-9 p-5">
-      <div class="d-flex justify-content-between">
-        <h3 class="mb-5">{{ msg }}</h3>
-        <form>
-          <div class="form-group">
-            <input type="text" class="form-control" id="searchInput" :placeholder="$t('general.search')">
-          </div>
-        </form>
+    <div class="col-12 px-0 d-flex flex-column flex-sm-row">
+      <!-- Navbar -->
+      <div class="bg-inverse px-0 py-5">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <router-link to="/" exact class="nav-link d-flex justify-content-center" title="Mendelable">
+              <i class="material-icons">home</i>
+            </router-link>
+          </li>
+          <li class="nav-item mt-5">
+            <a class="nav-link d-flex justify-content-center" href="#" title="Game mode"><i class="material-icons md-36">games</i></a>
+          </li>
+        </ul>
       </div>
 
-      <router-view></router-view>
-    </div>
+      <!-- Content -->
+      <div class="container-fluid p-0 w-100 d-flex align-items-stretch">
+        <div class="row no-gutters w-100">
+          <div class="col-sm-10 p-5">
+            <div class="d-flex justify-content-between">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="searchInput" :placeholder="$t('general.search')">
+                </div>
+              </form>
+            </div>
 
-    <!-- Sidebar -->
-    <div class="col-sm-2 bg-faded px-4 py-5">
-      <h3>{{ $t("sidebar.title") }}</h3>
-      <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
+            <router-view></router-view>
+          </div>
 
-      <language-switcher></language-switcher>
+          <!-- Sidebar -->
+          <div class="col-sm-2 bg-faded px-4 py-5">
+            <language-switcher></language-switcher>
+
+            <h3>{{ $t("sidebar.title") }}</h3>
+            <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
