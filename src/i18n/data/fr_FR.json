@@ -4,8 +4,8 @@
     "temperature": "Température"
   },
   "sidebar": {
-    "title": "Informations",
-    "subtitle": "À propos de l'élément sélectionné"
+    "title": "Options",
+    "subtitle": "Options de la page courante"
   },
   "language": {
     "label": "Langue"
