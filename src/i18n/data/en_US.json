@@ -5,7 +5,11 @@
   },
   "sidebar": {
     "title": "Options",
-    "subtitle": "Options of the current page"
+    "subtitle": "Options of the current page",
+    "elementProfile": {
+      "previous": "Previous",
+      "next": "Next"
+    }
   },
   "language": {
     "label": "Language"

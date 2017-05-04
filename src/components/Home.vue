@@ -32,11 +32,13 @@
 
           <!-- Sidebar -->
           <div class="col-sm-2 bg-faded px-4 py-5">
+            <h4>{{ $t("sidebar.title") }}</h4>
+
             <p class="text-muted">{{ $t("language.label") }}</p>
             <language-switcher></language-switcher>
 
-            <!--<h4>{{ $t("sidebar.title") }}</h4>-->
             <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
+            <router-view name="sidebar"></router-view>
           </div>
         </div>
       </div>

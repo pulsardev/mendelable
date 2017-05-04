@@ -10,7 +10,7 @@
 
 <script>
   import i18n from '@/i18n'
-  import {mapActions} from 'vuex'
+  import { mapActions } from 'vuex'
 
   export default {
     name: 'language-switcher',
