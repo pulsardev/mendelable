@@ -1,5 +1,5 @@
 <template>
-  <pre><code ref="c-highlight" class="json">{{ data }}</code></pre>
+  <pre><code ref="c-highlight" class="json"></code></pre>
 </template>
 
 <script>
@@ -19,6 +19,7 @@
     methods: {
       highlight: function () {
         let ctx = this.$refs['c-highlight']
+        ctx.textContent = JSON.stringify(this.data, null, 2)
         hljs.highlightBlock(ctx)
       }
     }
