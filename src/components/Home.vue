@@ -10,7 +10,14 @@
             </router-link>
           </li>
           <li class="nav-item mt-5">
-            <a class="nav-link d-flex justify-content-center" href="#" title="Game mode"><i class="material-icons md-36">games</i></a>
+            <a class="nav-link d-flex justify-content-center" href="#" title="Game mode">
+              <i class="material-icons md-36">games</i>
+            </a>
+          </li>
+          <li class="nav-item mt-5">
+            <router-link to="/about" exact class="nav-link d-flex justify-content-center" title="About">
+              <i class="material-icons">help_outline</i>
+            </router-link>
           </li>
         </ul>
       </div>
@@ -19,7 +26,7 @@
       <div class="container-fluid p-0 w-100 d-flex align-items-stretch">
         <div class="row no-gutters w-100">
           <div class="col-sm-10 p-5">
-            <div class="d-flex justify-content-between">
+            <div v-if="$route.name === 'PeriodicTable'" class="d-flex justify-content-between">
               <form>
                 <div class="form-group">
                   <input type="text" class="form-control" id="searchInput" :placeholder="$t('general.search')">
@@ -37,7 +44,7 @@
             <p class="text-muted">{{ $t("language.label") }}</p>
             <language-switcher></language-switcher>
 
-            <p class="text-muted">{{ $t("sidebar.subtitle") }}</p>
+            <p v-if="$route.name !== 'About'" class="text-muted">{{ $t("sidebar.subtitle") }}</p>
             <router-view name="sidebar"></router-view>
           </div>
         </div>
@@ -55,6 +62,9 @@
     name: 'home',
     components: {
       LanguageSwitcher, PeriodicTable, ElementProfile
+    },
+    mounted () {
+      console.log(this.$route.name)
     },
     data () {
       return {
