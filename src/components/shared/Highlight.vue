@@ -9,8 +9,18 @@
     name: 'highlight',
     props: ['data'],
     mounted: function () {
-      let ctx = this.$refs['c-highlight']
-      hljs.highlightBlock(ctx)
+      this.highlight()
+    },
+    watch: {
+      data: function () {
+        this.highlight()
+      }
+    },
+    methods: {
+      highlight: function () {
+        let ctx = this.$refs['c-highlight']
+        hljs.highlightBlock(ctx)
+      }
     }
   }
 </script>
