@@ -2,7 +2,10 @@
   <div class="c-periodic-table">
     <element-general-properties v-show="Object.keys(selectedElement).length > 0" class="c-information" :element="selectedElement" :preview="true"></element-general-properties>
 
-    <div v-for="element in elements" :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period' class='element' :class="element.symbol && element.symbol.toLowerCase()">
+    <div v-for="element in elements"
+         :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period'
+         class='element' :class="element.symbol && element.symbol.toLowerCase()"
+         :style="{ opacity: filteredElements.includes(element.atomicNumber) ? 1 : 0.25 }">
       <router-link :to="'/element/' + element.atomicNumber" @mouseover.native="showElement(element)" @mouseout.native="hideElement()">
         <element-definition class="u-aspect-ratio" :element="element" :detailed="true"></element-definition>
       </router-link>
@@ -26,7 +29,8 @@
     },
     computed: {
       ...mapGetters({
-        elements: 'localizedElements'
+        elements: 'localizedElements',
+        filteredElements: 'filteredElements'
       }),
       selectedElement () {
         return this.elements[this.selectedElementId] || {}

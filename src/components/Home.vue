@@ -29,7 +29,7 @@
             <div v-if="$route.name === 'PeriodicTable'" class="d-flex justify-content-between">
               <form>
                 <div class="form-group">
-                  <input type="text" class="form-control" id="searchInput" :placeholder="$t('general.search')">
+                  <input type="text" v-model="search" class="form-control" id="searchInput" :placeholder="$t('general.search')">
                 </div>
               </form>
             </div>
@@ -57,14 +57,22 @@
   import ElementProfile from './ElementProfile'
   import PeriodicTable from './PeriodicTable'
   import LanguageSwitcher from './shared/LanguageSwitcher'
+  import * as types from '@/store/mutation-types'
 
   export default {
     name: 'home',
     components: {
       LanguageSwitcher, PeriodicTable, ElementProfile
     },
-    mounted () {
-      console.log(this.$route.name)
+    computed: {
+      search: {
+        get () {
+          return this.$store.state.filters.search
+        },
+        set (value) {
+          this.$store.commit(types.UPDATE_SEARCH, value)
+        }
+      }
     },
     data () {
       return {
