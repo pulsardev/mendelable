@@ -12,15 +12,29 @@ export const localizedElements = state => {
 
 export const filteredElements = state => {
   let search = state.filters.search
+  let groups = state.filters.groups
   let filteredDataIds = []
   let localizedData = localizedElements(state)
 
+  // Filter by text query
   for (let key of Object.keys(localizedData)) {
     if (localizedData[key].name.toLowerCase().includes(search.toLowerCase())) {
       filteredDataIds.push(+key)
     }
   }
 
-  console.log('filteredDataIds', filteredDataIds)
+  // Filter by groups
+  if (groups.length > 0) {
+    let idsFilteredByGroups = []
+
+    for (let id of filteredDataIds) {
+      if (groups.includes(localizedData[id].elementGroup)) {
+        idsFilteredByGroups.push(+id)
+      }
+    }
+
+    filteredDataIds = idsFilteredByGroups
+  }
+
   return filteredDataIds
 }

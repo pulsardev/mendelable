@@ -6,3 +6,5 @@ export const UPDATE_LOCALE = 'UPDATE_LOCALE'
 
 // Filters
 export const UPDATE_SEARCH = 'UPDATE_SEARCH'
+export const ADD_GROUP = 'ADD_GROUP'
+export const REMOVE_GROUP = 'REMOVE_GROUP'

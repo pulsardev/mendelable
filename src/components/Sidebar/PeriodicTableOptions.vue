@@ -1,10 +1,15 @@
 <template>
   <div class="c-periodic-table-options">
-    <button v-for="group in groups" type="button" class="btn btn-primary btn-block" :class="'btn-' + group">{{ $t("element.group." + group) }}</button>
+    <button v-for="group in groups" type="button"
+            @mouseover="addGroupOnHover(group)" @mouseout="removeGroupOnHover(group)"
+            class="btn btn-primary btn-block" :class="'btn-' + group">{{ $t("element.group." + group) }}
+    </button>
   </div>
 </template>
 
 <script>
+  import * as types from '@/store/mutation-types'
+
   export default {
     name: 'periodic-table-options',
     data () {
@@ -21,6 +26,14 @@
           'lanthanoid',
           'actinoid'
         ]
+      }
+    },
+    methods: {
+      addGroupOnHover (group) {
+        this.$store.commit(types.ADD_GROUP, group)
+      },
+      removeGroupOnHover (group) {
+        setTimeout(() => this.$store.commit(types.REMOVE_GROUP, group), 125)
       }
     }
   }
