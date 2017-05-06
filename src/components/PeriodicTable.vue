@@ -11,8 +11,8 @@
       </router-link>
     </div>
 
-    <div class="element lanthanoid" data-element-group="lanthanoid"></div>
-    <div class="element actinoid" data-element-group="actinoid"></div>
+    <div class="element lanthanoid" data-element-group="lanthanoid" :style="{ opacity: filteredElementsContainElementsOfGroup('lanthanoid') ? 1 : 0.25 }"></div>
+    <div class="element actinoid" data-element-group="actinoid" :style="{ opacity: filteredElementsContainElementsOfGroup('actinoid') ? 1 : 0.25 }"></div>
   </div>
 </template>
 
@@ -51,6 +51,15 @@
       },
       hideElement () {
         this.showInfo = false
+      },
+      filteredElementsContainElementsOfGroup (group) {
+        let filteredElementsContainElementsOfGroup = false
+        for (let id of this.filteredElements) {
+          if (this.elements[id].elementGroup === group) {
+            filteredElementsContainElementsOfGroup = true
+          }
+        }
+        return filteredElementsContainElementsOfGroup
       }
     }
   }
