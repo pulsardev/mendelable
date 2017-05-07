@@ -10,6 +10,7 @@
 
   export default {
     name: 'line-chart',
+    props: ['element'],
     computed: mapGetters({
       elements: 'localizedElements'
     }),
@@ -36,7 +37,7 @@
         }
 
         let ctx = this.$refs['c-line-chart']
-
+        console.log(this.element)
         // eslint-disable-next-line no-new
         new Chart(ctx, {
           type: 'line',
@@ -49,6 +50,16 @@
                 'rgba(255, 99, 132, 0.2)'
               ],
               borderWidth: 1
+            },
+            {
+              label: 'Ionization energy of' + this.element.name,
+              data: {
+                x: this.element.atomicNumber,
+                y: this.element.ionizationEnergy
+              },
+              backgroundColor: [
+                'rgb(44, 180, 214)'
+              ]
             }]
           },
           options: {

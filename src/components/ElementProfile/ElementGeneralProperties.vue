@@ -19,7 +19,7 @@
       <div v-if="!preview">
         <highlight :data="element"></highlight>
 
-        <line-chart></line-chart>
+        <line-chart :element="element"></line-chart>
         <!--<bar-chart></bar-chart>-->
       </div>
     </div>
