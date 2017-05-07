@@ -37,7 +37,7 @@
         }
 
         let ctx = this.$refs['c-line-chart']
-        console.log(this.element)
+
         // eslint-disable-next-line no-new
         new Chart(ctx, {
           type: 'line',
@@ -83,4 +83,3 @@
     }
   }
 </script>
-atomicNumber
