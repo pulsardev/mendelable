@@ -13,7 +13,6 @@
       "group": "1",
       "density": "0.08988",
       "discoveryAuthor": "Henry Cavendish",
-      "discoveryDate": "1766",
       "electronConfiguration": "1s",
       "electronegativity": "2,20",
       "electronsPerShell": [1],
@@ -30,7 +29,8 @@
       "phase": "gas",
       "symbol": "H",
       "triplePoint": "13,8033",
-      "weight": "1,00794"
+      "weight": "1,00794",
+      "discoveryDate": 1766
     },
     "2": {
       "atomicMass": 4.0026,
@@ -60,7 +60,8 @@
       "period": 1,
       "phase": "gas",
       "symbol": "He",
-      "triplePoint": "2.177"
+      "triplePoint": "2.177",
+      "discoveryDate": 1895
     },
     "3": {
       "atomicMass": 6.941,
@@ -90,7 +91,8 @@
       "period": 2,
       "phase": "solid",
       "symbol": "Li",
-      "triplePoint": ""
+      "triplePoint": "",
+      "discoveryDate": 1817
     },
     "4": {
       "atomicMass": 0,
@@ -120,7 +122,8 @@
       "period": 2,
       "phase": "solid",
       "symbol": "Be",
-      "triplePoint": ""
+      "triplePoint": "",
+      "discoveryDate": 1798
     },
     "5": {
       "atomicMass": 10.811,
@@ -150,7 +153,8 @@
       "phase": "solid",
       "symbol": "B",
       "triplePoint": "",
-      "electronsPerShell": [2, 3]
+      "electronsPerShell": [2, 3],
+      "discoveryDate": 1808
     },
     "6": {
       "atomicMass": 12.0107,
@@ -178,7 +182,8 @@
         "C": 3642
       },
       "symbol": "C",
-      "triplePoint": ""
+      "triplePoint": "",
+      "discoveryDate": 0
     },
     "7": {
       "atomicMass": 14.0067,
@@ -189,7 +194,8 @@
       "name": "Nitrogen",
       "period": 2,
       "symbol": "N",
-      "electronsPerShell": [2, 5]
+      "electronsPerShell": [2, 5],
+      "discoveryDate": 1772
     },
     "8": {
       "atomicMass": 15.9994,
@@ -200,7 +206,8 @@
       "name": "Oxygen",
       "period": 2,
       "symbol": "O",
-      "electronsPerShell": [2, 6]
+      "electronsPerShell": [2, 6],
+      "discoveryDate": 1774
     },
     "9": {
       "atomicMass": 18.9984,
@@ -211,7 +218,8 @@
       "name": "Fluorine",
       "period": 2,
       "symbol": "F",
-      "electronsPerShell": [2, 7]
+      "electronsPerShell": [2, 7],
+      "discoveryDate": 1886
     },
     "10": {
       "atomicMass": 20.1797,
@@ -222,7 +230,8 @@
       "name": "Neon",
       "period": 2,
       "symbol": "Ne",
-      "electronsPerShell": [2, 8]
+      "electronsPerShell": [2, 8],
+      "discoveryDate": 1898
     },
     "11": {
       "atomicMass": 22.9897,
@@ -233,7 +242,8 @@
       "name": "Sodium",
       "period": 3,
       "symbol": "Na",
-      "electronsPerShell": [2, 8, 1]
+      "electronsPerShell": [2, 8, 1],
+      "discoveryDate": 1807
     },
     "12": {
       "atomicMass": 24.305,
@@ -244,7 +254,8 @@
       "name": "Magnesium",
       "period": 3,
       "symbol": "Mg",
-      "electronsPerShell": [2, 8, 2]
+      "electronsPerShell": [2, 8, 2],
+      "discoveryDate": 1755
     },
     "13": {
       "atomicMass": 26.9815,
@@ -255,7 +266,8 @@
       "name": "Aluminum",
       "period": 3,
       "symbol": "Al",
-      "electronsPerShell": [2, 8, 3]
+      "electronsPerShell": [2, 8, 3],
+      "discoveryDate": 1825
     },
     "14": {
       "atomicMass": 28.0855,
@@ -266,7 +278,8 @@
       "name": "Silicon",
       "period": 3,
       "symbol": "Si",
-      "electronsPerShell": [2, 8, 4]
+      "electronsPerShell": [2, 8, 4],
+      "discoveryDate": 1823
     },
     "15": {
       "atomicMass": 30.9738,
@@ -277,7 +290,8 @@
       "name": "Phosphorus",
       "period": 3,
       "symbol": "P",
-      "electronsPerShell": [2, 8, 5]
+      "electronsPerShell": [2, 8, 5],
+      "discoveryDate": 1669
     },
     "16": {
       "atomicMass": 32.065,
@@ -288,7 +302,8 @@
       "name": "Sulfur",
       "period": 3,
       "symbol": "S",
-      "electronsPerShell": [2, 8, 6]
+      "electronsPerShell": [2, 8, 6],
+      "discoveryDate": 0
     },
     "17": {
       "atomicMass": 35.453,
@@ -299,7 +314,8 @@
       "name": "Chlorine",
       "period": 3,
       "symbol": "Cl",
-      "electronsPerShell": [2, 8, 7]
+      "electronsPerShell": [2, 8, 7],
+      "discoveryDate": 1774
     },
     "18": {
       "atomicMass": 39.948,
@@ -310,7 +326,8 @@
       "name": "Argon",
       "period": 3,
       "symbol": "Ar",
-      "electronsPerShell": [2, 8, 8]
+      "electronsPerShell": [2, 8, 8],
+      "discoveryDate": 1894
     },
     "19": {
       "atomicMass": 39.0983,
@@ -321,7 +338,8 @@
       "name": "Potassium",
       "period": 4,
       "symbol": "K",
-      "electronsPerShell": [2, 8, 8, 1]
+      "electronsPerShell": [2, 8, 8, 1],
+      "discoveryDate": 1807
     },
     "20": {
       "atomicMass": 40.078,
@@ -332,7 +350,8 @@
       "name": "Calcium",
       "period": 4,
       "symbol": "Ca",
-      "electronsPerShell": [2, 8, 8, 2]
+      "electronsPerShell": [2, 8, 8, 2],
+      "discoveryDate": 1808
     },
     "21": {
       "atomicMass": 0,
@@ -343,7 +362,8 @@
       "name": "Scandium",
       "period": 4,
       "symbol": "Sc",
-      "electronsPerShell": [2, 8, 9, 2]
+      "electronsPerShell": [2, 8, 9, 2],
+      "discoveryDate": 1879
     },
     "22": {
       "atomicMass": 47.867,
@@ -354,7 +374,8 @@
       "name": "Titanium",
       "period": 4,
       "symbol": "Ti",
-      "electronsPerShell": [2, 8, 10, 2]
+      "electronsPerShell": [2, 8, 10, 2],
+      "discoveryDate": 1791
     },
     "23": {
       "atomicMass": 50.9415,
@@ -365,7 +386,8 @@
       "name": "Vanadium",
       "period": 4,
       "symbol": "V",
-      "electronsPerShell": [2, 8, 11, 2]
+      "electronsPerShell": [2, 8, 11, 2],
+      "discoveryDate": 1801
     },
     "24": {
       "atomicMass": 51.9961,
@@ -376,7 +398,8 @@
       "name": "Chromium",
       "period": 4,
       "symbol": "Cr",
-      "electronsPerShell": [2, 8, 13, 1]
+      "electronsPerShell": [2, 8, 13, 1],
+      "discoveryDate": 1798
     },
     "25": {
       "atomicMass": 54.938,
@@ -387,7 +410,8 @@
       "name": "Manganese",
       "period": 4,
       "symbol": "Mn",
-      "electronsPerShell": [2, 8, 13, 2]
+      "electronsPerShell": [2, 8, 13, 2],
+      "discoveryDate": 1774
     },
     "26": {
       "atomicMass": 55.845,
@@ -398,7 +422,8 @@
       "name": "Iron",
       "period": 4,
       "symbol": "Fe",
-      "electronsPerShell": [2, 8, 14, 2]
+      "electronsPerShell": [2, 8, 14, 2],
+      "discoveryDate": -2500
     },
     "27": {
       "atomicMass": 58.9332,
@@ -409,7 +434,8 @@
       "name": "Cobalt",
       "period": 4,
       "symbol": "Co",
-      "electronsPerShell": [2, 8, 15, 2]
+      "electronsPerShell": [2, 8, 15, 2],
+      "discoveryDate": 1735
     },
     "28": {
       "atomicMass": 58.6934,
@@ -420,7 +446,8 @@
       "name": "Nickel",
       "period": 4,
       "symbol": "Ni",
-      "electronsPerShell": [2, 8, 16, 2]
+      "electronsPerShell": [2, 8, 16, 2],
+      "discoveryDate": 1751
     },
     "29": {
       "atomicMass": 63.546,
@@ -431,7 +458,8 @@
       "name": "Copper",
       "period": 4,
       "symbol": "Cu",
-      "electronsPerShell": [2, 8, 18, 1]
+      "electronsPerShell": [2, 8, 18, 1],
+      "discoveryDate": 1944
     },
     "30": {
       "atomicMass": 65.39,
@@ -442,7 +470,8 @@
       "name": "Zinc",
       "period": 4,
       "symbol": "Zn",
-      "electronsPerShell": [2, 8, 18, 2]
+      "electronsPerShell": [2, 8, 18, 2],
+      "discoveryDate": 1500
     },
     "31": {
       "atomicMass": 69.723,
@@ -453,7 +482,8 @@
       "name": "Gallium",
       "period": 4,
       "symbol": "Ga",
-      "electronsPerShell": [2, 8, 18, 3]
+      "electronsPerShell": [2, 8, 18, 3],
+      "discoveryDate": 1875
     },
     "32": {
       "atomicMass": 72.64,
@@ -464,7 +494,8 @@
       "name": "Germanium",
       "period": 4,
       "symbol": "Ge",
-      "electronsPerShell": [2, 8, 18, 4]
+      "electronsPerShell": [2, 8, 18, 4],
+      "discoveryDate": 1886
     },
     "33": {
       "atomicMass": 74.9216,
@@ -475,7 +506,8 @@
       "name": "Arsenic",
       "period": 4,
       "symbol": "As",
-      "electronsPerShell": [2, 8, 18, 5]
+      "electronsPerShell": [2, 8, 18, 5],
+      "discoveryDate": 1250
     },
     "34": {
       "atomicMass": 44.9559,
@@ -486,7 +518,8 @@
       "name": "Selenium",
       "period": 4,
       "symbol": "Se",
-      "electronsPerShell": [2, 8, 9, 2]
+      "electronsPerShell": [2, 8, 9, 2],
+      "discoveryDate": 1817
     },
     "35": {
       "atomicMass": 79.904,
@@ -497,7 +530,8 @@
       "name": "Bromine",
       "period": 4,
       "symbol": "Br",
-      "electronsPerShell": [2, 8, 18, 7]
+      "electronsPerShell": [2, 8, 18, 7],
+      "discoveryDate": 1826
     },
     "36": {
       "atomicMass": 83.8,
@@ -508,7 +542,8 @@
       "name": "Krypton",
       "period": 4,
       "symbol": "Kr",
-      "electronsPerShell": [2, 8, 18, 8]
+      "electronsPerShell": [2, 8, 18, 8],
+      "discoveryDate": 1898
     },
     "37": {
       "atomicMass": 85.4678,
@@ -519,7 +554,8 @@
       "name": "Rubidium",
       "period": 5,
       "symbol": "Rb",
-      "electronsPerShell": [2, 8, 18, 8, 1]
+      "electronsPerShell": [2, 8, 18, 8, 1],
+      "discoveryDate": 1861
     },
     "38": {
       "atomicMass": 87.62,
@@ -530,7 +566,8 @@
       "name": "Strontium",
       "period": 5,
       "symbol": "Sr",
-      "electronsPerShell": [2, 8, 18, 8, 2]
+      "electronsPerShell": [2, 8, 18, 8, 2],
+      "discoveryDate": 1808
     },
     "39": {
       "atomicMass": 88.9059,
@@ -541,7 +578,8 @@
       "name": "Yttrium",
       "period": 5,
       "symbol": "Y",
-      "electronsPerShell": [2, 8, 18, 9, 2]
+      "electronsPerShell": [2, 8, 18, 9, 2],
+      "discoveryDate": 1794
     },
     "40": {
       "atomicMass": 91.224,
@@ -552,7 +590,8 @@
       "name": "Zirconium",
       "period": 5,
       "symbol": "Zr",
-      "electronsPerShell": [2, 8, 18, 10, 2]
+      "electronsPerShell": [2, 8, 18, 10, 2],
+      "discoveryDate": 1789
     },
     "41": {
       "atomicMass": 92.9064,
@@ -563,7 +602,8 @@
       "name": "Niobium",
       "period": 5,
       "symbol": "Nb",
-      "electronsPerShell": [2, 8, 18, 12, 1]
+      "electronsPerShell": [2, 8, 18, 12, 1],
+      "discoveryDate": 1801
     },
     "42": {
       "atomicMass": 95.94,
@@ -574,7 +614,8 @@
       "name": "Molybdenum",
       "period": 5,
       "symbol": "Mo",
-      "electronsPerShell": [2, 8, 18, 13, 1]
+      "electronsPerShell": [2, 8, 18, 13, 1],
+      "discoveryDate": 1781
     },
     "43": {
       "atomicMass": 98,
@@ -585,7 +626,8 @@
       "name": "Technetium",
       "period": 5,
       "symbol": "Tc",
-      "electronsPerShell": [2, 8, 18, 13, 2]
+      "electronsPerShell": [2, 8, 18, 13, 2],
+      "discoveryDate": 1937
     },
     "44": {
       "atomicMass": 101.07,
@@ -596,7 +638,8 @@
       "name": "Ruthenium",
       "period": 5,
       "symbol": "Ru",
-      "electronsPerShell": [2, 8, 18, 15, 1]
+      "electronsPerShell": [2, 8, 18, 15, 1],
+      "discoveryDate": 1808
     },
     "45": {
       "atomicMass": 102.9055,
@@ -607,7 +650,8 @@
       "name": "Rhodium",
       "period": 5,
       "symbol": "Rh",
-      "electronsPerShell": [2, 8, 18, 16, 1]
+      "electronsPerShell": [2, 8, 18, 16, 1],
+      "discoveryDate": 1803
     },
     "46": {
       "atomicMass": 106.42,
@@ -618,7 +662,8 @@
       "name": "Palladium",
       "period": 5,
       "symbol": "Pd",
-      "electronsPerShell": [2, 8, 18, 18, 0]
+      "electronsPerShell": [2, 8, 18, 18, 0],
+      "discoveryDate": 1803
     },
     "47": {
       "atomicMass": 107.8682,
@@ -629,7 +674,8 @@
       "name": "Silver",
       "period": 5,
       "symbol": "Ag",
-      "electronsPerShell": [2, 8, 18, 18, 1]
+      "electronsPerShell": [2, 8, 18, 18, 1],
+      "discoveryDate": -3000
     },
     "48": {
       "atomicMass": 112.411,
@@ -640,7 +686,8 @@
       "name": "Cadmium",
       "period": 5,
       "symbol": "Cd",
-      "electronsPerShell": [2, 8, 18, 18, 2]
+      "electronsPerShell": [2, 8, 18, 18, 2],
+      "discoveryDate": 1817
     },
     "49": {
       "atomicMass": 114.818,
@@ -651,7 +698,8 @@
       "name": "Indium",
       "period": 5,
       "symbol": "In",
-      "electronsPerShell": [2, 8, 18, 18, 3]
+      "electronsPerShell": [2, 8, 18, 18, 3],
+      "discoveryDate": 1863
     },
     "50": {
       "atomicMass": 118.71,
@@ -662,7 +710,8 @@
       "name": "Tin",
       "period": 5,
       "symbol": "Sn",
-      "electronsPerShell": [2, 8, 18, 18, 4]
+      "electronsPerShell": [2, 8, 18, 18, 4],
+      "discoveryDate": -2100
     },
     "51": {
       "atomicMass": 121.76,
@@ -673,7 +722,8 @@
       "name": "Antimony",
       "period": 5,
       "symbol": "Sb",
-      "electronsPerShell": [2, 8, 18, 18, 5]
+      "electronsPerShell": [2, 8, 18, 18, 5],
+      "discoveryDate": -1600
     },
     "52": {
       "atomicMass": 127.6,
@@ -684,7 +734,8 @@
       "name": "Tellurium",
       "period": 5,
       "symbol": "Te",
-      "electronsPerShell": [2, 8, 18, 18, 6]
+      "electronsPerShell": [2, 8, 18, 18, 6],
+      "discoveryDate": 1783
     },
     "53": {
       "atomicMass": 126.9045,
@@ -695,7 +746,8 @@
       "name": "Iodine",
       "period": 5,
       "symbol": "I",
-      "electronsPerShell": [2, 8, 18, 18, 7]
+      "electronsPerShell": [2, 8, 18, 18, 7],
+      "discoveryDate": 1811
     },
     "54": {
       "atomicMass": 131.293,
@@ -706,7 +758,8 @@
       "name": "Xenon",
       "period": 5,
       "symbol": "Xe",
-      "electronsPerShell": [2, 8, 18, 18, 8]
+      "electronsPerShell": [2, 8, 18, 18, 8],
+      "discoveryDate": 1898
     },
     "55": {
       "atomicMass": 132.9055,
@@ -717,7 +770,8 @@
       "name": "Cesium",
       "period": 6,
       "symbol": "Cs",
-      "electronsPerShell": [2, 8, 18, 18, 8, 1]
+      "electronsPerShell": [2, 8, 18, 18, 8, 1],
+      "discoveryDate": 1860
     },
     "56": {
       "atomicMass": 0,
@@ -728,7 +782,8 @@
       "name": "Barium",
       "period": 6,
       "symbol": "Ba",
-      "electronsPerShell": [2, 8, 18, 18, 8, 2]
+      "electronsPerShell": [2, 8, 18, 18, 8, 2],
+      "discoveryDate": 1808
     },
     "57": {
       "atomicMass": 138.9055,
@@ -739,7 +794,8 @@
       "name": "Lanthanum",
       "period": 6,
       "symbol": "La",
-      "electronsPerShell": [2, 8, 18, 18, 9, 2]
+      "electronsPerShell": [2, 8, 18, 18, 9, 2],
+      "discoveryDate": 1839
     },
     "58": {
       "atomicMass": 140.116,
@@ -750,7 +806,8 @@
       "name": "Cerium",
       "period": 6,
       "symbol": "Ce",
-      "electronsPerShell": [2, 8, 18, 19, 9, 2]
+      "electronsPerShell": [2, 8, 18, 19, 9, 2],
+      "discoveryDate": 1803
     },
     "59": {
       "atomicMass": 140.9077,
@@ -761,7 +818,8 @@
       "name": "Praseodymium",
       "period": 6,
       "symbol": "Pr",
-      "electronsPerShell": [2, 8, 18, 21, 8, 2]
+      "electronsPerShell": [2, 8, 18, 21, 8, 2],
+      "discoveryDate": 1885
     },
     "60": {
       "atomicMass": 144.24,
@@ -772,7 +830,8 @@
       "name": "Neodymium",
       "period": 6,
       "symbol": "Nd",
-      "electronsPerShell": [2, 8, 18, 22, 8, 2]
+      "electronsPerShell": [2, 8, 18, 22, 8, 2],
+      "discoveryDate": 1885
     },
     "61": {
       "atomicMass": 145,
@@ -783,7 +842,8 @@
       "name": "Promethium",
       "period": 6,
       "symbol": "Pm",
-      "electronsPerShell": [2, 8, 18, 23, 8, 2]
+      "electronsPerShell": [2, 8, 18, 23, 8, 2],
+      "discoveryDate": 1945
     },
     "62": {
       "atomicMass": 150.36,
@@ -794,7 +854,8 @@
       "name": "Samarium",
       "period": 6,
       "symbol": "Sm",
-      "electronsPerShell": [2, 8, 18, 24, 8, 2]
+      "electronsPerShell": [2, 8, 18, 24, 8, 2],
+      "discoveryDate": 1879
     },
     "63": {
       "atomicMass": 151.964,
@@ -805,7 +866,8 @@
       "name": "Europium",
       "period": 6,
       "symbol": "Eu",
-      "electronsPerShell": [2, 8, 18, 25, 8, 2]
+      "electronsPerShell": [2, 8, 18, 25, 8, 2],
+      "discoveryDate": 1901
     },
     "64": {
       "atomicMass": 157.25,
@@ -816,7 +878,8 @@
       "name": "Gadolinium",
       "period": 6,
       "symbol": "Gd",
-      "electronsPerShell": [2, 8, 18, 25, 9, 2]
+      "electronsPerShell": [2, 8, 18, 25, 9, 2],
+      "discoveryDate": 1880
     },
     "65": {
       "atomicMass": 158.9253,
@@ -827,7 +890,8 @@
       "name": "Terbium",
       "period": 6,
       "symbol": "Tb",
-      "electronsPerShell": [2, 8, 18, 27, 8, 2]
+      "electronsPerShell": [2, 8, 18, 27, 8, 2],
+      "discoveryDate": 1843
     },
     "66": {
       "atomicMass": 162.5,
@@ -838,7 +902,8 @@
       "name": "Dysprosium",
       "period": 6,
       "symbol": "Dy",
-      "electronsPerShell": [2, 8, 18, 28, 8, 2]
+      "electronsPerShell": [2, 8, 18, 28, 8, 2],
+      "discoveryDate": 1886
     },
     "67": {
       "atomicMass": 164.9303,
@@ -849,7 +914,8 @@
       "name": "Holmium",
       "period": 6,
       "symbol": "Ho",
-      "electronsPerShell": [2, 8, 18, 29, 8, 2]
+      "electronsPerShell": [2, 8, 18, 29, 8, 2],
+      "discoveryDate": 1878
     },
     "68": {
       "atomicMass": 167.259,
@@ -860,7 +926,8 @@
       "name": "Erbium",
       "period": 6,
       "symbol": "Er",
-      "electronsPerShell": [2, 8, 18, 30, 8, 2]
+      "electronsPerShell": [2, 8, 18, 30, 8, 2],
+      "discoveryDate": 1842
     },
     "69": {
       "atomicMass": 168.9342,
@@ -871,7 +938,8 @@
       "name": "Thulium",
       "period": 6,
       "symbol": "Tm",
-      "electronsPerShell": [2, 8, 18, 31, 8, 2]
+      "electronsPerShell": [2, 8, 18, 31, 8, 2],
+      "discoveryDate": 1879
     },
     "70": {
       "atomicMass": 173.04,
@@ -882,7 +950,8 @@
       "name": "Ytterbium",
       "period": 6,
       "symbol": "Yb",
-      "electronsPerShell": [2, 8, 18, 32, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 8, 2],
+      "discoveryDate": 1878
     },
     "71": {
       "atomicMass": 174.967,
@@ -893,7 +962,8 @@
       "name": "Lutetium",
       "period": 6,
       "symbol": "Lu",
-      "electronsPerShell": [2, 8, 18, 32, 9, 2]
+      "electronsPerShell": [2, 8, 18, 32, 9, 2],
+      "discoveryDate": 1907
     },
     "72": {
       "atomicMass": 178.49,
@@ -904,7 +974,8 @@
       "name": "Hafnium",
       "period": 6,
       "symbol": "Hf",
-      "electronsPerShell": [2, 8, 18, 32, 10, 2]
+      "electronsPerShell": [2, 8, 18, 32, 10, 2],
+      "discoveryDate": 1923
     },
     "73": {
       "atomicMass": 180.9479,
@@ -915,7 +986,8 @@
       "name": "Tantalum",
       "period": 6,
       "symbol": "Ta",
-      "electronsPerShell": [2, 8, 18, 32, 11, 2]
+      "electronsPerShell": [2, 8, 18, 32, 11, 2],
+      "discoveryDate": 1802
     },
     "74": {
       "atomicMass": 183.84,
@@ -926,7 +998,8 @@
       "name": "Tungsten",
       "period": 6,
       "symbol": "W",
-      "electronsPerShell": [2, 8, 18, 32, 12, 2]
+      "electronsPerShell": [2, 8, 18, 32, 12, 2],
+      "discoveryDate": 1783
     },
     "75": {
       "atomicMass": 186.207,
@@ -937,7 +1010,8 @@
       "name": "Rhenium",
       "period": 6,
       "symbol": "Re",
-      "electronsPerShell": [2, 8, 18, 32, 13, 2]
+      "electronsPerShell": [2, 8, 18, 32, 13, 2],
+      "discoveryDate": 1925
     },
     "76": {
       "atomicMass": 190.23,
@@ -948,7 +1022,8 @@
       "name": "Osmium",
       "period": 6,
       "symbol": "Os",
-      "electronsPerShell": [2, 8, 18, 32, 14, 2]
+      "electronsPerShell": [2, 8, 18, 32, 14, 2],
+      "discoveryDate": 1803
     },
     "77": {
       "atomicMass": 192.217,
@@ -959,7 +1034,8 @@
       "name": "Iridium",
       "period": 6,
       "symbol": "Ir",
-      "electronsPerShell": [2, 8, 18, 32, 15, 2]
+      "electronsPerShell": [2, 8, 18, 32, 15, 2],
+      "discoveryDate": 1803
     },
     "78": {
       "atomicMass": 195.078,
@@ -970,7 +1046,8 @@
       "name": "Platinum",
       "period": 6,
       "symbol": "Pt",
-      "electronsPerShell": [2, 8, 18, 32, 17, 1]
+      "electronsPerShell": [2, 8, 18, 32, 17, 1],
+      "discoveryDate": 1700
     },
     "79": {
       "atomicMass": 196.9665,
@@ -981,7 +1058,8 @@
       "name": "Gold",
       "period": 6,
       "symbol": "Au",
-      "electronsPerShell": [2, 8, 18, 32, 18, 1]
+      "electronsPerShell": [2, 8, 18, 32, 18, 1],
+      "discoveryDate": -3000
     },
     "80": {
       "atomicMass": 200.59,
@@ -992,7 +1070,8 @@
       "name": "Mercury",
       "period": 6,
       "symbol": "Hg",
-      "electronsPerShell": [2, 8, 18, 32, 18, 2]
+      "electronsPerShell": [2, 8, 18, 32, 18, 2],
+      "discoveryDate": -1500
     },
     "81": {
       "atomicMass": 204.3833,
@@ -1003,7 +1082,8 @@
       "name": "Thallium",
       "period": 6,
       "symbol": "Tl",
-      "electronsPerShell": [2, 8, 18, 32, 18, 3]
+      "electronsPerShell": [2, 8, 18, 32, 18, 3],
+      "discoveryDate": 1861
     },
     "82": {
       "atomicMass": 207.2,
@@ -1014,7 +1094,8 @@
       "name": "Lead",
       "period": 6,
       "symbol": "Pb",
-      "electronsPerShell": [2, 8, 18, 32, 18, 4]
+      "electronsPerShell": [2, 8, 18, 32, 18, 4],
+      "discoveryDate": -1000
     },
     "83": {
       "atomicMass": 208.9804,
@@ -1025,7 +1106,8 @@
       "name": "Bismuth",
       "period": 6,
       "symbol": "Bi",
-      "electronsPerShell": [2, 8, 18, 32, 18, 5]
+      "electronsPerShell": [2, 8, 18, 32, 18, 5],
+      "discoveryDate": 1500
     },
     "84": {
       "atomicMass": 209,
@@ -1036,7 +1118,8 @@
       "name": "Polonium",
       "period": 6,
       "symbol": "Po",
-      "electronsPerShell": [2, 8, 18, 32, 18, 6]
+      "electronsPerShell": [2, 8, 18, 32, 18, 6],
+      "discoveryDate": 1898
     },
     "85": {
       "atomicMass": 210,
@@ -1047,7 +1130,8 @@
       "name": "Astatine",
       "period": 6,
       "symbol": "At",
-      "electronsPerShell": [2, 8, 18, 32, 18, 7]
+      "electronsPerShell": [2, 8, 18, 32, 18, 7],
+      "discoveryDate": 1940
     },
     "86": {
       "atomicMass": 222,
@@ -1058,7 +1142,8 @@
       "name": "Radon",
       "period": 6,
       "symbol": "Rn",
-      "electronsPerShell": [2, 8, 18, 32, 18, 8]
+      "electronsPerShell": [2, 8, 18, 32, 18, 8],
+      "discoveryDate": 1900
     },
     "87": {
       "atomicMass": 223,
@@ -1069,7 +1154,8 @@
       "name": "Francium",
       "period": 7,
       "symbol": "Fr",
-      "electronsPerShell": [2, 8, 18, 32, 18, 8, 1]
+      "electronsPerShell": [2, 8, 18, 32, 18, 8, 1],
+      "discoveryDate": 1939
     },
     "88": {
       "atomicMass": 226,
@@ -1080,7 +1166,8 @@
       "name": "Radium",
       "period": 7,
       "symbol": "Ra",
-      "electronsPerShell": [2, 8, 18, 32, 18, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 18, 8, 2],
+      "discoveryDate": 1898
     },
     "89": {
       "atomicMass": 227,
@@ -1091,7 +1178,8 @@
       "name": "Actinium",
       "period": 7,
       "symbol": "Ac",
-      "electronsPerShell": [2, 8, 18, 32, 18, 9, 2]
+      "electronsPerShell": [2, 8, 18, 32, 18, 9, 2],
+      "discoveryDate": 1899
     },
     "90": {
       "atomicMass": 232.0381,
@@ -1102,7 +1190,8 @@
       "name": "Thorium",
       "period": 7,
       "symbol": "Th",
-      "electronsPerShell": [2, 8, 18, 32, 18, 10, 2]
+      "electronsPerShell": [2, 8, 18, 32, 18, 10, 2],
+      "discoveryDate": 1829
     },
     "91": {
       "atomicMass": 106.42,
@@ -1113,7 +1202,8 @@
       "name": "Protactinium",
       "period": 7,
       "symbol": "Pa",
-      "electronsPerShell": [2, 8, 18, 32, 20, 9, 2]
+      "electronsPerShell": [2, 8, 18, 32, 20, 9, 2],
+      "discoveryDate": 1917
     },
     "92": {
       "atomicMass": 238.0289,
@@ -1124,7 +1214,8 @@
       "name": "Uranium",
       "period": 7,
       "symbol": "U",
-      "electronsPerShell": [2, 8, 18, 32, 21, 9, 2]
+      "electronsPerShell": [2, 8, 18, 32, 21, 9, 2],
+      "discoveryDate": 1789
     },
     "93": {
       "atomicMass": 237,
@@ -1135,7 +1226,8 @@
       "name": "Neptunium",
       "period": 7,
       "symbol": "Np",
-      "electronsPerShell": [2, 8, 18, 32, 22, 9, 2]
+      "electronsPerShell": [2, 8, 18, 32, 22, 9, 2],
+      "discoveryDate": 1940
     },
     "94": {
       "atomicMass": 244,
@@ -1146,7 +1238,8 @@
       "name": "Plutonium",
       "period": 7,
       "symbol": "Pu",
-      "electronsPerShell": [2, 8, 18, 32, 24, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 24, 8, 2],
+      "discoveryDate": 1940
     },
     "95": {
       "atomicMass": 243,
@@ -1157,7 +1250,8 @@
       "name": "Americium",
       "period": 7,
       "symbol": "Am",
-      "electronsPerShell": [2, 8, 18, 32, 25, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 25, 8, 2],
+      "discoveryDate": 1994
     },
     "96": {
       "atomicMass": 247,
@@ -1168,7 +1262,8 @@
       "name": "Curium",
       "period": 7,
       "symbol": "Cm",
-      "electronsPerShell": [2, 8, 18, 32, 25, 9, 2]
+      "electronsPerShell": [2, 8, 18, 32, 25, 9, 2],
+      "discoveryDate": 1944
     },
     "97": {
       "atomicMass": 247,
@@ -1179,7 +1274,8 @@
       "name": "Berkelium",
       "period": 7,
       "symbol": "Bk",
-      "electronsPerShell": [2, 8, 18, 32, 27, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 27, 8, 2],
+      "discoveryDate": 1949
     },
     "98": {
       "atomicMass": 251,
@@ -1190,7 +1286,8 @@
       "name": "Californium",
       "period": 7,
       "symbol": "Cf",
-      "electronsPerShell": [2, 8, 18, 32, 28, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 28, 8, 2],
+      "discoveryDate": 1950
     },
     "99": {
       "atomicMass": 252,
@@ -1201,7 +1298,8 @@
       "name": "Einsteinium",
       "period": 7,
       "symbol": "Es",
-      "electronsPerShell": [2, 8, 18, 32, 29, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 29, 8, 2],
+      "discoveryDate": 1952
     },
     "100": {
       "atomicMass": 257,
@@ -1212,7 +1310,8 @@
       "name": "Fermium",
       "period": 7,
       "symbol": "Fm",
-      "electronsPerShell": [2, 8, 18, 32, 30, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 30, 8, 2],
+      "discoveryDate": 1952
     },
     "101": {
       "atomicMass": 258,
@@ -1223,7 +1322,8 @@
       "name": "Mendelevium",
       "period": 7,
       "symbol": "Md",
-      "electronsPerShell": [2, 8, 18, 32, 31, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 31, 8, 2],
+      "discoveryDate": 1955
     },
     "102": {
       "atomicMass": 259,
@@ -1234,7 +1334,8 @@
       "name": "Nobelium",
       "period": 7,
       "symbol": "No",
-      "electronsPerShell": [2, 8, 18, 32, 32, 8, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 8, 2],
+      "discoveryDate": 1958
     },
     "103": {
       "atomicMass": 262,
@@ -1245,7 +1346,8 @@
       "name": "Lawrencium",
       "period": 7,
       "symbol": "Lr",
-      "electronsPerShell": [2, 8, 18, 32, 32, 8, 3]
+      "electronsPerShell": [2, 8, 18, 32, 32, 8, 3],
+      "discoveryDate": 1961
     },
     "104": {
       "atomicMass": 261,
@@ -1256,7 +1358,8 @@
       "name": "Rutherfordium",
       "period": 7,
       "symbol": "Rf",
-      "electronsPerShell": [2, 8, 18, 32, 32, 10, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 10, 2],
+      "discoveryDate": 0
     },
     "105": {
       "atomicMass": 262,
@@ -1267,7 +1370,8 @@
       "name": "Dubnium",
       "period": 7,
       "symbol": "Db",
-      "electronsPerShell": [2, 8, 18, 32, 32, 11, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 11, 2],
+      "discoveryDate": 0
     },
     "106": {
       "atomicMass": 266,
@@ -1278,7 +1382,8 @@
       "name": "Seaborgium",
       "period": 7,
       "symbol": "Sg",
-      "electronsPerShell": [2, 8, 18, 32, 32, 12, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 12, 2],
+      "discoveryDate": 0
     },
     "107": {
       "atomicMass": 264,
@@ -1289,7 +1394,8 @@
       "name": "Bohrium",
       "period": 7,
       "symbol": "Bh",
-      "electronsPerShell": [2, 8, 18, 32, 32, 13, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 13, 2],
+      "discoveryDate": 0
     },
     "108": {
       "atomicMass": 277,
@@ -1300,7 +1406,8 @@
       "name": "Hassium",
       "period": 7,
       "symbol": "Hs",
-      "electronsPerShell": [2, 8, 18, 32, 32, 14, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 14, 2],
+      "discoveryDate": 0
     },
     "109": {
       "atomicMass": 268,
@@ -1311,7 +1418,8 @@
       "name": "Meitnerium",
       "period": 7,
       "symbol": "Mt",
-      "electronsPerShell": [2, 8, 18, 32, 32, 15, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 15, 2],
+      "discoveryDate": 0
     },
     "110": {
       "atomicMass": 108,
@@ -1322,7 +1430,8 @@
       "name": "Darmstadtium",
       "period": 7,
       "symbol": "Ds",
-      "electronsPerShell": [2, 8, 18, 32, 32, 16, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 16, 2],
+      "discoveryDate": 0
     },
     "111": {
       "atomicMass": 282,
@@ -1333,7 +1442,8 @@
       "name": "Roentgenium",
       "period": 7,
       "symbol": "Rg",
-      "electronsPerShell": [2, 8, 18, 32, 32, 17, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 17, 2],
+      "discoveryDate": 0
     },
     "112": {
       "atomicMass": 285,
@@ -1344,7 +1454,8 @@
       "name": "Copernicium",
       "period": 7,
       "symbol": "Cn",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 2]
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 2],
+      "discoveryDate": 0
     },
     "113": {
       "atomicMass": 112,
@@ -1355,7 +1466,8 @@
       "name": "Ununtrium",
       "period": 7,
       "symbol": "Uut",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 3]
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 3],
+      "discoveryDate": 0
     },
     "114": {
       "atomicMass": 289,
@@ -1366,7 +1478,8 @@
       "name": "Flerovium",
       "period": 7,
       "symbol": "Fl",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 4]
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 4],
+      "discoveryDate": 1886
     },
     "115": {
       "atomicMass": 114,
@@ -1377,7 +1490,8 @@
       "name": "Ununpentium",
       "period": 7,
       "symbol": "Uup",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 5]
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 5],
+      "discoveryDate": 0
     },
     "116": {
       "atomicMass": 293,
@@ -1388,7 +1502,8 @@
       "name": "Livermorium",
       "period": 7,
       "symbol": "Lv",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 6]
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 6],
+      "discoveryDate": 0
     },
     "117": {
       "atomicMass": 116,
@@ -1399,7 +1514,8 @@
       "name": "Ununseptium",
       "period": 7,
       "symbol": "Uus",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 7]
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 7],
+      "discoveryDate": 0
     },
     "118": {
       "atomicMass": 117,
@@ -1410,7 +1526,8 @@
       "name": "Ununoctium",
       "period": 7,
       "symbol": "Uuo",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 8]
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 8],
+      "discoveryDate": 0
     }
   },
   "fr_FR": {
