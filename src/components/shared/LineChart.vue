@@ -43,24 +43,31 @@
           type: 'line',
           data: {
             labels: 'Ionization energy',
-            datasets: [{
-              label: 'Ionization energy',
-              data: data,
-              backgroundColor: [
-                'rgba(255, 99, 132, 0.2)'
-              ],
-              borderWidth: 1
-            },
-            {
-              label: 'Ionization energy of' + this.element.name,
-              data: {
-                x: this.element.atomicNumber,
-                y: this.element.ionizationEnergy
+            datasets: [
+              {
+                label: 'Ionization energy',
+                data: data,
+                backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)'
+                ],
+                borderWidth: 1
               },
-              backgroundColor: [
-                'rgb(44, 180, 214)'
-              ]
-            }]
+              {
+                label: 'Ionization energy of ' + this.element.name,
+                data: [
+                  {
+                    x: this.element.atomicNumber,
+                    y: this.element.ionizationEnergy
+                  }
+                ],
+                backgroundColor: [
+                  'rgb(44, 180, 214)'
+                ],
+                pointBorderColor: 'rgba(44, 180, 214, 0.4)',
+                pointBorderWidth: 50,
+                borderWidth: 1
+              }
+            ]
           },
           options: {
             scales: {
@@ -69,10 +76,11 @@
                 position: 'bottom'
               }]
             },
-            showLines: false
+            showLines: true
           }
         })
       }
     }
   }
 </script>
+atomicNumber
