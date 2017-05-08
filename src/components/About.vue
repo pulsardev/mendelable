@@ -1,11 +1,58 @@
 <template>
   <div class="c-about">
-    <h2>About Mendelable</h2>
+    <h2>{{ $t("about.title") }}</h2>
+    <p class="text-muted" v-html="$t('about.primaryText')"></p>
+
+    <div class="row">
+      <div class="col-xl-8">
+        <form action="https://formspree.io/teampulsar.dev@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+
+          <div class="form-group">
+            <label for="name">{{ $t('contact.form.name.label') }}</label>
+            <input v-model="name" type="text" name="name" class="form-control" :placeholder="$t('contact.form.name.label') + '*'" id="name" required :data-validation-required-message="$t('contact.form.name.validation')">
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">{{ $t('contact.form.email.label') }}</label>
+            <input v-model="email" type="email" name="_replyto" class="form-control" :placeholder="$t('contact.form.email.label') + '*'" id="email" required :data-validation-required-message="$t('contact.form.email.validation')">
+            <small id="emailHelp" class="form-text text-muted">{{ $t('contact.form.email.helpText') }}</small>
+            <p v-if="email && !isValidEmail" class="help-block text-danger">{{ $t('contact.form.email.error') }}</p>
+          </div>
+
+          <div class="form-group">
+            <label for="message">{{ $t('contact.form.message.label') }}</label>
+            <textarea v-model="message" name="message" class="form-control" :placeholder="$t('contact.form.message.label') + '*'" id="message" rows="5" required :data-validation-required-message="$t('contact.form.message.validation')"></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary" :disabled="!canSubmit()">{{ $t('contact.form.submit') }}</button>
+        </form>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'about'
+    name: 'about',
+    data () {
+      return {
+        name: '',
+        email: '',
+        message: ''
+      }
+    },
+    computed: {
+      isValidEmail: function () {
+        let regex = new RegExp('[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}')
+        return regex.test(this.email)
+      }
+    },
+    methods: {
+      canSubmit () {
+        return this.name && this.isValidEmail && this.message
+      }
+    }
   }
 </script>
