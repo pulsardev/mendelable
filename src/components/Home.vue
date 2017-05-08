@@ -10,9 +10,9 @@
             </router-link>
           </li>
           <li class="nav-item mt-5">
-            <a class="nav-link d-flex justify-content-center" href="#" title="Game mode">
+            <router-link to="/game" exact class="nav-link d-flex justify-content-center" title="Game mode">
               <i class="material-icons md-36">games</i>
-            </a>
+            </router-link>
           </li>
           <li class="nav-item mt-5">
             <router-link to="/about" exact class="nav-link d-flex justify-content-center" title="About">

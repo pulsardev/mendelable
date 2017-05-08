@@ -29,10 +29,17 @@
   "sidebar": {
     "title": "Options",
     "subtitle": "Options de la page courante",
+    "legend": "Légende",
     "elementProfile": {
       "previous": "Précédent",
       "next": "Suivant"
     }
+  },
+  "game": {
+    "play": "Jouer",
+    "stop": "Arrêter",
+    "input": "Entrez le nom d'un élément",
+    "elementsFound": "éléments trouvés"
   },
   "language": {
     "label": "Langue"
