@@ -30,7 +30,8 @@
       "symbol": "H",
       "triplePoint": "13,8033",
       "weight": "1,00794",
-      "discoveryDate": 1766
+      "discoveryDate": 1766,
+      "context": "Hydrogen gas was first artificially produced in the early 16th century by the reaction of acids on metals. In 1766–81, Henry Cavendish was the first to recognize that hydrogen gas was a discrete substance, and that it produces water when burned, the property for which it was later named: in Greek, hydrogen means \"water-former\"."
     },
     "2": {
       "atomicMass": 4.0026,
@@ -1533,7 +1534,8 @@
   "fr_FR": {
     "1": {
       "name": "Hydrogène",
-      "phase": "gas"
+      "phase": "gas",
+      "context": "Ce gaz a été mis en en évidence par Cavendish en 1766, qui l'a appelé « air inflammable » parce qu'il brûle ou explose en présence de l'oxygène pour former de la vapeur d'eau. Lavoisier a désigné ce gaz par le nom hydrogène, qui est composé du préfixe « hydro », du grec ὕδωρ (hudôr) signifiant « eau », et du suffixe « gène », du grec γεννᾰν (gennan), « engendrer »."
     },
     "2": {
       "name": "Hélium",

@@ -24,7 +24,11 @@
   },
   "general": {
     "search": "Search",
-    "temperature": "Temperature"
+    "temperature": "Temperature",
+    "generalInformation": "General informations",
+    "discoveryBy": "discovery by",
+    "discoveryDate": "discovery date",
+    "context": "context"
   },
   "sidebar": {
     "title": "Options",

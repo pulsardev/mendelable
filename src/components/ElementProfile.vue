@@ -24,6 +24,9 @@
       <div class="c-masonry-grid__item c-masonry-grid__item--width-100">
         <element-physical-properties :element="element"></element-physical-properties>
       </div>
+      <div class="c-masonry-grid__item c-masonry-grid__item--width-100">
+        <element-historical-properties :element="element"></element-historical-properties>
+      </div>
     </div>
   </div>
 </template>
@@ -34,12 +37,13 @@
   import ElementGeneralProperties from './ElementProfile/ElementGeneralProperties'
   import ElementAtomicProperties from './ElementProfile/ElementAtomicProperties'
   import ElementPhysicalProperties from './ElementProfile/ElementPhysicalProperties'
+  import ElementHistoricalProperties from './ElementProfile/ElementHistoricalProperties'
   import BarChart from './shared/BarChart'
 
   export default {
     name: 'element-profile',
     components: {
-      BarChart, ElementGeneralProperties, ElementAtomicProperties, ElementPhysicalProperties
+      BarChart, ElementGeneralProperties, ElementAtomicProperties, ElementPhysicalProperties, ElementHistoricalProperties
     },
     mounted: function () {
       let ctx = this.$refs['c-masonry-grid']
