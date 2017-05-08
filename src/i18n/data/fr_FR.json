@@ -24,11 +24,13 @@
   },
   "general": {
     "search": "Rechercher",
-    "temperature": "Température",
-    "generalInformation": "Informations général",
-    "discoveryBy": "découvert par",
-    "discoveryDate": "date de découverte",
-    "context": "contexte"
+    "temperature": "Température"
+  },
+  "history": {
+    "generalInformation": "Informations générales",
+    "discoveredBy": "Découvert par",
+    "discoveryDate": "Date de découverte",
+    "context": "Contexte"
   },
   "sidebar": {
     "title": "Options",
