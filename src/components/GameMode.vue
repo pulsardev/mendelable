@@ -64,6 +64,11 @@
         console.log('bus: game:over')
         this.$store.commit(types.UPDATE_GAME_STATE, gameStates.IS_NOT_RUNNING)
       })
+
+      // If the game is running, we stop it
+      if (this.isGameRunning) {
+        this.$store.commit(types.UPDATE_GAME_STATE, gameStates.IS_NOT_RUNNING)
+      }
     },
     methods: {
       filteredElementsContainElementsOfGroup (group) {
