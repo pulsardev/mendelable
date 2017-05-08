@@ -35,10 +35,17 @@
   "sidebar": {
     "title": "Options",
     "subtitle": "Options of the current page",
+    "legend": "Legend",
     "elementProfile": {
       "previous": "Previous",
       "next": "Next"
     }
+  },
+  "game": {
+    "play": "Play",
+    "stop": "Stop",
+    "input": "Enter an element's name",
+    "elementsFound": "elements found"
   },
   "language": {
     "label": "Language"

@@ -6,6 +6,7 @@ import counters from './modules/counters'
 import elements from './modules/elements'
 import language from './modules/language'
 import filters from './modules/filters'
+import game from './modules/game'
 
 Vue.use(Vuex)
 
@@ -18,7 +19,8 @@ export default new Vuex.Store({
     counters,
     elements,
     language,
-    filters
+    filters,
+    game
   },
   strict: debug
 })

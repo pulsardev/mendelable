@@ -6,6 +6,8 @@ import PeriodicTable from '@/components/PeriodicTable'
 import PeriodicTableOptions from '@/components/Sidebar/PeriodicTableOptions'
 import ElementProfileOptions from '@/components/Sidebar/ElementProfileOptions'
 import About from '@/components/About'
+import GameMode from '@/components/GameMode'
+import GameModeOptions from '@/components/Sidebar/GameModeOptions'
 
 Vue.use(Router)
 
@@ -31,6 +33,14 @@ export default new Router({
           components: {
             default: ElementProfile,
             sidebar: ElementProfileOptions
+          }
+        },
+        {
+          path: 'game',
+          name: 'GameMode',
+          components: {
+            default: GameMode,
+            sidebar: GameModeOptions
           }
         },
         {
