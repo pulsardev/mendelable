@@ -11,9 +11,9 @@
         </div>
       </div>
 
-      <div class="row">
-        <featured-value :value="element.weight" title="weight" :element="element" :colored="true" class="col-md-6 mt-4"></featured-value>
-        <featured-value :value="element.atomicNumber" title="atomicNumber" :element="element" :colored="true" class="col-md-6 mt-4"></featured-value>
+      <div class="row mb-3">
+        <featured-value :value="element.weight" title="element.weight" :element="element" :colored="true" class="col-md-6 mt-4"></featured-value>
+        <featured-value :value="element.atomicNumber" title="element.atomicNumber" :element="element" :colored="true" class="col-md-6 mt-4"></featured-value>
       </div>
 
       <div v-if="!preview">

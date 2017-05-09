@@ -1,7 +1,7 @@
 <template>
   <div v-if="value" class="c-featured-value">
     <h6 class="text-muted text-uppercase">
-      <small class="font-weight-bold">{{ $t("element." + title) }}</small>
+      <small class="font-weight-bold">{{ $t(title) }}</small>
     </h6>
     <p class="c-featured-value__text" :class="[colored ? 'u-color-' + element.elementGroup : '']">{{ value }}</p>
   </div>
@@ -21,5 +21,6 @@
 
   .c-featured-value__text {
     font-size: $font-size-h3;
+    margin-bottom: 0;
   }
 </style>

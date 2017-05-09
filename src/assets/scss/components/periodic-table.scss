@@ -13,7 +13,7 @@ $grid-gutter: 0.25vw;
 .c-information {
   margin: $grid-gutter;
   overflow: hidden;
-  max-height: 13.75vw;
+  max-height: calc(13.75vw + 1px + 0.25em);
 }
 
 ol, li {
