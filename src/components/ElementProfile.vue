@@ -14,7 +14,9 @@
       <div class="c-masonry-grid__item">
         <div v-if="element.boilingPoint && element.boilingPoint['C'] && element.meltingPoint && element.meltingPoint['C']" class="card">
           <div v-if="Object.keys(element).length > 0" class="card-block">
-            <h6 class="card-title text-uppercase font-weight-bold"><small>{{ $t("element.physicalProperties") }}</small></h6>
+            <h6 class="card-title text-uppercase font-weight-bold">
+              <small>{{ $t("element.physicalProperties") }}</small>
+            </h6>
 
             <bar-chart :element="element" class="mt-5"></bar-chart>
           </div>
@@ -42,14 +44,26 @@
       BarChart, ElementGeneralProperties, ElementAtomicProperties, ElementHistoricalProperties
     },
     mounted: function () {
-      let ctx = this.$refs['c-masonry-grid']
+      this.renderGrid()
+    },
+    watch: {
+      element: function () {
+        this.renderGrid()
+      }
+    },
+    methods: {
+      renderGrid: function () {
+        this.$nextTick(() => {
+          let ctx = this.$refs['c-masonry-grid']
 
-      // eslint-disable-next-line no-new
-      new Masonry(ctx, {
-        itemSelector: '.c-masonry-grid__item',
-        columnWidth: '.c-masonry-grid__sizer',
-        percentPosition: true
-      })
+          // eslint-disable-next-line no-new
+          new Masonry(ctx, {
+            itemSelector: '.c-masonry-grid__item',
+            columnWidth: '.c-masonry-grid__sizer',
+            percentPosition: true
+          })
+        })
+      }
     },
     computed: {
       ...mapGetters({
