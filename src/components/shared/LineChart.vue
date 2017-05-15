@@ -7,6 +7,7 @@
 <script>
   import { mapGetters } from 'vuex'
   import Chart from 'chart.js'
+  import { colors } from '@/shared/colors'
 
   export default {
     name: 'line-chart',
@@ -30,10 +31,14 @@
 
         for (let key of Object.keys(elements)) {
           let element = elements[key]
-          data.push({
-            x: element.atomicNumber,
-            y: element.ionizationEnergy
-          })
+
+          // Don't show irrelevant data on the graph
+          if (element.ionizationEnergy !== 0) {
+            data.push({
+              x: element.atomicNumber,
+              y: element.ionizationEnergy
+            })
+          }
         }
 
         let ctx = this.$refs['c-line-chart']
@@ -45,14 +50,6 @@
             labels: 'Ionization energy',
             datasets: [
               {
-                label: 'Ionization energy',
-                data: data,
-                backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)'
-                ],
-                borderWidth: 1
-              },
-              {
                 label: 'Ionization energy of ' + this.element.name,
                 data: [
                   {
@@ -60,23 +57,54 @@
                     y: this.element.ionizationEnergy
                   }
                 ],
+                pointBorderWidth: 10,
+                pointBorderColor: 'rgba(255, 255, 255, 0.25)',
+                pointBackgroundColor: 'rgba(255, 255, 255, 1)'
+              },
+              {
+                label: 'Ionization energy',
+                data: data,
                 backgroundColor: [
-                  'rgb(44, 180, 214)'
+                  'rgba(' + colors[this.element.elementGroup] + ', 0.1)'
                 ],
-                pointBorderColor: 'rgba(44, 180, 214, 0.4)',
-                pointBorderWidth: 50,
-                borderWidth: 1
+                showLine: true,
+                borderColor: 'rgba(' + colors[this.element.elementGroup] + ', 0.5)',
+                borderWidth: 2,
+                pointBorderWidth: 0,
+                pointBackgroundColor: 'rgba(' + colors[this.element.elementGroup] + ', 1)',
+                pointRadius: 2,
+                borderJoinStyle: 'round',
+                lineTension: 0
               }
             ]
           },
           options: {
+            responsive: true,
             scales: {
               xAxes: [{
                 type: 'linear',
-                position: 'bottom'
+                position: 'bottom',
+                gridLines: {
+                  display: false,
+                  drawBorder: false
+                },
+                ticks: {
+                  beginAtZero: false,
+                  min: 1,
+                  max: 103,
+                  display: false
+                }
+              }],
+              yAxes: [{
+                gridLines: {
+                  display: false,
+                  drawBorder: false
+                },
+                ticks: {
+                  display: false
+                }
               }]
-            },
-            showLines: true
+            }
           }
         })
       }

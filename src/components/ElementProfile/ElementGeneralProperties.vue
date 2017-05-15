@@ -46,4 +46,8 @@
   .card-title {
     text-transform: capitalize;
   }
+
+  .c-line-chart {
+    margin: -1.25rem;
+  }
 </style>
