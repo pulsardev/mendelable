@@ -17,7 +17,7 @@
       </div>
 
       <div v-if="!preview">
-        <!--<highlight :data="element"></highlight>-->
+        <highlight v-if="debug" :data="element"></highlight>
 
         <line-chart :element="element"></line-chart>
         <!--<bar-chart></bar-chart>-->
@@ -27,6 +27,7 @@
 </template>
 
 <script>
+  import { mapState } from 'vuex'
   import ElementBadge from '../ElementBadge'
   import BarChart from '../shared/BarChart'
   import FeaturedValue from './FeaturedValue'
@@ -38,6 +39,11 @@
     props: ['element', 'preview'],
     components: {
       Highlight, FeaturedValue, BarChart, ElementBadge, LineChart
+    },
+    computed: {
+      ...mapState({
+        debug: state => state.configuration.debug
+      })
     }
   }
 </script>

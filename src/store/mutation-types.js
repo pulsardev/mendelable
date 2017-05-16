@@ -11,3 +11,6 @@ export const REMOVE_GROUP = 'REMOVE_GROUP'
 
 // Game
 export const UPDATE_GAME_STATE = 'UPDATE_GAME_STATE'
+
+// Configuration
+export const TOGGLE_DEBUG = 'TOGGLE_DEBUG'

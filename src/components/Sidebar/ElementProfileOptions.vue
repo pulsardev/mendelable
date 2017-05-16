@@ -8,7 +8,7 @@
     <p class="text-muted mt-3">Debug</p>
     <div class="mdc-theme--dark">
       <div class="mdc-switch">
-        <input type="checkbox" id="basic-switch" class="mdc-switch__native-control"/>
+        <input v-model="debug" type="checkbox" id="basic-switch" class="mdc-switch__native-control"/>
         <div class="mdc-switch__background">
           <div class="mdc-switch__knob"></div>
         </div>
@@ -19,6 +19,7 @@
 
 <script>
   import { mapState } from 'vuex'
+  import * as types from '@/store/mutation-types'
 
   export default {
     name: 'element-profile-options',
@@ -31,6 +32,14 @@
       },
       nextElementId () {
         return +this.$route.params.id + 1
+      },
+      debug: {
+        get () {
+          return this.$store.state.configuration.debug
+        },
+        set (value) {
+          this.$store.commit(types.TOGGLE_DEBUG, value)
+        }
       }
     }
   }

@@ -31,7 +31,7 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapState, mapGetters } from 'vuex'
   import Masonry from 'masonry-layout'
   import ElementGeneralProperties from './ElementProfile/ElementGeneralProperties'
   import ElementAtomicProperties from './ElementProfile/ElementAtomicProperties'
@@ -48,6 +48,9 @@
     },
     watch: {
       element: function () {
+        this.renderGrid()
+      },
+      debug: function () {
         this.renderGrid()
       }
     },
@@ -71,7 +74,10 @@
       }),
       element () {
         return this.elements[this.$route.params.id]
-      }
+      },
+      ...mapState({
+        debug: state => state.configuration.debug
+      })
     }
   }
 </script>
