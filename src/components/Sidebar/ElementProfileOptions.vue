@@ -4,6 +4,16 @@
       <router-link :to="'/element/' + previousElementId" tag="button" type="button" class="btn btn-primary w-100" :disabled="previousElementId === 0">{{ $t("sidebar.elementProfile.previous") }}</router-link>
       <router-link :to="'/element/' + nextElementId" tag="button" type="button" class="btn btn-primary w-100" :disabled="nextElementId === numberOfElements + 1">{{ $t("sidebar.elementProfile.next") }}</router-link>
     </div>
+
+    <p class="text-muted mt-3">Debug</p>
+    <div class="mdc-theme--dark">
+      <div class="mdc-switch">
+        <input type="checkbox" id="basic-switch" class="mdc-switch__native-control"/>
+        <div class="mdc-switch__background">
+          <div class="mdc-switch__knob"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -25,3 +35,18 @@
     }
   }
 </script>
+
+<style lang="scss">
+  @import "../../assets/scss/bootstrap/_variables";
+  @import "../../../node_modules/@material/switch/dist/mdc.switch.css";
+
+  .mdc-switch__native-control:checked ~ .mdc-switch__background::before,
+  .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob,
+  .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob::before {
+    background-color: var(--mdc-theme-primary, $brand-primary);
+  }
+
+  .mdc-switch__knob::before {
+    opacity: 0 !important;
+  }
+</style>
