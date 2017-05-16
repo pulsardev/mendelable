@@ -80,6 +80,12 @@
           },
           options: {
             responsive: true,
+            legend: {
+              labels: {
+                boxWidth: 0,
+                fontColor: 'transparent'
+              }
+            },
             scales: {
               xAxes: [{
                 type: 'linear',

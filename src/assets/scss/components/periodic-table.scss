@@ -13,7 +13,7 @@ $grid-gutter: 0.25vw;
 .c-information {
   margin: $grid-gutter;
   overflow: hidden;
-  max-height: calc(13.75vw + 1px + 0.25em);
+  max-height: 14.1vw;
 }
 
 ol, li {
@@ -43,8 +43,7 @@ ol, li {
 
 [data-element-group] {
   border-style: solid;
-  border-width: 1px;
-  border-bottom-width: 0.25em;
+  border-width: 0.1vw;
 
   a {
     display: block;
