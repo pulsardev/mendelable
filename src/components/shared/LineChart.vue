@@ -86,7 +86,8 @@
                 position: 'bottom',
                 gridLines: {
                   display: false,
-                  drawBorder: false
+                  drawBorder: false,
+                  tickMarkLength: 0
                 },
                 ticks: {
                   beginAtZero: false,
@@ -98,7 +99,8 @@
               yAxes: [{
                 gridLines: {
                   display: false,
-                  drawBorder: false
+                  drawBorder: false,
+                  tickMarkLength: 0
                 },
                 ticks: {
                   display: false
