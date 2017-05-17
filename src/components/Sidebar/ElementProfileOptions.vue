@@ -6,23 +6,20 @@
     </div>
 
     <p class="text-muted mt-3">Debug</p>
-    <div class="mdc-theme--dark">
-      <div class="mdc-switch">
-        <input v-model="debug" type="checkbox" id="basic-switch" class="mdc-switch__native-control"/>
-        <div class="mdc-switch__background">
-          <div class="mdc-switch__knob"></div>
-        </div>
-      </div>
-    </div>
+    <mdc-switch v-model="debug"></mdc-switch>
   </div>
 </template>
 
 <script>
   import { mapState } from 'vuex'
   import * as types from '@/store/mutation-types'
+  import MdcSwitch from '../shared/MaterialComponents/MdcSwitch'
 
   export default {
     name: 'element-profile-options',
+    components: {
+      MdcSwitch
+    },
     computed: {
       ...mapState({
         numberOfElements: state => Object.keys(state.elements.default).length
@@ -44,18 +41,3 @@
     }
   }
 </script>
-
-<style lang="scss">
-  @import "../../assets/scss/bootstrap/_variables";
-  @import "../../../node_modules/@material/switch/dist/mdc.switch.css";
-
-  .mdc-switch__native-control:checked ~ .mdc-switch__background::before,
-  .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob,
-  .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob::before {
-    background-color: var(--mdc-theme-primary, $brand-primary);
-  }
-
-  .mdc-switch__knob::before {
-    opacity: 0 !important;
-  }
-</style>
