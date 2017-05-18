@@ -14,3 +14,4 @@ export const UPDATE_GAME_STATE = 'UPDATE_GAME_STATE'
 
 // Configuration
 export const TOGGLE_DEBUG = 'TOGGLE_DEBUG'
+export const TOGGLE_SIMPLE_VIEW = 'TOGGLE_SIMPLE_VIEW'

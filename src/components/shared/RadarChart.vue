@@ -26,7 +26,7 @@
         new Chart(ctx, {
           type: 'radar',
           data: {
-            labels: [this.$t('element.weight'), 'Boiling point', 'Fusion point'],
+            labels: [this.$t('element.atomicMass'), 'Boiling point', 'Fusion point'],
             datasets: [
               {
                 label: this.element.name,

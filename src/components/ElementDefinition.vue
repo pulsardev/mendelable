@@ -2,7 +2,7 @@
   <dl class="c-element-definition d-flex flex-column justify-content-between">
     <dt class="c-element-definition__symbol align-self-center">{{ element.symbol }}</dt>
     <dd v-if="detailed" class="c-element-definition__top flex-first d-flex justify-content-between">
-      <span class="c-element-definition__weight text-truncate">{{ element.weight }}</span>
+      <span class="c-element-definition__atomic-mass text-truncate"><span v-if="simpleView">{{ element.atomicMass }}</span></span>
       <span class="c-element-definition__atomic-number">{{ element.atomicNumber }}</span>
     </dd>
     <dd v-if="detailed" class="c-element-definition__name text-center text-truncate">{{ element.name }}</dd>
@@ -10,9 +10,16 @@
 </template>
 
 <script>
+  import { mapState } from 'vuex'
+
   export default {
     name: 'element-definition',
-    props: ['element', 'detailed']
+    props: ['element', 'detailed'],
+    computed: {
+      ...mapState({
+        simpleView: state => state.configuration.simpleView
+      })
+    }
   }
 </script>
 
@@ -43,7 +50,7 @@
     margin: auto;
   }
 
-  .c-element-definition__weight {
+  .c-element-definition__atomic-mass {
     opacity: 0.25;
     font-size: 50%;
   }

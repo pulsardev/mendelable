@@ -39,7 +39,8 @@
     "elementProfile": {
       "previous": "Previous",
       "next": "Next"
-    }
+    },
+    "simpleView": "Simple view"
   },
   "game": {
     "play": "Play",
@@ -56,7 +57,7 @@
     "physicalProperties": "Physical properties",
     "meltingPoint": "Melting point",
     "boilingPoint": "Boiling point",
-    "weight": "Weight",
+    "atomicMass": "Atomic mass",
     "group": {
       "non-metal": "Nonmetals",
       "halogen": "Halogens",
