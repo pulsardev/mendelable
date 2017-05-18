@@ -52,7 +52,8 @@
                   drawBorder: false
                 },
                 ticks: {
-                  fontColor: 'white'
+                  fontColor: 'white',
+                  maxRotation: 0
                 }
               }],
               yAxes: [{

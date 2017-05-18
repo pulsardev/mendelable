@@ -4,28 +4,36 @@
       <!-- Navbar -->
       <div class="bg-inverse px-0 py-5">
         <ul class="nav flex-column">
-          <li class="nav-item">
-            <router-link to="/" exact class="nav-link d-flex justify-content-center" title="Mendelable">
-              <i class="material-icons">home</i>
-            </router-link>
+          <li class="nav-item hidden-sm-up">
+            <a href="#" @click="toggleMenu" class="nav-link d-flex justify-content-center">
+              <i class="material-icons">menu</i>
+            </a>
           </li>
-          <li class="nav-item mt-5">
-            <router-link to="/game" exact class="nav-link d-flex justify-content-center" title="Game mode">
-              <i class="material-icons md-36">games</i>
-            </router-link>
-          </li>
-          <li class="nav-item mt-5">
-            <router-link to="/about" exact class="nav-link d-flex justify-content-center" title="About">
-              <i class="material-icons">help_outline</i>
-            </router-link>
-          </li>
+
+          <div class="mt-5 mt-sm-0" :class="{ 'hidden-xs-down': !isMenuOpened }">
+            <li class="nav-item">
+              <router-link to="/" exact class="nav-link d-flex justify-content-center" title="Mendelable">
+                <i class="material-icons">home</i>
+              </router-link>
+            </li>
+            <li class="nav-item mt-5">
+              <router-link to="/game" exact class="nav-link d-flex justify-content-center" title="Game mode">
+                <i class="material-icons md-36">games</i>
+              </router-link>
+            </li>
+            <li class="nav-item mt-5">
+              <router-link to="/about" exact class="nav-link d-flex justify-content-center" title="About">
+                <i class="material-icons">help_outline</i>
+              </router-link>
+            </li>
+          </div>
         </ul>
       </div>
 
       <!-- Content -->
       <div class="container-fluid p-0 w-100 d-flex align-items-stretch">
         <div class="row no-gutters w-100">
-          <div class="col-sm-10 p-5">
+          <div class="col-md-8 col-lg-9 col-xl-10 p-5">
             <div v-if="$route.name === 'PeriodicTable'" class="d-flex justify-content-between">
               <form>
                 <div class="form-group">
@@ -38,7 +46,7 @@
           </div>
 
           <!-- Sidebar -->
-          <div class="col-sm-2 bg-faded px-4 py-5">
+          <div class="col-md-4 col-lg-3 col-xl-2 bg-faded px-4 py-5">
             <h4>{{ $t("sidebar.title") }}</h4>
 
             <p class="text-muted">{{ $t("language.label") }}</p>
@@ -76,7 +84,13 @@
     },
     data () {
       return {
-        msg: 'Mendelable'
+        msg: 'Mendelable',
+        isMenuOpened: false
+      }
+    },
+    methods: {
+      toggleMenu () {
+        this.isMenuOpened = !this.isMenuOpened
       }
     }
   }

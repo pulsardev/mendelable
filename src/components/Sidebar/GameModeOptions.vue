@@ -29,6 +29,7 @@
     },
     methods: {
       startGame () {
+        window.scrollTo(0, 0)
         this.$store.commit(types.UPDATE_GAME_STATE, gameStates.IS_RUNNING)
       },
       stopGame () {

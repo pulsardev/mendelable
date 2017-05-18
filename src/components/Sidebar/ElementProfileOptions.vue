@@ -41,3 +41,11 @@
     }
   }
 </script>
+
+<style scoped>
+  .btn-group > .btn {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+</style>

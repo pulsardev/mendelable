@@ -98,6 +98,10 @@
     width: 100%;
 
     @media (min-width: map-get($grid-breakpoints, lg)) {
+      width: 40%;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, xl)) {
       width: 25%;
     }
   }
@@ -106,6 +110,10 @@
     width: 100%;
 
     @media (min-width: map-get($grid-breakpoints, lg)) {
+      width: 60%;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, xl)) {
       width: 75%;
     }
   }

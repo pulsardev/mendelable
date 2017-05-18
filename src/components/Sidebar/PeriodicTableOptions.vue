@@ -65,6 +65,9 @@
       background-color: rgba($color, 0.25);
       border: none;
       text-align: left;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
 
       &:hover {
         background-color: rgba($color, 0.5);

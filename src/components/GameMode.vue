@@ -113,4 +113,8 @@
 
 <style lang="scss" scoped>
   @import "../assets/scss/components/periodic-table";
+
+  input {
+    min-width: 256px;
+  }
 </style>
