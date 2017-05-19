@@ -47,10 +47,10 @@
         new Chart(ctx, {
           type: 'line',
           data: {
-            labels: 'Ionization energy',
+            labels: this.$t('element.ionizationEnergy'),
             datasets: [
               {
-                label: 'Ionization energy of ' + this.element.name,
+                label: this.$t('element.ionizationEnergy'),
                 data: [
                   {
                     x: this.element.atomicNumber,
@@ -62,7 +62,7 @@
                 pointBackgroundColor: 'rgba(255, 255, 255, 1)'
               },
               {
-                label: 'Ionization energy',
+                label: this.$t('element.ionizationEnergy'),
                 data: data,
                 backgroundColor: [
                   'rgba(' + colors[this.element.elementGroup] + ', 0.1)'
@@ -84,6 +84,13 @@
               labels: {
                 boxWidth: 0,
                 fontColor: 'transparent'
+              }
+            },
+            tooltips: {
+              callbacks: {
+                title: (tooltipItem, data) => {
+                  return this.elements[(tooltipItem[0].index + 1).toString()].name
+                }
               }
             },
             scales: {
