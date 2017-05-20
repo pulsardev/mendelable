@@ -1516,6 +1516,303 @@
     },
     "18": {
       "name": "Argon"
+    },
+    "19": {
+      "name": "Potassium"
+    },
+    "20": {
+      "name": "Calcium"
+    },
+    "21": {
+      "name": "Scandium"
+    },
+    "22": {
+      "name": "Titan"
+    },
+    "23": {
+      "name": "Vanadium"
+    },
+    "24": {
+      "name": "Chrome"
+    },
+    "25": {
+      "name": "Magnèse"
+    },
+    "26": {
+      "name": "Fer"
+    },
+    "27": {
+      "name": "Cobalt"
+    },
+    "28": {
+      "name": "Nickel"
+    },
+    "29": {
+      "name": "Cuivre"
+    },
+    "30": {
+      "name": "Zinc"
+    },
+    "31": {
+      "name": "Gallium"
+    },
+    "32": {
+      "name": "Germanium"
+    },
+    "33": {
+      "name": "Arsenic"
+    },
+    "34": {
+      "name": "Sélénium"
+    },
+    "35": {
+      "name": "Brome"
+    },
+    "36": {
+      "name": "Krypton"
+    },
+    "37": {
+      "name": "Rubidium"
+    },
+    "38": {
+      "name": "Strontium"
+    },
+    "40": {
+      "name": "Zirconium"
+    },
+    "41": {
+      "name": "Niobium"
+    },
+    "42": {
+      "name": "Molybdène"
+    },
+    "43": {
+      "name": "Technétium"
+    },
+    "44": {
+      "name": "Ruthénium"
+    },
+    "45": {
+      "name": "Rhodium"
+    },
+    "46": {
+      "name": "Palladium"
+    },
+    "47": {
+      "name": "Argent"
+    },
+    "48": {
+      "name": "Cadmium"
+    },
+    "49": {
+      "name": "Indium"
+    },
+    "50": {
+      "name": "Étain"
+    },
+    "51": {
+      "name": "Antimoine"
+    },
+    "52": {
+      "name": "Tellure"
+    },
+    "53": {
+      "name": "Iode"
+    },
+    "54": {
+      "name": "Xénon"
+    },
+    "55": {
+      "name": "Césium"
+    },
+    "56": {
+      "name": "Baryum"
+    },
+    "57": {
+      "name": "Lanthane"
+    },
+    "58": {
+      "name": "Cérium"
+    },
+    "59": {
+      "name": "Praséodyme"
+    },
+    "60": {
+      "name": "Néodyme"
+    },
+    "61": {
+      "name": "Prométhium"
+    },
+    "62": {
+      "name": "Samarium"
+    },
+    "63": {
+      "name": "Europium"
+    },
+    "64": {
+      "name": "Gadolinium"
+    },
+    "65": {
+      "name": "Terbium"
+    },
+    "66": {
+      "name": "Dysprosium"
+    },
+    "67": {
+      "name": "Holmium"
+    },
+    "68": {
+      "name": "Erbium"
+    },
+    "69": {
+      "name": "Thulium"
+    },
+    "70": {
+      "name": "Ytterbium"
+    },
+    "71": {
+      "name": "Lutécium"
+    },
+    "72": {
+      "name": "Hafnium"
+    },
+    "73": {
+      "name": "Tantale"
+    },
+    "74": {
+      "name": "Tungstène"
+    },
+    "75": {
+      "name": "Rhénium"
+    },
+    "76": {
+      "name": "Osmium"
+    },
+    "77": {
+      "name": "Iridium"
+    },
+    "78": {
+      "name": "Platine"
+    },
+    "79": {
+      "name": "Or"
+    },
+    "80": {
+      "name": "Mercure"
+    },
+    "81": {
+      "name": "Thallium"
+    },
+    "82": {
+      "name": "Plomb"
+    },
+    "83": {
+      "name": "Bismuth"
+    },
+    "84": {
+      "name": "Polonium"
+    },
+    "85": {
+      "name": "Astate"
+    },
+    "86": {
+      "name": "Radon"
+    },
+    "87": {
+      "name": "Francium"
+    },
+    "88": {
+      "name": "Radium"
+    },
+    "89": {
+      "name": "Actinium"
+    },
+    "90": {
+      "name": "Thorium"
+    },
+    "91": {
+      "name": "Protactinium"
+    },
+    "92": {
+      "name": "Uranium"
+    },
+    "93": {
+      "name": "Neptunium"
+    },
+    "94": {
+      "name": "Plutonium"
+    },
+    "95": {
+      "name": "Américium"
+    },
+    "96": {
+      "name": "Curium"
+    },
+    "97": {
+      "name": "Berkélium"
+    },
+    "98": {
+      "name": "Californium"
+    },
+    "99": {
+      "name": "Einsteinium"
+    },
+    "100": {
+      "name": "Fermium"
+    },
+    "101": {
+      "name": "Mendélèvium"
+    },
+    "102": {
+      "name": "Nobélium"
+    },
+    "103": {
+      "name": "Lawrencium"
+    },
+    "104": {
+      "name": "Rutherfordium"
+    },
+    "105": {
+      "name": "Dubnium"
+    },
+    "106": {
+      "name": "Seaborgium"
+    },
+    "107": {
+      "name": "Bohrium"
+    },
+    "108": {
+      "name": "Hassium"
+    },
+    "109": {
+      "name": "Meitnérium"
+    },
+    "110": {
+      "name": "Darmstadtium"
+    },
+    "111": {
+      "name": "Roentgenium"
+    },
+    "112": {
+      "name": "Copernicium"
+    },
+    "113": {
+      "name": "Nihonium"
+    },
+    "114": {
+      "name": "Flérovium"
+    },
+    "115": {
+      "name": "Moscovium"
+    },
+    "116": {
+      "name": "Livermorium"
+    },
+    "117": {
+      "name": "Tennesse"
+    },
+    "118": {
+      "name": "Oganesson"
     }
   }
 }
