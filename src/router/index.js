@@ -12,6 +12,7 @@ import GameModeOptions from '@/components/Sidebar/GameModeOptions'
 Vue.use(Router)
 
 export default new Router({
+  base: '/mendelable/',
   mode: 'history',
   linkActiveClass: 'active',
   routes: [
