@@ -13,7 +13,7 @@ Vue.use(Router)
 
 export default new Router({
   base: '/mendelable/',
-  mode: 'history',
+  mode: 'hash',
   linkActiveClass: 'active',
   routes: [
     {
@@ -50,6 +50,12 @@ export default new Router({
           component: About
         }
       ]
+    },
+    {
+      path: '*',
+      redirect: {
+        name: 'PeriodicTable'
+      }
     }
   ]
 })
