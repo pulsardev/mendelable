@@ -5,7 +5,7 @@
 
     <div class="row">
       <div class="col-xl-8">
-        <form action="https://formspree.io/teampulsar.dev@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+        <form action="https://formspree.io/pulsar.dev.team@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
 
           <div class="form-group">
             <label for="name">{{ $t('contact.form.name.label') }}</label>
