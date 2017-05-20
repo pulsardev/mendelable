@@ -35,7 +35,7 @@
         <div class="row no-gutters w-100">
           <div class="col-md-8 col-lg-9 col-xl-10 p-5">
             <div v-if="$route.name === 'PeriodicTable'" class="d-flex justify-content-between">
-              <form>
+              <form class="col-12">
                 <div class="form-group">
                   <input type="text" v-model="search" class="form-control" id="searchInput" :placeholder="$t('general.search')">
                 </div>
