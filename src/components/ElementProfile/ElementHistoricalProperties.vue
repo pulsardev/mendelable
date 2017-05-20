@@ -12,6 +12,7 @@
           </a>
 
           <featured-value class="mr-4" :value="element.discoveryDate" title="history.discoveryDate" :element="element" :colored="true"></featured-value>
+          <featured-value v-if="!element.discoveryDate" value="???" title="history.discoveryDate" :element="element" :colored="true"></featured-value>
           <featured-value :value="element.discoveryAuthor" title="history.discoveredBy" :element="element"></featured-value>
         </div>
       </div>

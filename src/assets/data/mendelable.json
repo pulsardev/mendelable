@@ -8,27 +8,26 @@
       "boilingPoint": {
         "C": -252.879
       },
-      "covalanceRay": "31",
-      "criticalPoint": "32,938",
+      "criticalPoint": 32.938,
       "group": "1",
-      "density": "0.08988",
+      "density": 0.08988,
       "discoveryAuthor": "Henry Cavendish",
-      "electronConfiguration": "1s",
-      "electronegativity": "2,20",
+      "electronConfiguration": ["1s"],
+      "electronegativity": 2.20,
       "electronsPerShell": [1],
       "elementGroup": "non-metal",
-      "heatOfFusion": "0.117",
-      "heatOfVaporization": "0,3904",
-      "ionisationEnergy": "13,598443",
+      "heatOfFusion": 0.117,
+      "heatOfVaporization": 0.3904,
+      "ionisationEnergy": 13.598443,
       "meltingPoint": {
         "C": -259.16
       },
-      "molarHeatCapacity": "28,836",
+      "molarHeatCapacity": 28.836,
       "name": "Hydrogen",
       "period": 1,
       "phase": "gas",
       "symbol": "H",
-      "triplePoint": "13,8033",
+      "triplePoint": 13.8033,
       "discoveryDate": 1766,
       "context": "Hydrogen gas was first artificially produced in the early 16th century by the reaction of acids on metals. In 1766–81, Henry Cavendish was the first to recognize that hydrogen gas was a discrete substance, and that it produces water when burned, the property for which it was later named: in Greek, hydrogen means \"water-former\"."
     },
@@ -37,30 +36,18 @@
       "atomicNumber": 2,
       "ionizationEnergy": 24.5874,
       "boilingPoint": {
-        "C": -268.928,
-        "F": "-452,070",
-        "K": "4,222"
+        "C": -268.928
       },
-      "criticalPoint": "5.1953",
       "group": "18",
-      "density": "0.1786",
-      "electronConfiguration": "1s",
-      "electronegativity": "",
       "electronsPerShell": [2],
       "elementGroup": "noble-gas",
-      "heatOfFusion": "0.0138",
-      "heatOfVaporization": "0.0829",
       "meltingPoint": {
-        "C": -272.2,
-        "F": "-457,96",
-        "K": "0,95"
+        "C": -272.2
       },
-      "molarHeatCapacity": "20.78",
       "name": "Helium",
       "period": 1,
       "phase": "gas",
       "symbol": "He",
-      "triplePoint": "2.177",
       "discoveryDate": 1895
     },
     "3": {
@@ -68,61 +55,37 @@
       "atomicNumber": 3,
       "ionizationEnergy": 5.3917,
       "boilingPoint": {
-        "C": 1330,
-        "F": "2426",
-        "K": "1603"
+        "C": 1330
       },
-      "criticalPoint": "3220",
       "group": "1",
-      "density": "0.534",
-      "electronConfiguration": "2s",
-      "electronegativity": "0.98",
       "electronsPerShell": [2, 1],
       "elementGroup": "alkali-metal",
-      "heatOfFusion": "3.00",
-      "heatOfVaporization": "136",
       "meltingPoint": {
-        "C": 180.5,
-        "F": "356.90",
-        "K": "453.65"
+        "C": 180.5
       },
-      "molarHeatCapacity": "24.860",
       "name": "Lithium",
       "period": 2,
       "phase": "solid",
       "symbol": "Li",
-      "triplePoint": "",
       "discoveryDate": 1817
     },
     "4": {
-      "atomicMass": 0,
+      "atomicMass": 9.0122,
       "atomicNumber": 4,
       "ionizationEnergy": 9.3227,
       "boilingPoint": {
-        "C": 2469,
-        "F": "4476",
-        "K": "2742"
+        "C": 2469
       },
-      "criticalPoint": "5205",
       "group": "2",
-      "density": "1,85",
-      "electronConfiguration": "2s",
-      "electronegativity": "1,57",
       "electronsPerShell": [2, 2],
       "elementGroup": "alkaline-earth-metal",
-      "heatOfFusion": "12,2",
-      "heatOfVaporization": "292",
       "meltingPoint": {
-        "C": 1287,
-        "F": "2349",
-        "K": "1560"
+        "C": 1287
       },
-      "molarHeatCapacity": "16,443",
       "name": "Beryllium",
       "period": 2,
       "phase": "solid",
       "symbol": "Be",
-      "triplePoint": "",
       "discoveryDate": 1798
     },
     "5": {
@@ -130,29 +93,17 @@
       "atomicNumber": 5,
       "ionizationEnergy": 8.298,
       "boilingPoint": {
-        "C": 3927,
-        "F": "7101",
-        "K": "4200"
+        "C": 3927
       },
-      "criticalPoint": "",
       "group": "13",
-      "density": "2,08",
-      "electronConfiguration": "2s 2p",
-      "electronegativity": "2,04",
       "elementGroup": "metalloid",
-      "heatOfFusion": "50,2",
-      "heatOfVaporization": "508",
       "meltingPoint": {
-        "C": 2076,
-        "F": "3769",
-        "K": "2349"
+        "C": 2076
       },
-      "molarHeatCapacity": "11,087",
       "name": "Boron",
       "period": 2,
       "phase": "solid",
       "symbol": "B",
-      "triplePoint": "",
       "electronsPerShell": [2, 3],
       "discoveryDate": 1808
     },
@@ -160,30 +111,19 @@
       "atomicMass": 12.0107,
       "atomicNumber": 6,
       "ionizationEnergy": 11.2603,
-      "criticalPoint": "",
       "group": "13",
-      "density": "2,08",
-      "electronConfiguration": [2, 4],
-      "electronegativity": "2,04",
       "electronsPerShell": [2, 4],
       "elementGroup": "non-metal",
-      "heatOfFusion": "50,2",
-      "heatOfVaporization": "508",
       "meltingPoint": {
-        "C": 2349,
-        "F": "2076",
-        "K": "3769"
+        "C": 2349
       },
-      "molarHeatCapacity": "11,087",
       "name": "Carbon",
       "period": 2,
       "phase": "solid",
       "sublimationPoint": {
         "C": 3642
       },
-      "symbol": "C",
-      "triplePoint": "",
-      "discoveryDate": 0
+      "symbol": "C"
     },
     "7": {
       "atomicMass": 14.0067,
@@ -302,8 +242,7 @@
       "name": "Sulfur",
       "period": 3,
       "symbol": "S",
-      "electronsPerShell": [2, 8, 6],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 6]
     },
     "17": {
       "atomicMass": 35.453,
@@ -1358,8 +1297,7 @@
       "name": "Rutherfordium",
       "period": 7,
       "symbol": "Rf",
-      "electronsPerShell": [2, 8, 18, 32, 32, 10, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 10, 2]
     },
     "105": {
       "atomicMass": 262,
@@ -1370,8 +1308,7 @@
       "name": "Dubnium",
       "period": 7,
       "symbol": "Db",
-      "electronsPerShell": [2, 8, 18, 32, 32, 11, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 11, 2]
     },
     "106": {
       "atomicMass": 266,
@@ -1382,8 +1319,7 @@
       "name": "Seaborgium",
       "period": 7,
       "symbol": "Sg",
-      "electronsPerShell": [2, 8, 18, 32, 32, 12, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 12, 2]
     },
     "107": {
       "atomicMass": 264,
@@ -1394,8 +1330,7 @@
       "name": "Bohrium",
       "period": 7,
       "symbol": "Bh",
-      "electronsPerShell": [2, 8, 18, 32, 32, 13, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 13, 2]
     },
     "108": {
       "atomicMass": 277,
@@ -1406,8 +1341,7 @@
       "name": "Hassium",
       "period": 7,
       "symbol": "Hs",
-      "electronsPerShell": [2, 8, 18, 32, 32, 14, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 14, 2]
     },
     "109": {
       "atomicMass": 268,
@@ -1418,8 +1352,7 @@
       "name": "Meitnerium",
       "period": 7,
       "symbol": "Mt",
-      "electronsPerShell": [2, 8, 18, 32, 32, 15, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 15, 2]
     },
     "110": {
       "atomicMass": 108,
@@ -1430,8 +1363,7 @@
       "name": "Darmstadtium",
       "period": 7,
       "symbol": "Ds",
-      "electronsPerShell": [2, 8, 18, 32, 32, 16, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 16, 2]
     },
     "111": {
       "atomicMass": 282,
@@ -1442,8 +1374,7 @@
       "name": "Roentgenium",
       "period": 7,
       "symbol": "Rg",
-      "electronsPerShell": [2, 8, 18, 32, 32, 17, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 17, 2]
     },
     "112": {
       "atomicMass": 285,
@@ -1454,8 +1385,7 @@
       "name": "Copernicium",
       "period": 7,
       "symbol": "Cn",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 2],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 2]
     },
     "113": {
       "atomicMass": 112,
@@ -1466,8 +1396,7 @@
       "name": "Ununtrium",
       "period": 7,
       "symbol": "Uut",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 3],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 3]
     },
     "114": {
       "atomicMass": 289,
@@ -1490,8 +1419,7 @@
       "name": "Ununpentium",
       "period": 7,
       "symbol": "Uup",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 5],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 5]
     },
     "116": {
       "atomicMass": 293,
@@ -1502,8 +1430,7 @@
       "name": "Livermorium",
       "period": 7,
       "symbol": "Lv",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 6],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 6]
     },
     "117": {
       "atomicMass": 116,
@@ -1514,8 +1441,7 @@
       "name": "Ununseptium",
       "period": 7,
       "symbol": "Uus",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 7],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 7]
     },
     "118": {
       "atomicMass": 117,
@@ -1526,8 +1452,7 @@
       "name": "Ununoctium",
       "period": 7,
       "symbol": "Uuo",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 8],
-      "discoveryDate": 0
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 8]
     }
   },
   "fr_FR": {
@@ -1555,6 +1480,42 @@
     "6": {
       "name": "Carbone",
       "phase": "solide"
+    },
+    "7": {
+      "name": "Azote"
+    },
+    "8": {
+      "name": "Oxygène"
+    },
+    "9": {
+      "name": "Fluor"
+    },
+    "10": {
+      "name": "Néon"
+    },
+    "11": {
+      "name": "Sodium"
+    },
+    "12": {
+      "name": "Magnésium"
+    },
+    "13": {
+      "name": "Aluminium"
+    },
+    "14": {
+      "name": "Silicium"
+    },
+    "15": {
+      "name": "Phosphore"
+    },
+    "16": {
+      "name": "Soufre"
+    },
+    "17": {
+      "name": "Chlore"
+    },
+    "18": {
+      "name": "Argon"
     }
   }
 }
