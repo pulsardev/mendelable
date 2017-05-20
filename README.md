@@ -1,6 +1,13 @@
-# mendelable
+# Mendelable
 
-> A Vue.js project
+> Mendelable displays information about the elements of the periodic table in a modern and pleasant way.
+
+[![Mendelable](./screenshot.png "Mendelable")](https://pulsardev.github.io/mendelable/)
+
+## Table of Contents
+
+- [Build Setup](#build-setup)
+- [Something Missing?](#something-missing)
 
 ## Build Setup
 
@@ -28,3 +35,7 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Something Missing?
+
+If you have a feature request or found a bug, [let me know](https://github.com/pulsardev/mendelable/issues).
