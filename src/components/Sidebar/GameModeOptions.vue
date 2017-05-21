@@ -29,11 +29,15 @@
     },
     methods: {
       startGame () {
+        this.trackClick('game:start')
         window.scrollTo(0, 0)
         this.$store.commit(types.UPDATE_GAME_STATE, gameStates.IS_RUNNING)
       },
       stopGame () {
         this.$store.commit(types.UPDATE_GAME_STATE, gameStates.IS_NOT_RUNNING)
+      },
+      trackClick (destination) {
+        window.ga('send', 'event', 'inbound', 'click', destination)
       }
     }
   }
