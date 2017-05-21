@@ -1490,51 +1490,66 @@
     },
     "4": {
       "name": "Béryllium",
-      "phase": "solide"
+      "phase": "solide",
+      "context": "Le nom béryllium vient du mot grec βήρυλλος (beryllos), béryl, qui vient lui-même de bêrullos, cristal. À une époque il était nommé glucinium, du grec γλύκύς (glykys), doux, un qualificatif dû au goût sucré de ses sels. Cet élément aurait été découvert par Louis-Nicolas Vauquelin, en 1798, sous forme d'oxyde (BeO) dans le béryl et dans les émeraudes. Friedrich Wöhler et Antoine Bussy l'isolèrent indépendamment en 1828 en faisant réagir du potassium sur du chlorure de béryllium. Sa masse atomique fut déterminée par le chimiste suédois."
     },
     "5": {
       "name": "Bore",
-      "phase": "solide"
+      "phase": "solide",
+      "context": "Cet élément ne fut isolé qu'en 1808 par Sir Humphry Davy, Gay-Lussac et le baron Louis Jacques Thénard, qui obtinrent une pureté de 50 %. Ils n'identifièrent toutefois pas la substance comme un élément; ce fut fait par Jöns Jacob Berzélius en 1824. Henri Moissan livra les premiers échantillons purifiés et le premier échantillon de bore pur fut obtenu, à partir de sesquioxyde de bore, par le chimiste américain Ezekiel Weintraub en 1909."
     },
     "6": {
       "name": "Carbone",
-      "phase": "solide"
+      "phase": "solide",
+      "context": "Le nom carbone vient du latin carbo, carbōnis (« charbon »). La fabrication de carbone sous forme de charbon de bois par carbonisation de bois sous une couche de terre était aussi connu des Romains. Le carbone sous sa forme diamant est connu depuis l'antiquité en Asie, il est aussi mentionné dans l'ancien testament. Son nom vient aussi du romain adámas, adámantis (\"acier dur\")."
     },
     "7": {
-      "name": "Azote"
+      "name": "Azote",
+      "context": "Antoine Lavoisier a choisi le nom azote, composé de a- (privatif) et du radical grec ζωτ- (« vivant ») et qui signifie donc « privé de vie », du fait que contrairement à l'oxygène il n'entretient pas la vie des animaux. L'origine du symbole N est son nom latin nitrogenium qui provient du grec nitron gennan, ce qui signifie « formateur de salpêtre » (nitrate de potassium). Le terme anglais nitrogen a conservé cette racine pour désigner l'azote, alors que le terme français « nitrogène » n'est plus utilisé de nos jours."
     },
     "8": {
-      "name": "Oxygène"
+      "name": "Oxygène",
+      "context": "Une molécule de formule chimique O2, appelée communément « oxygène » et, par les chimistes, dioxygène est constituée de deux atomes d'oxygène reliés par liaison covalente : aux conditions normales de température et de pression, le dioxygène est un gaz, qui constitue 20,8 % du volume de l'atmosphère terrestre au niveau de la mer."
     },
     "9": {
-      "name": "Fluor"
+      "name": "Fluor",
+      "context": "Le fluor est le plus réactif des éléments chimiques, il est d'ailleurs généralement lié à d'autres éléments. Il possède la plus forte électronégativité, d'une valeur de 3,98. Il est le 13e élément le plus abondant dans la croûte terrestre. Quelques plantes et certaines bactéries peuvent synthétiser des composés fluorés, mais le fluor n'a aucun rôle métabolique chez les mammifères."
     },
     "10": {
-      "name": "Néon"
+      "name": "Néon",
+      "context": "Le néon est le second gaz rare, il possède 40 fois la capacité de réfrigération de l'hélium liquide et trois fois celle de l'hydrogène liquide (à volume égal). Dans la plupart des applications, c'est un réfrigérant moins cher que l'hélium."
     },
     "11": {
-      "name": "Sodium"
+      "name": "Sodium",
+      "context": "Le sodium est depuis longtemps reconnu dans les composés, mais il ne fut pas isolé avant 1807, lorsque Sir Humphry Davy réalisa l'électrolyse de la soude caustique. Pendant le Moyen Âge, un composé du sodium avec le nom latin de sodanum était utilisé pour le traitement des maux de tête. Le symbole du sodium, Na, vient du nom latin d'un composé du sodium appelé natrium, qui lui-même vient du grec νίτρον (nitron), un carbonate de sodium naturel (le natron). En allemand, comme en danois ou en néerlandais, sodium se dit natrium."
     },
     "12": {
-      "name": "Magnésium"
+      "name": "Magnésium",
+      "context": "Le nom magnésium provient du nom grec d'un district de Thessalie appelé Magnesia. Cette région était extrêmement riche en magnésium, et ce sous différentes formes. En Angleterre, Joseph Black reconnut le magnésium comme un élément en 1755, et Sir Humphry Davy isola la forme métallique pure par électrolyse en 1808 à partir d'un mélange de magnésie MgO et d'oxyde de mercure HgO."
     },
     "13": {
-      "name": "Aluminium"
+      "name": "Aluminium",
+      "context": "L'aluminium est un produit industriel important, sous forme pure ou alliée, notamment dans l'aéronautique, les transports et la construction. Sa nature réactive en fait également un catalyseur et un additif dans l'industrie chimique ; il est ainsi utilisé pour accroître la puissance explosive du nitrate d'ammonium."
     },
     "14": {
-      "name": "Silicium"
+      "name": "Silicium",
+      "context": "C'est l'élément le plus abondant dans la croûte terrestre après l'oxygène, soit 25,7 % de sa masse, mais il n'est comparativement présent qu'en relativement faible quantité dans la matière constituant le vivant. Il n'existe pas dans la nature à l'état de corps simple, mais sous forme de composés : sous forme de dioxyde de silicium (SiO2), d'origine biogène (fabriqué par un organisme vivant comme les diatomées ou les radiolaires), on le trouve sous forme de silice amorphe (dans le sable, ou d'origine lithogénique lorsqu'il est sous la forme de silice minérale, le quartz, la cristobalite, etc.), ou d'autres silicates (dans les feldspaths, la kaolinite…)."
     },
     "15": {
-      "name": "Phosphore"
+      "name": "Phosphore",
+      "context": "Le nom dérive du mot grec φώσφορος (phosphoros), qui signifie « porteur de lumière » et évoque la planète Vénus, l'étoile du berger. Cette origine a été attribuée au fait que le phosphore blanc émet de la lumière visible dans l'obscurité quand il est exposé à l'air, par chimiluminescence."
     },
     "16": {
-      "name": "Soufre"
+      "name": "Soufre",
+      "context": "C'est un non-métal multivalent abondant, insipide, et insoluble dans l'eau. Le soufre est surtout connu sous la forme de cristaux jaunes et se trouve dans beaucoup de minéraux (sulfure et sulfate) et même sous forme native, particulièrement dans les régions volcaniques. L'essentiel du soufre exploité est cependant d'origine sédimentaire."
     },
     "17": {
-      "name": "Chlore"
+      "name": "Chlore",
+      "context": "C'est le chimiste suédois Carl Wilhelm Scheele qui est réputé avoir isolé le dichlore le premier en 1774. Il lui donna le nom d'acide muriatique déphlogistiqué, car il pensait que c'était un gaz composé. Avec l'abandon du phlogistique, on crut, pendant quelques années que ce gaz contenait de l'oxygène, et ce n'est qu'en 1809 que le chimiste britannique Humphry Davy prouva qu'il n'en était pas ainsi, reconnut que c'était un gaz simple, et lui donna son nom actuel de chlore."
     },
     "18": {
-      "name": "Argon"
+      "name": "Argon",
+      "context": "Le mot argon dérive du grec ancien ἀργός / argós (« oisif », « paresseux », « stérile »), formé du préfixe grec privatif ἀ et du mot ἔργον / ergon (« travail »), cette étymologie évoquant le caractère inerte de l'élément. La présence dans l’air de l’argon fut suspectée par Henry Cavendish dès 1785 mais sa découverte par Lord Rayleigh et Sir William Ramsay attendit 1894. Ces deux scientifiques firent à la Royal Society la communication officielle de leur découverte le 31 janvier 1895."
     },
     "19": {
       "name": "Potassium"
