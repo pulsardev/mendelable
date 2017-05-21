@@ -2,7 +2,8 @@
   <div class="c-about">
     <h2>{{ $t("about.title") }}</h2>
     <p class="text-muted" v-html="$t('about.primaryText')"></p>
-
+    <h3>{{ $t("about.helpUs")}}</h3>
+    <p class="text-muted" v-html="$t('about.helpUsText')"></p>
     <div class="row">
       <div class="col-xl-8">
         <form action="https://formspree.io/pulsar.dev.team@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
