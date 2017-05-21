@@ -193,7 +193,7 @@
       "symbol": "Na",
       "electronsPerShell": [2, 8, 1],
       "discoveryDate": 1807,
-      "context": "odium is an essential element for all animals and some plants. Sodium ions are the major cation in the extracellular fluid (ECF) and as such are the major contributor to the ECF osmotic pressure and ECF compartment volume. Loss of water from the ECF compartment increases the sodium concentration, a condition called hypernatremia. Isotonic loss of water and sodium from the ECF compartment decreases the size of that compartment in a condition called ECF hypovolemia."
+      "context": "Sodium is an essential element for all animals and some plants. Sodium ions are the major cation in the extracellular fluid (ECF) and as such are the major contributor to the ECF osmotic pressure and ECF compartment volume. Loss of water from the ECF compartment increases the sodium concentration, a condition called hypernatremia. Isotonic loss of water and sodium from the ECF compartment decreases the size of that compartment in a condition called ECF hypovolemia."
     },
     "12": {
       "atomicMass": 24.305,
@@ -295,8 +295,7 @@
       "period": 4,
       "symbol": "K",
       "electronsPerShell": [2, 8, 8, 1],
-      "discoveryDate": 1807,
-      "context": ""
+      "discoveryDate": 1807
     },
     "20": {
       "atomicMass": 40.078,
@@ -308,8 +307,7 @@
       "period": 4,
       "symbol": "Ca",
       "electronsPerShell": [2, 8, 8, 2],
-      "discoveryDate": 1808,
-      "context": ""
+      "discoveryDate": 1808
     },
     "21": {
       "atomicMass": 0,
@@ -321,8 +319,7 @@
       "period": 4,
       "symbol": "Sc",
       "electronsPerShell": [2, 8, 9, 2],
-      "discoveryDate": 1879,
-      "context": ""
+      "discoveryDate": 1879
     },
     "22": {
       "atomicMass": 47.867,
@@ -334,8 +331,7 @@
       "period": 4,
       "symbol": "Ti",
       "electronsPerShell": [2, 8, 10, 2],
-      "discoveryDate": 1791,
-      "context": ""
+      "discoveryDate": 1791
     },
     "23": {
       "atomicMass": 50.9415,
@@ -347,8 +343,7 @@
       "period": 4,
       "symbol": "V",
       "electronsPerShell": [2, 8, 11, 2],
-      "discoveryDate": 1801,
-      "context": ""
+      "discoveryDate": 1801
     },
     "24": {
       "atomicMass": 51.9961,
@@ -360,8 +355,7 @@
       "period": 4,
       "symbol": "Cr",
       "electronsPerShell": [2, 8, 13, 1],
-      "discoveryDate": 1798,
-      "context": ""
+      "discoveryDate": 1798
     },
     "25": {
       "atomicMass": 54.938,
@@ -373,8 +367,7 @@
       "period": 4,
       "symbol": "Mn",
       "electronsPerShell": [2, 8, 13, 2],
-      "discoveryDate": 1774,
-      "context": ""
+      "discoveryDate": 1774
     },
     "26": {
       "atomicMass": 55.845,
@@ -386,8 +379,7 @@
       "period": 4,
       "symbol": "Fe",
       "electronsPerShell": [2, 8, 14, 2],
-      "discoveryDate": -2500,
-      "context": ""
+      "discoveryDate": -2500
     },
     "27": {
       "atomicMass": 58.9332,
@@ -399,8 +391,7 @@
       "period": 4,
       "symbol": "Co",
       "electronsPerShell": [2, 8, 15, 2],
-      "discoveryDate": 1735,
-      "context": ""
+      "discoveryDate": 1735
     },
     "28": {
       "atomicMass": 58.6934,
@@ -412,8 +403,7 @@
       "period": 4,
       "symbol": "Ni",
       "electronsPerShell": [2, 8, 16, 2],
-      "discoveryDate": 1751,
-      "context": ""
+      "discoveryDate": 1751
     },
     "29": {
       "atomicMass": 63.546,
@@ -425,8 +415,7 @@
       "period": 4,
       "symbol": "Cu",
       "electronsPerShell": [2, 8, 18, 1],
-      "discoveryDate": 1944,
-      "context": ""
+      "discoveryDate": 1944
     },
     "30": {
       "atomicMass": 65.39,
@@ -438,8 +427,7 @@
       "period": 4,
       "symbol": "Zn",
       "electronsPerShell": [2, 8, 18, 2],
-      "discoveryDate": 1500,
-      "context": ""
+      "discoveryDate": 1500
     },
     "31": {
       "atomicMass": 69.723,
@@ -451,8 +439,7 @@
       "period": 4,
       "symbol": "Ga",
       "electronsPerShell": [2, 8, 18, 3],
-      "discoveryDate": 1875,
-      "context": ""
+      "discoveryDate": 1875
     },
     "32": {
       "atomicMass": 72.64,
@@ -464,8 +451,7 @@
       "period": 4,
       "symbol": "Ge",
       "electronsPerShell": [2, 8, 18, 4],
-      "discoveryDate": 1886,
-      "context": ""
+      "discoveryDate": 1886
     },
     "33": {
       "atomicMass": 74.9216,
@@ -477,8 +463,7 @@
       "period": 4,
       "symbol": "As",
       "electronsPerShell": [2, 8, 18, 5],
-      "discoveryDate": 1250,
-      "context": ""
+      "discoveryDate": 1250
     },
     "34": {
       "atomicMass": 44.9559,
@@ -490,8 +475,7 @@
       "period": 4,
       "symbol": "Se",
       "electronsPerShell": [2, 8, 9, 2],
-      "discoveryDate": 1817,
-      "context": ""
+      "discoveryDate": 1817
     },
     "35": {
       "atomicMass": 79.904,
@@ -503,8 +487,7 @@
       "period": 4,
       "symbol": "Br",
       "electronsPerShell": [2, 8, 18, 7],
-      "discoveryDate": 1826,
-      "context": ""
+      "discoveryDate": 1826
     },
     "36": {
       "atomicMass": 83.8,
@@ -516,8 +499,7 @@
       "period": 4,
       "symbol": "Kr",
       "electronsPerShell": [2, 8, 18, 8],
-      "discoveryDate": 1898,
-      "context": ""
+      "discoveryDate": 1898
     },
     "37": {
       "atomicMass": 85.4678,
@@ -529,8 +511,7 @@
       "period": 5,
       "symbol": "Rb",
       "electronsPerShell": [2, 8, 18, 8, 1],
-      "discoveryDate": 1861,
-      "context": ""
+      "discoveryDate": 1861
     },
     "38": {
       "atomicMass": 87.62,
@@ -542,8 +523,7 @@
       "period": 5,
       "symbol": "Sr",
       "electronsPerShell": [2, 8, 18, 8, 2],
-      "discoveryDate": 1808,
-      "context": ""
+      "discoveryDate": 1808
     },
     "39": {
       "atomicMass": 88.9059,
@@ -555,8 +535,7 @@
       "period": 5,
       "symbol": "Y",
       "electronsPerShell": [2, 8, 18, 9, 2],
-      "discoveryDate": 1794,
-      "context": ""
+      "discoveryDate": 1794
     },
     "40": {
       "atomicMass": 91.224,
@@ -568,8 +547,7 @@
       "period": 5,
       "symbol": "Zr",
       "electronsPerShell": [2, 8, 18, 10, 2],
-      "discoveryDate": 1789,
-      "context": ""
+      "discoveryDate": 1789
     },
     "41": {
       "atomicMass": 92.9064,
@@ -581,8 +559,7 @@
       "period": 5,
       "symbol": "Nb",
       "electronsPerShell": [2, 8, 18, 12, 1],
-      "discoveryDate": 1801,
-      "context": ""
+      "discoveryDate": 1801
     },
     "42": {
       "atomicMass": 95.94,
@@ -594,8 +571,7 @@
       "period": 5,
       "symbol": "Mo",
       "electronsPerShell": [2, 8, 18, 13, 1],
-      "discoveryDate": 1781,
-      "context": ""
+      "discoveryDate": 1781
     },
     "43": {
       "atomicMass": 98,
@@ -607,8 +583,7 @@
       "period": 5,
       "symbol": "Tc",
       "electronsPerShell": [2, 8, 18, 13, 2],
-      "discoveryDate": 1937,
-      "context": ""
+      "discoveryDate": 1937
     },
     "44": {
       "atomicMass": 101.07,
@@ -620,8 +595,7 @@
       "period": 5,
       "symbol": "Ru",
       "electronsPerShell": [2, 8, 18, 15, 1],
-      "discoveryDate": 1808,
-      "context": ""
+      "discoveryDate": 1808
     },
     "45": {
       "atomicMass": 102.9055,
@@ -633,8 +607,7 @@
       "period": 5,
       "symbol": "Rh",
       "electronsPerShell": [2, 8, 18, 16, 1],
-      "discoveryDate": 1803,
-      "context": ""
+      "discoveryDate": 1803
     },
     "46": {
       "atomicMass": 106.42,
@@ -646,8 +619,7 @@
       "period": 5,
       "symbol": "Pd",
       "electronsPerShell": [2, 8, 18, 18, 0],
-      "discoveryDate": 1803,
-      "context": ""
+      "discoveryDate": 1803
     },
     "47": {
       "atomicMass": 107.8682,
@@ -659,8 +631,7 @@
       "period": 5,
       "symbol": "Ag",
       "electronsPerShell": [2, 8, 18, 18, 1],
-      "discoveryDate": -3000,
-      "context": ""
+      "discoveryDate": -3000
     },
     "48": {
       "atomicMass": 112.411,
@@ -672,8 +643,7 @@
       "period": 5,
       "symbol": "Cd",
       "electronsPerShell": [2, 8, 18, 18, 2],
-      "discoveryDate": 1817,
-      "context": ""
+      "discoveryDate": 1817
     },
     "49": {
       "atomicMass": 114.818,
@@ -685,8 +655,7 @@
       "period": 5,
       "symbol": "In",
       "electronsPerShell": [2, 8, 18, 18, 3],
-      "discoveryDate": 1863,
-      "context": ""
+      "discoveryDate": 1863
     },
     "50": {
       "atomicMass": 118.71,
@@ -698,8 +667,7 @@
       "period": 5,
       "symbol": "Sn",
       "electronsPerShell": [2, 8, 18, 18, 4],
-      "discoveryDate": -2100,
-      "context": ""
+      "discoveryDate": -2100
     },
     "51": {
       "atomicMass": 121.76,
@@ -711,8 +679,7 @@
       "period": 5,
       "symbol": "Sb",
       "electronsPerShell": [2, 8, 18, 18, 5],
-      "discoveryDate": -1600,
-      "context": ""
+      "discoveryDate": -1600
     },
     "52": {
       "atomicMass": 127.6,
@@ -724,8 +691,7 @@
       "period": 5,
       "symbol": "Te",
       "electronsPerShell": [2, 8, 18, 18, 6],
-      "discoveryDate": 1783,
-      "context": ""
+      "discoveryDate": 1783
     },
     "53": {
       "atomicMass": 126.9045,
@@ -737,8 +703,7 @@
       "period": 5,
       "symbol": "I",
       "electronsPerShell": [2, 8, 18, 18, 7],
-      "discoveryDate": 1811,
-      "context": ""
+      "discoveryDate": 1811
     },
     "54": {
       "atomicMass": 131.293,
@@ -750,8 +715,7 @@
       "period": 5,
       "symbol": "Xe",
       "electronsPerShell": [2, 8, 18, 18, 8],
-      "discoveryDate": 1898,
-      "context": ""
+      "discoveryDate": 1898
     },
     "55": {
       "atomicMass": 132.9055,
@@ -763,8 +727,7 @@
       "period": 6,
       "symbol": "Cs",
       "electronsPerShell": [2, 8, 18, 18, 8, 1],
-      "discoveryDate": 1860,
-      "context": ""
+      "discoveryDate": 1860
     },
     "56": {
       "atomicMass": 0,
@@ -776,8 +739,7 @@
       "period": 6,
       "symbol": "Ba",
       "electronsPerShell": [2, 8, 18, 18, 8, 2],
-      "discoveryDate": 1808,
-      "context": ""
+      "discoveryDate": 1808
     },
     "57": {
       "atomicMass": 138.9055,
@@ -789,8 +751,7 @@
       "period": 6,
       "symbol": "La",
       "electronsPerShell": [2, 8, 18, 18, 9, 2],
-      "discoveryDate": 1839,
-      "context": ""
+      "discoveryDate": 1839
     },
     "58": {
       "atomicMass": 140.116,
@@ -802,8 +763,7 @@
       "period": 6,
       "symbol": "Ce",
       "electronsPerShell": [2, 8, 18, 19, 9, 2],
-      "discoveryDate": 1803,
-      "context": ""
+      "discoveryDate": 1803
     },
     "59": {
       "atomicMass": 140.9077,
@@ -815,8 +775,7 @@
       "period": 6,
       "symbol": "Pr",
       "electronsPerShell": [2, 8, 18, 21, 8, 2],
-      "discoveryDate": 1885,
-      "context": ""
+      "discoveryDate": 1885
     },
     "60": {
       "atomicMass": 144.24,
@@ -828,8 +787,7 @@
       "period": 6,
       "symbol": "Nd",
       "electronsPerShell": [2, 8, 18, 22, 8, 2],
-      "discoveryDate": 1885,
-      "context": ""
+      "discoveryDate": 1885
     },
     "61": {
       "atomicMass": 145,
@@ -841,8 +799,7 @@
       "period": 6,
       "symbol": "Pm",
       "electronsPerShell": [2, 8, 18, 23, 8, 2],
-      "discoveryDate": 1945,
-      "context": ""
+      "discoveryDate": 1945
     },
     "62": {
       "atomicMass": 150.36,
@@ -854,8 +811,7 @@
       "period": 6,
       "symbol": "Sm",
       "electronsPerShell": [2, 8, 18, 24, 8, 2],
-      "discoveryDate": 1879,
-      "context": ""
+      "discoveryDate": 1879
     },
     "63": {
       "atomicMass": 151.964,
@@ -867,8 +823,7 @@
       "period": 6,
       "symbol": "Eu",
       "electronsPerShell": [2, 8, 18, 25, 8, 2],
-      "discoveryDate": 1901,
-      "context": ""
+      "discoveryDate": 1901
     },
     "64": {
       "atomicMass": 157.25,
@@ -880,8 +835,7 @@
       "period": 6,
       "symbol": "Gd",
       "electronsPerShell": [2, 8, 18, 25, 9, 2],
-      "discoveryDate": 1880,
-      "context": ""
+      "discoveryDate": 1880
     },
     "65": {
       "atomicMass": 158.9253,
@@ -893,8 +847,7 @@
       "period": 6,
       "symbol": "Tb",
       "electronsPerShell": [2, 8, 18, 27, 8, 2],
-      "discoveryDate": 1843,
-      "context": ""
+      "discoveryDate": 1843
     },
     "66": {
       "atomicMass": 162.5,
@@ -906,8 +859,7 @@
       "period": 6,
       "symbol": "Dy",
       "electronsPerShell": [2, 8, 18, 28, 8, 2],
-      "discoveryDate": 1886,
-      "context": ""
+      "discoveryDate": 1886
     },
     "67": {
       "atomicMass": 164.9303,
@@ -919,8 +871,7 @@
       "period": 6,
       "symbol": "Ho",
       "electronsPerShell": [2, 8, 18, 29, 8, 2],
-      "discoveryDate": 1878,
-      "context": ""
+      "discoveryDate": 1878
     },
     "68": {
       "atomicMass": 167.259,
@@ -932,8 +883,7 @@
       "period": 6,
       "symbol": "Er",
       "electronsPerShell": [2, 8, 18, 30, 8, 2],
-      "discoveryDate": 1842,
-      "context": ""
+      "discoveryDate": 1842
     },
     "69": {
       "atomicMass": 168.9342,
@@ -945,8 +895,7 @@
       "period": 6,
       "symbol": "Tm",
       "electronsPerShell": [2, 8, 18, 31, 8, 2],
-      "discoveryDate": 1879,
-      "context": ""
+      "discoveryDate": 1879
     },
     "70": {
       "atomicMass": 173.04,
@@ -958,8 +907,7 @@
       "period": 6,
       "symbol": "Yb",
       "electronsPerShell": [2, 8, 18, 32, 8, 2],
-      "discoveryDate": 1878,
-      "context": ""
+      "discoveryDate": 1878
     },
     "71": {
       "atomicMass": 174.967,
@@ -971,8 +919,7 @@
       "period": 6,
       "symbol": "Lu",
       "electronsPerShell": [2, 8, 18, 32, 9, 2],
-      "discoveryDate": 1907,
-      "context": ""
+      "discoveryDate": 1907
     },
     "72": {
       "atomicMass": 178.49,
@@ -984,8 +931,7 @@
       "period": 6,
       "symbol": "Hf",
       "electronsPerShell": [2, 8, 18, 32, 10, 2],
-      "discoveryDate": 1923,
-      "context": ""
+      "discoveryDate": 1923
     },
     "73": {
       "atomicMass": 180.9479,
@@ -997,8 +943,7 @@
       "period": 6,
       "symbol": "Ta",
       "electronsPerShell": [2, 8, 18, 32, 11, 2],
-      "discoveryDate": 1802,
-      "context": ""
+      "discoveryDate": 1802
     },
     "74": {
       "atomicMass": 183.84,
@@ -1010,8 +955,7 @@
       "period": 6,
       "symbol": "W",
       "electronsPerShell": [2, 8, 18, 32, 12, 2],
-      "discoveryDate": 1783,
-      "context": ""
+      "discoveryDate": 1783
     },
     "75": {
       "atomicMass": 186.207,
@@ -1023,8 +967,7 @@
       "period": 6,
       "symbol": "Re",
       "electronsPerShell": [2, 8, 18, 32, 13, 2],
-      "discoveryDate": 1925,
-      "context": ""
+      "discoveryDate": 1925
     },
     "76": {
       "atomicMass": 190.23,
@@ -1036,8 +979,7 @@
       "period": 6,
       "symbol": "Os",
       "electronsPerShell": [2, 8, 18, 32, 14, 2],
-      "discoveryDate": 1803,
-      "context": ""
+      "discoveryDate": 1803
     },
     "77": {
       "atomicMass": 192.217,
@@ -1049,8 +991,7 @@
       "period": 6,
       "symbol": "Ir",
       "electronsPerShell": [2, 8, 18, 32, 15, 2],
-      "discoveryDate": 1803,
-      "context": ""
+      "discoveryDate": 1803
     },
     "78": {
       "atomicMass": 195.078,
@@ -1062,8 +1003,7 @@
       "period": 6,
       "symbol": "Pt",
       "electronsPerShell": [2, 8, 18, 32, 17, 1],
-      "discoveryDate": 1700,
-      "context": ""
+      "discoveryDate": 1700
     },
     "79": {
       "atomicMass": 196.9665,
@@ -1075,8 +1015,7 @@
       "period": 6,
       "symbol": "Au",
       "electronsPerShell": [2, 8, 18, 32, 18, 1],
-      "discoveryDate": -3000,
-      "context": ""
+      "discoveryDate": -3000
     },
     "80": {
       "atomicMass": 200.59,
@@ -1088,8 +1027,7 @@
       "period": 6,
       "symbol": "Hg",
       "electronsPerShell": [2, 8, 18, 32, 18, 2],
-      "discoveryDate": -1500,
-      "context": ""
+      "discoveryDate": -1500
     },
     "81": {
       "atomicMass": 204.3833,
@@ -1101,8 +1039,7 @@
       "period": 6,
       "symbol": "Tl",
       "electronsPerShell": [2, 8, 18, 32, 18, 3],
-      "discoveryDate": 1861,
-      "context": ""
+      "discoveryDate": 1861
     },
     "82": {
       "atomicMass": 207.2,
@@ -1114,8 +1051,7 @@
       "period": 6,
       "symbol": "Pb",
       "electronsPerShell": [2, 8, 18, 32, 18, 4],
-      "discoveryDate": -1000,
-      "context": ""
+      "discoveryDate": -1000
     },
     "83": {
       "atomicMass": 208.9804,
@@ -1127,8 +1063,7 @@
       "period": 6,
       "symbol": "Bi",
       "electronsPerShell": [2, 8, 18, 32, 18, 5],
-      "discoveryDate": 1500,
-      "context": ""
+      "discoveryDate": 1500
     },
     "84": {
       "atomicMass": 209,
@@ -1140,8 +1075,7 @@
       "period": 6,
       "symbol": "Po",
       "electronsPerShell": [2, 8, 18, 32, 18, 6],
-      "discoveryDate": 1898,
-      "context": ""
+      "discoveryDate": 1898
     },
     "85": {
       "atomicMass": 210,
@@ -1153,8 +1087,7 @@
       "period": 6,
       "symbol": "At",
       "electronsPerShell": [2, 8, 18, 32, 18, 7],
-      "discoveryDate": 1940,
-      "context": ""
+      "discoveryDate": 1940
     },
     "86": {
       "atomicMass": 222,
@@ -1166,8 +1099,7 @@
       "period": 6,
       "symbol": "Rn",
       "electronsPerShell": [2, 8, 18, 32, 18, 8],
-      "discoveryDate": 1900,
-      "context": ""
+      "discoveryDate": 1900
     },
     "87": {
       "atomicMass": 223,
@@ -1179,8 +1111,7 @@
       "period": 7,
       "symbol": "Fr",
       "electronsPerShell": [2, 8, 18, 32, 18, 8, 1],
-      "discoveryDate": 1939,
-      "context": ""
+      "discoveryDate": 1939
     },
     "88": {
       "atomicMass": 226,
@@ -1192,8 +1123,7 @@
       "period": 7,
       "symbol": "Ra",
       "electronsPerShell": [2, 8, 18, 32, 18, 8, 2],
-      "discoveryDate": 1898,
-      "context": ""
+      "discoveryDate": 1898
     },
     "89": {
       "atomicMass": 227,
@@ -1205,8 +1135,7 @@
       "period": 7,
       "symbol": "Ac",
       "electronsPerShell": [2, 8, 18, 32, 18, 9, 2],
-      "discoveryDate": 1899,
-      "context": ""
+      "discoveryDate": 1899
     },
     "90": {
       "atomicMass": 232.0381,
@@ -1218,8 +1147,7 @@
       "period": 7,
       "symbol": "Th",
       "electronsPerShell": [2, 8, 18, 32, 18, 10, 2],
-      "discoveryDate": 1829,
-      "context": ""
+      "discoveryDate": 1829
     },
     "91": {
       "atomicMass": 106.42,
@@ -1231,8 +1159,7 @@
       "period": 7,
       "symbol": "Pa",
       "electronsPerShell": [2, 8, 18, 32, 20, 9, 2],
-      "discoveryDate": 1917,
-      "context": ""
+      "discoveryDate": 1917
     },
     "92": {
       "atomicMass": 238.0289,
@@ -1244,8 +1171,7 @@
       "period": 7,
       "symbol": "U",
       "electronsPerShell": [2, 8, 18, 32, 21, 9, 2],
-      "discoveryDate": 1789,
-      "context": ""
+      "discoveryDate": 1789
     },
     "93": {
       "atomicMass": 237,
@@ -1257,8 +1183,7 @@
       "period": 7,
       "symbol": "Np",
       "electronsPerShell": [2, 8, 18, 32, 22, 9, 2],
-      "discoveryDate": 1940,
-      "context": ""
+      "discoveryDate": 1940
     },
     "94": {
       "atomicMass": 244,
@@ -1270,8 +1195,7 @@
       "period": 7,
       "symbol": "Pu",
       "electronsPerShell": [2, 8, 18, 32, 24, 8, 2],
-      "discoveryDate": 1940,
-      "context": ""
+      "discoveryDate": 1940
     },
     "95": {
       "atomicMass": 243,
@@ -1283,8 +1207,7 @@
       "period": 7,
       "symbol": "Am",
       "electronsPerShell": [2, 8, 18, 32, 25, 8, 2],
-      "discoveryDate": 1994,
-      "context": ""
+      "discoveryDate": 1994
     },
     "96": {
       "atomicMass": 247,
@@ -1296,8 +1219,7 @@
       "period": 7,
       "symbol": "Cm",
       "electronsPerShell": [2, 8, 18, 32, 25, 9, 2],
-      "discoveryDate": 1944,
-      "context": ""
+      "discoveryDate": 1944
     },
     "97": {
       "atomicMass": 247,
@@ -1309,8 +1231,7 @@
       "period": 7,
       "symbol": "Bk",
       "electronsPerShell": [2, 8, 18, 32, 27, 8, 2],
-      "discoveryDate": 1949,
-      "context": ""
+      "discoveryDate": 1949
     },
     "98": {
       "atomicMass": 251,
@@ -1322,8 +1243,7 @@
       "period": 7,
       "symbol": "Cf",
       "electronsPerShell": [2, 8, 18, 32, 28, 8, 2],
-      "discoveryDate": 1950,
-      "context": ""
+      "discoveryDate": 1950
     },
     "99": {
       "atomicMass": 252,
@@ -1335,8 +1255,7 @@
       "period": 7,
       "symbol": "Es",
       "electronsPerShell": [2, 8, 18, 32, 29, 8, 2],
-      "discoveryDate": 1952,
-      "context": ""
+      "discoveryDate": 1952
     },
     "100": {
       "atomicMass": 257,
@@ -1348,8 +1267,7 @@
       "period": 7,
       "symbol": "Fm",
       "electronsPerShell": [2, 8, 18, 32, 30, 8, 2],
-      "discoveryDate": 1952,
-      "context": ""
+      "discoveryDate": 1952
     },
     "101": {
       "atomicMass": 258,
@@ -1361,8 +1279,7 @@
       "period": 7,
       "symbol": "Md",
       "electronsPerShell": [2, 8, 18, 32, 31, 8, 2],
-      "discoveryDate": 1955,
-      "context": ""
+      "discoveryDate": 1955
     },
     "102": {
       "atomicMass": 259,
@@ -1374,8 +1291,7 @@
       "period": 7,
       "symbol": "No",
       "electronsPerShell": [2, 8, 18, 32, 32, 8, 2],
-      "discoveryDate": 1958,
-      "context": ""
+      "discoveryDate": 1958
     },
     "103": {
       "atomicMass": 262,
@@ -1387,8 +1303,7 @@
       "period": 7,
       "symbol": "Lr",
       "electronsPerShell": [2, 8, 18, 32, 32, 8, 3],
-      "discoveryDate": 1961,
-      "context": ""
+      "discoveryDate": 1961
     },
     "104": {
       "atomicMass": 261,
@@ -1510,8 +1425,7 @@
       "period": 7,
       "symbol": "Fl",
       "electronsPerShell": [2, 8, 18, 32, 32, 18, 4],
-      "discoveryDate": 1886,
-      "context": ""
+      "discoveryDate": 1886
     },
     "115": {
       "atomicMass": 114,
@@ -1522,8 +1436,7 @@
       "name": "Ununpentium",
       "period": 7,
       "symbol": "Uup",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 5],
-      "context": ""
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 5]
     },
     "116": {
       "atomicMass": 293,
@@ -1534,8 +1447,7 @@
       "name": "Livermorium",
       "period": 7,
       "symbol": "Lv",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 6],
-      "context": ""
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 6]
     },
     "117": {
       "atomicMass": 116,
@@ -1546,8 +1458,7 @@
       "name": "Ununseptium",
       "period": 7,
       "symbol": "Uus",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 7],
-      "context": ""
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 7]
     },
     "118": {
       "atomicMass": 117,
@@ -1558,8 +1469,7 @@
       "name": "Ununoctium",
       "period": 7,
       "symbol": "Uuo",
-      "electronsPerShell": [2, 8, 18, 32, 32, 18, 8],
-      "context": ""
+      "electronsPerShell": [2, 8, 18, 32, 32, 18, 8]
     }
   },
   "fr_FR": {
@@ -1570,11 +1480,13 @@
     },
     "2": {
       "name": "Hélium",
-      "phase": "gaz"
+      "phase": "gaz",
+      "context": "Le mot hélium a été construit à partir du grec Helios (Ἥλιος / Hếlios, « le Soleil »), cet élément ayant été observé pour la première fois dans le spectre solaire le 18 août 1868, au cours d'une éclipse totale de Soleil, par l'astronome Jules Janssen."
     },
     "3": {
       "name": "Lithium",
-      "phase": "solide"
+      "phase": "solide",
+      "context": "Le lithium pur est un métal mou, de couleur gris argenté, qui se ternit et s'oxyde très rapidement au contact de l'air et de l'eau, prenant une teinte gris foncé virant rapidement à l'anthracite et au noir. C'est l'élément solide le plus léger. Comme les autres métaux alcalins, le lithium métallique réagit facilement avec l'air et avec l'eau. Il est pour cette raison conservé dans de l'huile minérale pour le préserver de l'air."
     },
     "4": {
       "name": "Béryllium",
