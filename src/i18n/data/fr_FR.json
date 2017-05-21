@@ -5,7 +5,9 @@
   },
   "about": {
     "title": "À propos de Mendelable",
-    "primaryText": "Mendelable est un projet open-source hébergé sur GitHub, développé par l'équipe <i>Pulsar</i> et auquel vous pouvez contribuez grâce à ce formulaire ou à des pull requests. N'hésitez pas à nous contacter si vous trouvez une erreur dans nos données, si vous rencontrez un problème technique ou tout simplement si vous avez une question."
+    "primaryText": "Mendelable est un projet open-source hébergé sur GitHub, développé par l'équipe <i>Pulsar</i> et auquel vous pouvez contribuez grâce à ce formulaire ou à des pull requests. N'hésitez pas à nous contacter si vous trouvez une erreur dans nos données, si vous rencontrez un problème technique ou tout simplement si vous avez une question.",
+    "helpUs": "Aidez nous",
+    "helpUsText": "Vous êtes libre de faire un don pour nous soutenir ou nous aider à louer un serveur pour ce site."
   },
   "contact": {
     "form": {
