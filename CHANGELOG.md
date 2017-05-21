@@ -1,5 +1,46 @@
 # Mendelable
 
+## v1.0.1 (2017-05-21)
+
+
+## Bug Fixes
+  - remove the empty `context` fields
+  ([78c9bcff](https://github.com/pulsardev/mendelable/commit/78c9bcffa4da54f2014290b8c9877496a3803fab))
+  - tracking
+  ([3061db10](https://github.com/pulsardev/mendelable/commit/3061db10609dcaa9bb2ad936b9515f5f4842cbd5))
+
+  - **translation**
+    - translate the text of the donate button
+  ([3448f737](https://github.com/pulsardev/mendelable/commit/3448f737a7f9e253c4d67cb776525f6426787486))
+    - fetch the language from the navigator's property
+  ([e752276c](https://github.com/pulsardev/mendelable/commit/e752276cee43544fdbdd2abe25cad212ad0ca59d))
+
+
+
+
+## Features
+  - add context for 17 elements
+  ([6d41d7b8](https://github.com/pulsardev/mendelable/commit/6d41d7b8de82ddb3e6565a97fa902047748044ad))
+  - add a donate button
+  ([15611f36](https://github.com/pulsardev/mendelable/commit/15611f36a25336b60bd5b39529ad2b8799181cb6))
+  - add tracking ga
+  ([f9086b95](https://github.com/pulsardev/mendelable/commit/f9086b95cd8c34f837a40a9f7eee9b49b8944b6e))
+
+  - **translation**
+    - add the french description of the first 18 elements
+  ([a53e001c](https://github.com/pulsardev/mendelable/commit/a53e001c8bdfe7caac56ee67bb4b5f3e17de4340))
+
+
+
+
+## Chore
+  - generate a new build
+  ([318a74d9](https://github.com/pulsardev/mendelable/commit/318a74d949d6e298f49f9531a317df0f84e91cc8))
+
+
+
+
+
 ## v1.0.0 (2017-05-20)
 
 
