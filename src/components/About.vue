@@ -6,8 +6,8 @@
     <p class="text-muted">{{ $t('about.helpUsText') }}</p>
 
     <a
-      href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLK49A83DXCQ8"
-      target="_blank" class="btn btn-outline-warning mb-3">Faire un don</a>
+      @click="trackClick(paypalLink)" :href="paypalLink"
+      target="_blank" :title="$t('about.donate')" class="btn btn-outline-warning mb-3">{{ $t('about.donate') }}</a>
 
     <div class="row">
       <div class="col-xl-8">
@@ -46,7 +46,8 @@
       return {
         name: '',
         email: '',
-        message: ''
+        message: '',
+        paypalLink: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLK49A83DXCQ8'
       }
     },
     computed: {
@@ -58,6 +59,9 @@
     methods: {
       canSubmit () {
         return this.name && this.isValidEmail && this.message
+      },
+      trackClick (url) {
+        window.ga('send', 'event', 'outbound', 'click', url)
       }
     }
   }
