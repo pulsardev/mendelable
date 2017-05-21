@@ -3,6 +3,12 @@
     <h2>{{ $t("about.title") }}</h2>
     <p class="text-muted" v-html="$t('about.primaryText')"></p>
 
+    <p class="text-muted">{{ $t('about.helpUsText') }}</p>
+
+    <a
+      href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLK49A83DXCQ8"
+      target="_blank" class="btn btn-outline-warning mb-3">Faire un don</a>
+
     <div class="row">
       <div class="col-xl-8">
         <form action="https://formspree.io/pulsar.dev.team@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
