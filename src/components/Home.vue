@@ -18,12 +18,12 @@
             </li>
             <li class="nav-item mt-5">
               <router-link to="/game" exact class="nav-link d-flex justify-content-center" :title="$t('home.gameMode')">
-                <i @click="trackClick(gameMode)" class="material-icons md-36">games</i>
+                <i @click="trackClick('game')" class="material-icons md-36">games</i>
               </router-link>
             </li>
             <li class="nav-item mt-5">
               <router-link to="/about" exact class="nav-link d-flex justify-content-center" :title="$t('home.about')">
-                <i @click="trackClick(helpOutline)" class="material-icons">help_outline</i>
+                <i @click="trackClick('help')" class="material-icons">help_outline</i>
               </router-link>
             </li>
           </div>
@@ -85,16 +85,15 @@
     data () {
       return {
         msg: 'Mendelable',
-        isMenuOpened: false,
-        gameMode: '/game'
+        isMenuOpened: false
       }
     },
     methods: {
       toggleMenu () {
         this.isMenuOpened = !this.isMenuOpened
       },
-      trackClick (url) {
-        window.ga('send', 'event', 'outbound', 'click', url)
+      trackClick (destination) {
+        window.ga('send', 'event', 'inbound', 'click', destination)
       }
     }
   }
