@@ -310,7 +310,7 @@
       "discoveryDate": 1808
     },
     "21": {
-      "atomicMass": 0,
+      "atomicMass": 44.9559,
       "atomicNumber": 21,
       "ionizationEnergy": 6.5615,
       "elementGroup": "transition-metal",
@@ -730,7 +730,7 @@
       "discoveryDate": 1860
     },
     "56": {
-      "atomicMass": 0,
+      "atomicMass": 137.327,
       "atomicNumber": 56,
       "ionizationEnergy": 5.2117,
       "elementGroup": "alkaline-earth-metal",
@@ -1561,7 +1561,7 @@
       "name": "Scandium"
     },
     "22": {
-      "name": "Titan"
+      "name": "Titane"
     },
     "23": {
       "name": "Vanadium"

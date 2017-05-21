@@ -9,6 +9,10 @@
 - [Build Setup](#build-setup)
 - [Something Missing?](#something-missing)
 
+## Contributing
+
+You are free to make pull requests if you want to contribute to Mendelable in any way. If you wish to change the data, you can modify the JSON file located in `/src/assets/data`.
+
 ## Build Setup
 
 ``` bash
