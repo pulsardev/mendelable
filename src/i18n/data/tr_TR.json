@@ -1,0 +1,81 @@
+{
+  "home": {
+    "gameMode": "Oyun modu",
+    "about": "Hakkında"
+  },
+  "about": {
+    "title": "Mendelable Hakkında",
+    "primaryText": "Mendelable bir açık-kaynak projesidir ve <a href=\"https://github.com/pulsardev/mendelable\" target=\"_blank\">GitHub</a> alanında barındırılır, <i>Pulsar</i> ekibi tarafından geliştirilmiştir ve bu form aracılığıyla katkı veya taleplerde bulunabilirsiniz. Verilerimizde bir hata bulursanız, teknik bir sorunuz veya basit bir sorunuz varsa bizimle iletişime geçebilirsiniz.",
+    "helpUsText": "Bize destek olmak ve bu web sitesi için bir sunucu kiralamıza yardımcı olmak için bağış yapmaktan çekinmeyin.",
+    "donate": "Yardım et"
+  },
+  "contact": {
+    "form": {
+      "name": {
+        "label": "Adınız",
+        "validation": "Lütfen adınızı giriniz."
+      },
+      "email": {
+        "label": "Emailiniz",
+        "validation": "Lütfen email adresinizi giriniz.",
+        "helpText": "Biz emailinizi başkaları ile paylaşmayacağız.",
+        "error": "Lütfen geçerli email adresinizi giriniz."
+      },
+      "message": {
+        "label": "Mesajınız",
+        "validation": "Lütfen bir mesaj yazınız."
+      },
+      "submit": "Kaydet"
+    }
+  },
+  "general": {
+    "search": "Arama",
+    "temperature": "Sıcaklık"
+  },
+  "history": {
+    "generalInformation": "Genel bilgi",
+    "discoveredBy": "tarafından keşfedilmiştir",
+    "discoveryDate": "Keşif tarihi",
+    "context": "İçerik"
+  },
+  "sidebar": {
+    "title": "Seçenekler",
+    "subtitle": "Geçerli sayfanın seçenekleri",
+    "legend": "Yazıt",
+    "elementProfile": {
+      "previous": "Önceki",
+      "next": "Sonraki"
+    },
+    "simpleView": "Basit görünüş"
+  },
+  "game": {
+    "play": "Oynat",
+    "stop": "Durdur",
+    "input": "Bir element adı giriniz",
+    "elementsFound": "bulunan elementler"
+  },
+  "language": {
+    "label": "Lisan"
+  },
+  "element": {
+    "atomicNumber": "Atom numarası",
+    "electronsPerShell": "Her kabuktaki elektron sayısı",
+    "physicalProperties": "Fiziksel özellikler",
+    "meltingPoint": "Buharlaşma noktası",
+    "boilingPoint": "Kaynama noktası",
+    "atomicMass": "Atomik kütle",
+    "ionizationEnergy": "İyonlaşma enerjisi",
+    "group": {
+      "non-metal": "Ametaller",
+      "halogen": "Halojenler",
+      "metalloid": "Metaloidler/Bileşikler",
+      "metal": "Metaller",
+      "alkali-metal": "Alkali/Bazik metaller",
+      "alkaline-earth-metal": "Toprak alkali metaller",
+      "transition-metal": "Geçiş metalleri",
+      "noble-gas": "Soy gazlar",
+      "lanthanoid": "Lantanitler/Nâdir toprak elementleri",
+      "actinoid": "Aktinitler"
+    }
+  }
+}
