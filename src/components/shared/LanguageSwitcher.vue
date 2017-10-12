@@ -19,7 +19,8 @@
         selected: i18n.locale,
         options: [
           {text: 'English', value: 'en_US'},
-          {text: 'Français', value: 'fr_FR'}
+          {text: 'Français', value: 'fr_FR'},
+          {text: 'Türkçe', value: 'tr_TR'}
         ]
       }
     },
