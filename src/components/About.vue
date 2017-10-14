@@ -6,8 +6,13 @@
     <p class="text-muted">{{ $t('about.helpUsText') }}</p>
 
     <a
-      @click="trackClick(paypalLink)" :href="paypalLink"
-      target="_blank" :title="$t('about.donate')" class="btn btn-outline-warning mb-3">{{ $t('about.donate') }}</a>
+      @click="trackClick(paypalLink)"
+      :href="paypalLink"
+      target="_blank"
+      rel="noopener"
+      :title="$t('about.donate')"
+      class="btn btn-outline-warning mb-3"
+    >{{ $t('about.donate') }}</a>
 
     <div class="row">
       <div class="col-xl-8">
