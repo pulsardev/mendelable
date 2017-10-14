@@ -18,12 +18,12 @@
             </li>
             <li class="nav-item mt-5">
               <router-link to="/game" exact class="nav-link d-flex justify-content-center" :title="$t('home.gameMode')">
-                <i @click="trackClick('game')" class="material-icons md-36">games</i>
+                <i @click="trackClick('game', 'inbound')" class="material-icons md-36">games</i>
               </router-link>
             </li>
             <li class="nav-item mt-5">
               <router-link to="/about" exact class="nav-link d-flex justify-content-center" :title="$t('home.about')">
-                <i @click="trackClick('help')" class="material-icons">help_outline</i>
+                <i @click="trackClick('help', 'inbound')" class="material-icons">help_outline</i>
               </router-link>
             </li>
           </div>
@@ -47,6 +47,14 @@
 
           <!-- Sidebar -->
           <div class="col-md-4 col-lg-3 col-xl-2 bg-faded px-4 py-5">
+            <a
+              @click="trackClick(githubLink, 'outbound')"
+              :href="githubLink"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-outline-info btn-block mb-5"
+            >Fork me on GitHub</a>
+
             <h4>{{ $t("sidebar.title") }}</h4>
 
             <p class="text-muted">{{ $t("language.label") }}</p>
@@ -85,15 +93,16 @@
     data () {
       return {
         msg: 'Mendelable',
-        isMenuOpened: false
+        isMenuOpened: false,
+        githubLink: 'https://github.com/pulsardev/mendelable'
       }
     },
     methods: {
       toggleMenu () {
         this.isMenuOpened = !this.isMenuOpened
       },
-      trackClick (destination) {
-        window.ga('send', 'event', 'inbound', 'click', destination)
+      trackClick (destination, eventCategory) {
+        window.ga('send', 'event', eventCategory, 'click', destination)
       }
     }
   }
