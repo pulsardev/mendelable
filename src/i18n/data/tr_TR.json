@@ -5,7 +5,7 @@
   },
   "about": {
     "title": "Mendelable Hakkında",
-    "primaryText": "Mendelable bir açık-kaynak projesidir ve <a href=\"https://github.com/pulsardev/mendelable\" target=\"_blank\">GitHub</a> alanında barındırılır, <i>Pulsar</i> ekibi tarafından geliştirilmiştir ve bu form aracılığıyla katkı veya taleplerde bulunabilirsiniz. Verilerimizde bir hata bulursanız, teknik bir sorunuz veya basit bir sorunuz varsa bizimle iletişime geçebilirsiniz.",
+    "primaryText": "Mendelable bir açık-kaynak projesidir ve <a href=\"https://github.com/pulsardev/mendelable\" target=\"_blank\">GitHub</a> alanında barındırılır, <a href=\"https://pulsar.surge.sh/\"><i>Pulsar</i></a> ekibi tarafından geliştirilmiştir ve bu form aracılığıyla katkı veya taleplerde bulunabilirsiniz. Verilerimizde bir hata bulursanız, teknik bir sorunuz veya basit bir sorunuz varsa bizimle iletişime geçebilirsiniz.",
     "helpUsText": "Bize destek olmak ve bu web sitesi için bir sunucu kiralamıza yardımcı olmak için bağış yapmaktan çekinmeyin.",
     "donate": "Yardım et"
   },
@@ -74,8 +74,8 @@
       "alkaline-earth-metal": "Toprak alkali metaller",
       "transition-metal": "Geçiş metalleri",
       "noble-gas": "Soy gazlar",
-      "lanthanoid": "Lantanitler/Nâdir toprak elementleri",
-      "actinoid": "Aktinitler"
+      "lanthanoid": "Lantanidler/Nâdir toprak elementleri",
+      "actinoid": "Aktinidler"
     }
   }
 }
