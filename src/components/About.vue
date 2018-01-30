@@ -6,7 +6,7 @@
     <p class="text-muted">{{ $t('about.featuredText') }}</p>
 
     <a href="https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/">
-      <img src="/static/logo__smashing-magazine--white.svg" alt="Smashing Magazine" width="128">
+      <img src="static/logo__smashing-magazine--white.svg" alt="Smashing Magazine" width="128">
     </a>
 
     <p class="text-muted">{{ $t('about.helpUsText') }}</p>
