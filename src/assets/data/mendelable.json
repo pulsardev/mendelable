@@ -1848,5 +1848,361 @@
     "118": {
       "name": "Oganesson"
     }
+  },
+  "tr_TR": {
+    "1": {
+      "name": "Hidrojen"
+    },
+    "2": {
+      "name": "Helyum"
+    },
+    "3": {
+      "name": "Lityum"
+    },
+    "4": {
+      "name": "Berilyum"
+    },
+    "5": {
+      "name": "Bor"
+    },
+    "6": {
+      "name": "Karbon"
+    },
+    "7": {
+      "name": "Azot"
+    },
+    "8": {
+      "name": "Oksijen"
+    },
+    "9": {
+      "name": "Flor"
+    },
+    "10": {
+      "name": "Neon"
+    },
+    "11": {
+      "name": "Sodyum"
+    },
+    "12": {
+      "name": "Magnezyum"
+    },
+    "13": {
+      "name": "Aluminyum"
+    },
+    "14": {
+      "name": "Silisyon"
+    },
+    "15": {
+      "name": "Fosfor"
+    },
+    "16": {
+      "name": "Kükürt"
+    },
+    "17": {
+      "name": "Klor"
+    },
+    "18": {
+      "name": "Argon"
+    },
+    "19": {
+      "name": "Potasyum"
+    },
+    "20": {
+      "name": "Kalsiyum"
+    },
+    "21": {
+      "name": "Skandiyum"
+    },
+    "22": {
+      "name": "Titanyium"
+    },
+    "23": {
+      "name": "Vanadyum"
+    },
+    "24": {
+      "name": "Krom"
+    },
+    "25": {
+      "name": "Mangan"
+    },
+    "26": {
+      "name": "Demir"
+    },
+    "27": {
+      "name": "Kobalt"
+    },
+    "28": {
+      "name": "Nikel"
+    },
+    "29": {
+      "name": "Bakır"
+    },
+    "30": {
+      "name": "Çinko"
+    },
+    "31": {
+      "name": "Galyum"
+    },
+    "32": {
+      "name": "Germanyum"
+    },
+    "33": {
+      "name": "Arsenik"
+    },
+    "34": {
+      "name": "Selenyum"
+    },
+    "35": {
+      "name": "Brom"
+    },
+    "36": {
+      "name": "Kripton"
+    },
+    "37": {
+      "name": "Rubidyum"
+    },
+    "38": {
+      "name": "Stronsiyum"
+    },
+    "39": {
+      "name": "İtriyum"
+    },
+    "40": {
+      "name": "Zirkonyum"
+    },
+    "41": {
+      "name": "Niobyum"
+    },
+    "42": {
+      "name": "Molibden"
+    },
+    "43": {
+      "name": "Teknesyum"
+    },
+    "44": {
+      "name": "Rutenyum"
+    },
+    "45": {
+      "name": "Rodyum"
+    },
+    "46": {
+      "name": "Paladyum"
+    },
+    "47": {
+      "name": "Gümüş"
+    },
+    "48": {
+      "name": "Kadmiyum"
+    },
+    "49": {
+      "name": "Indiyum"
+    },
+    "50": {
+      "name": "Kalay"
+    },
+    "51": {
+      "name": "Antimon"
+    },
+    "52": {
+      "name": "Tellür"
+    },
+    "53": {
+      "name": "Iyot"
+    },
+    "54": {
+      "name": "Ksenon"
+    },
+    "55": {
+      "name": "Sezyum"
+    },
+    "56": {
+      "name": "Baryum"
+    },
+    "57": {
+      "name": "Lantan"
+    },
+    "58": {
+      "name": "Seryum"
+    },
+    "59": {
+      "name": "Praseodim"
+    },
+    "60": {
+      "name": "Neodimyum"
+    },
+    "61": {
+      "name": "Prometyum"
+    },
+    "62": {
+      "name": "Samaryum"
+    },
+    "63": {
+      "name": "Evropiyum"
+    },
+    "64": {
+      "name": "Gadolinyum"
+    },
+    "65": {
+      "name": "Terbiyum"
+    },
+    "66": {
+      "name": "Disprosyum"
+    },
+    "67": {
+      "name": "Holmiyum"
+    },
+    "68": {
+      "name": "Erbiyum"
+    },
+    "69": {
+      "name": "Tulyum"
+    },
+    "70": {
+      "name": "İterbiyum"
+    },
+    "71": {
+      "name": "Lütesyum"
+    },
+    "72": {
+      "name": "Hafniyum"
+    },
+    "73": {
+      "name": "Tantal"
+    },
+    "74": {
+      "name": "Volfram/Tungsten"
+    },
+    "75": {
+      "name": "Renyum"
+    },
+    "76": {
+      "name": "Osmiyum"
+    },
+    "77": {
+      "name": "İridyum"
+    },
+    "78": {
+      "name": "Platin"
+    },
+    "79": {
+      "name": "Altın"
+    },
+    "80": {
+      "name": "Civa"
+    },
+    "81": {
+      "name": "Thalyum"
+    },
+    "82": {
+      "name": "Kurşun"
+    },
+    "83": {
+      "name": "Bizmut"
+    },
+    "84": {
+      "name": "Polonyum"
+    },
+    "85": {
+      "name": "Astatin"
+    },
+    "86": {
+      "name": "Radon"
+    },
+    "87": {
+      "name": "Fransiyum"
+    },
+    "88": {
+      "name": "Radyum"
+    },
+    "89": {
+      "name": "Aktinyum"
+    },
+    "90": {
+      "name": "Toryum"
+    },
+    "91": {
+      "name": "Protaktinyum"
+    },
+    "92": {
+      "name": "Uranyum"
+    },
+    "93": {
+      "name": "Neptünyum"
+    },
+    "94": {
+      "name": "Plütonyum"
+    },
+    "95": {
+      "name": "Amerikyum"
+    },
+    "96": {
+      "name": "Küriyum"
+    },
+    "97": {
+      "name": "Berkelyum"
+    },
+    "98": {
+      "name": "Kaliforniyum"
+    },
+    "99": {
+      "name": "Aynştanyum"
+    },
+    "100": {
+      "name": "Fermyum"
+    },
+    "101": {
+      "name": "Mendelevyum"
+    },
+    "102": {
+      "name": "Nobelyum"
+    },
+    "103": {
+      "name": "Lavrensiyum/Lorentiyum"
+    },
+    "104": {
+      "name": "Rutherfordiyum"
+    },
+    "105": {
+      "name": "Dubniyum"
+    },
+    "106": {
+      "name": "Seaborgiyum"
+    },
+    "107": {
+      "name": "Bohriyum"
+    },
+    "108": {
+      "name": "Hassiyum"
+    },
+    "109": {
+      "name": "Metneriyum"
+    },
+    "110": {
+      "name": "Darmstadtiyum"
+    },
+    "111": {
+      "name": "Röntgenyum"
+    },
+    "112": {
+      "name": "Kopernikyum"
+    },
+    "113": {
+      "name": "Ununtriyum"
+    },
+    "114": {
+      "name": "Flerovium/Ununkuadyum"
+    },
+    "115": {
+      "name": "Ununpentiyum"
+    },
+    "116": {
+      "name": "Livermoryum/Ununheksiyum"
+    },
+    "117": {
+      "name": "Ununseptiyum"
+    },
+    "118": {
+      "name": "Ununoktiyum"
+    }
   }
 }

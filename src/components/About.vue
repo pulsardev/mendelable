@@ -3,11 +3,22 @@
     <h2>{{ $t("about.title") }}</h2>
     <p class="text-muted" v-html="$t('about.primaryText')"></p>
 
+    <p class="text-muted">{{ $t('about.featuredText') }}</p>
+
+    <a href="https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/">
+      <img src="/static/logo__smashing-magazine--white.svg" alt="Smashing Magazine" width="128">
+    </a>
+
     <p class="text-muted">{{ $t('about.helpUsText') }}</p>
 
     <a
-      @click="trackClick(paypalLink)" :href="paypalLink"
-      target="_blank" :title="$t('about.donate')" class="btn btn-outline-warning mb-3">{{ $t('about.donate') }}</a>
+      @click="trackClick(paypalLink)"
+      :href="paypalLink"
+      target="_blank"
+      rel="noopener"
+      :title="$t('about.donate')"
+      class="btn btn-outline-warning mb-3"
+    >{{ $t('about.donate') }}</a>
 
     <div class="row">
       <div class="col-xl-8">
