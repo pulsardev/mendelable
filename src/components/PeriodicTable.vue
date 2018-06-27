@@ -3,6 +3,7 @@
     <element-general-properties v-show="Object.keys(selectedElement).length > 0" class="c-information" :element="selectedElement" :preview="true"></element-general-properties>
 
     <div v-for="element in elements"
+         :key="element.atomicNumber"
          :data-element-group='element.elementGroup' :data-group='element.group' :data-period='element.period'
          class='element' :class="element.symbol && element.symbol.toLowerCase()"
          :style="{ opacity: filteredElements.includes(element.atomicNumber) ? 1 : 0.25 }">
