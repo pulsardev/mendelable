@@ -68,7 +68,7 @@
     "group": {
       "non-metal": "Ametaller",
       "halogen": "Halojenler",
-      "metalloid": "Metaloidler/Bileşikler",
+      "metalloid": "Metaloidler/Metalimsiler/Madenimsiler",
       "metal": "Metaller",
       "alkali-metal": "Alkali/Bazik metaller",
       "alkaline-earth-metal": "Toprak alkali metaller",
