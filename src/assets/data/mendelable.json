@@ -1890,7 +1890,7 @@
       "name": "Aluminyum"
     },
     "14": {
-      "name": "Silisyon"
+      "name": "Silisyum"
     },
     "15": {
       "name": "Fosfor"
@@ -1914,7 +1914,7 @@
       "name": "Skandiyum"
     },
     "22": {
-      "name": "Titanyium"
+      "name": "Titanyum"
     },
     "23": {
       "name": "Vanadyum"
@@ -2187,22 +2187,22 @@
       "name": "Kopernikyum"
     },
     "113": {
-      "name": "Ununtriyum"
+      "name": "Nihonyum/Ununtriyum"
     },
     "114": {
       "name": "Flerovium/Ununkuadyum"
     },
     "115": {
-      "name": "Ununpentiyum"
+      "name": "Moskovyum/Ununpentiyum"
     },
     "116": {
       "name": "Livermoryum/Ununheksiyum"
     },
     "117": {
-      "name": "Ununseptiyum"
+      "name": "Tennessin/Ununseptiyum"
     },
     "118": {
-      "name": "Ununoktiyum"
+      "name": "Oganezyan/Ununoktiyum"
     }
   }
 }
