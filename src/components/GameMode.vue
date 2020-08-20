@@ -86,12 +86,15 @@
         if (this.gameState !== gameStates.IS_NOT_RUNNING) {
           this.filteredElements = []
         }
+      },
+      removeAccents (string) {
+        return string.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       }
     },
     watch: {
       gameInput: function () {
         for (let element of Object.keys(this.elements)) {
-          if (this.elements[element].name.toLowerCase() === this.gameInput.toLowerCase()) {
+          if (this.removeAccents(this.elements[element].name.toLowerCase()) === this.removeAccents(this.gameInput.toLowerCase())) {
             if (this.filteredElements.indexOf(+element) === -1) {
               this.filteredElements.push(+element)
               this.gameInput = ''
