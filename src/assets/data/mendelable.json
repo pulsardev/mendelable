@@ -1410,9 +1410,9 @@
       "ionizationEnergy": 0,
       "elementGroup": "metal",
       "group": 13,
-      "name": "Ununtrium",
+      "name": "Nihonium/Ununtrium",
       "period": 7,
-      "symbol": "Uut",
+      "symbol": "Nh/Uut",
       "electronsPerShell": [2, 8, 18, 32, 32, 18, 3]
     },
     "114": {
@@ -1433,9 +1433,9 @@
       "ionizationEnergy": 0,
       "elementGroup": "metal",
       "group": 15,
-      "name": "Ununpentium",
+      "name": "Moscovium/Ununpentium",
       "period": 7,
-      "symbol": "Uup",
+      "symbol": "Mc/Uup",
       "electronsPerShell": [2, 8, 18, 32, 32, 18, 5]
     },
     "116": {
@@ -1455,9 +1455,9 @@
       "ionizationEnergy": 0,
       "elementGroup": "halogen",
       "group": 17,
-      "name": "Ununseptium",
+      "name": "Tennessine/Ununseptium",
       "period": 7,
-      "symbol": "Uus",
+      "symbol": "Ts/Uus",
       "electronsPerShell": [2, 8, 18, 32, 32, 18, 7]
     },
     "118": {
@@ -1466,9 +1466,9 @@
       "ionizationEnergy": 0,
       "elementGroup": "noble-gas",
       "group": 18,
-      "name": "Ununoctium",
+      "name": "Oganesson/Ununoctium",
       "period": 7,
-      "symbol": "Uuo",
+      "symbol": "Og/Uuo",
       "electronsPerShell": [2, 8, 18, 32, 32, 18, 8]
     }
   },
@@ -2187,22 +2187,22 @@
       "name": "Kopernikyum"
     },
     "113": {
-      "name": "Ununtriyum"
+      "name": "Nihonyum/Ununtriyum"
     },
     "114": {
       "name": "Flerovium/Ununkuadyum"
     },
     "115": {
-      "name": "Ununpentiyum"
+      "name": "Moskovyum/Ununpentiyum"
     },
     "116": {
       "name": "Livermoryum/Ununheksiyum"
     },
     "117": {
-      "name": "Ununseptiyum"
+      "name": "Tennessin/Ununseptiyum"
     },
     "118": {
-      "name": "Ununoktiyum"
+      "name": "Oganezyan/Ununoktiyum"
     }
   }
 }
