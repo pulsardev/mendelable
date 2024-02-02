@@ -1,0 +1,81 @@
+{
+  "home": {
+    "gameMode": "moda lîstikê",
+    "about": "Derbarê de"
+  },
+  "about": {
+    "title": "Der barê Mendelable",
+    "primaryText": "Mendelable projeyek çavkaniyek vekirî ye û li <a href=\"https://github.com/pulsardev/mendelable\" target=\"_blank\">GitHub</a>, <a href=\"https://pulsar\" tê mêwankirin. surge .sh/\" ji hêla tîmê <i>Pulsar</i></a> ve hatî pêşve xistin û hûn dikarin bi vê formê tevkarî an daxwazan bikin. Ger hûn di daneyên me de xeletiyek bibînin, pirsek teknîkî an pirsek hêsan hebe, hûn dikarin bi me re têkilî daynin.",
+    "helpUsText": "Ji bo ku em piştgirî bikin û ji me re bibin alîkar ku ji bo vê malperê serverek kirê bikin, bi dilxweşî bexş bikin.",
+    "donate": "Alîkarîya min bike"
+  },
+  "contact": {
+    "form": {
+      "name": {
+        "label": "Navê te",
+        "validation": "Ji kerema xwe navê xwe binivîse."
+      },
+      "email": {
+        "label": "Emaila te",
+        "validation": "Ji kerema xwe navnîşana e-nameya xwe binivîse.",
+        "helpText": "Em ê e-nameya we bi kesên din re parve nekin.",
+        "error": "Ji kerema xwe navnîşana e-nameya xwe ya derbasdar binivîse."
+      },
+      "message": {
+        "label": "Peyama we",
+        "validation": "Ji kerema xwe peyamek binivîse."
+      },
+      "submit": "Rizgarkirin"
+    }
+  },
+  "general": {
+    "search": "Bang",
+    "temperature": "Germa"
+  },
+  "history": {
+    "generalInformation": "Agahiyên giştî",
+    "discoveredBy": "Ji aliyê ve hat kifşkirin",
+    "discoveryDate": "roja vedîtinê",
+    "context": "Contents"
+  },
+  "sidebar": {
+    "title": "Vebijêrk",
+    "subtitle": "Vebijarkên ji bo rûpela heyî",
+    "legend": "Nivîs",
+    "elementProfile": {
+      "previous": "Pêşane",
+      "next": "Piştî"
+    },
+    "simpleView": "xuyabûna sade"
+  },
+  "game": {
+    "play": "bazî",
+    "stop": "rawestan",
+    "input": "Navek elementek binivîse",
+    "elementsFound": "hêmanên dîtin"
+  },
+  "language": {
+    "label": "Ziman"
+  },
+  "element": {
+    "atomicNumber": "hejmara atomî",
+    "electronsPerShell": "Hejmara elektronan di her şêlê de",
+    "physicalProperties": "taybetmendiyên fîzîkî",
+    "meltingPoint": "xala evaporasyonê",
+    "boilingPoint": "Xala kelandinê",
+    "atomicMass": "Girseya atomî",
+    "ionizationEnergy": "Enerjiya ionîzasyonê",
+    "group": {
+      "non-metal": "nemetal",
+      "halogen": "halojen",
+      "metalloid": "Metaloid / Metaloids",
+      "metal": "Metals",
+      "alkali-metal": "Alkali / Metalên bingehîn",
+      "alkaline-earth-metal": "metalên erdê alkaline",
+      "transition-metal": "metalên veguherînê",
+      "noble-gas": "gazên hêja",
+      "lanthanoid": "Lantanîd / Hêmanên erdê yên kêm",
+      "actinoid": "actinides"
+    }
+  }
+}
